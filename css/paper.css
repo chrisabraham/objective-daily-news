@@ -183,6 +183,9 @@ h1.headline a { text-decoration: none; }
   font-weight: 700;
 }
 .continue { font-family: var(--label); font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+.lead h2 { font-size: 21px; line-height: 1.25; margin: 26px 0 8px; border-top: 1px solid var(--hairline); padding-top: 14px; }
+.second { border-top: 3px double var(--rule); margin-top: 24px; padding-top: 18px; }
+.second h1.headline { font-size: clamp(26px, 3.4vw, 36px); }
 
 /* rail boxes */
 .box { border-top: 2px solid var(--rule); padding-top: 7px; margin-bottom: 22px; }
