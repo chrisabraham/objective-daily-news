@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280">
-  <rect width="1200" height="280" fill="#DFEACD"/>
+  <rect width="1200" height="280" fill="#E4EBD9"/>
   <line x1="40" y1="42" x2="1160" y2="42" stroke="#2A251D" stroke-width="6"/>
   <line x1="40" y1="54" x2="1160" y2="54" stroke="#2A251D" stroke-width="2"/>
   <text x="600" y="185" text-anchor="middle" font-family="Georgia, 'Times New Roman', Times, serif" font-size="104" font-weight="bold" fill="#1B1712">Objective Daily News</text>

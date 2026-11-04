@@ -12,10 +12,10 @@
    ============================================================ */
 
 :root {
-  --paper:      #DFEACD;  /* ledger stock — the sheet itself */
-  --paper-lite: #F4F8EA;  /* ledger white — raised panel on the stock */
-  --ledger-full:#D4E6C1;  /* the check's own green, sampled from it */
-  --desk:       #2F4A32;  /* deep ledger — the desk the sheet lies on */
+  --paper:      #E4EBD9;  /* ledger stock — the sheet itself */
+  --paper-lite: #F6F8F1;  /* ledger white — raised panel on the stock */
+  --ledger-full:#D3DFC2;  /* the check's own green, sampled from it */
+  --desk:       #3A4A3C;  /* deep ledger — the desk the sheet lies on */
   --ink:        #1B1712;
   --ink-soft:   #3A342A;
   --rule:       #2A251D;
