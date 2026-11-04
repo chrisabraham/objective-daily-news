@@ -15,7 +15,7 @@
   --paper:      #E4EBD9;  /* ledger stock — the sheet itself */
   --paper-lite: #F6F8F1;  /* ledger white — raised panel on the stock */
   --ledger-full:#D3DFC2;  /* the check's own green, sampled from it */
-  --desk:       #3A4A3C;  /* deep ledger — the desk the sheet lies on */
+  --desk:       #D3DFC2;  /* the frame — one tone darker than the sheet, no darker (Chris, Nov 4) */
   --ink:        #1B1712;
   --ink-soft:   #3A342A;
   --rule:       #2A251D;
@@ -58,6 +58,7 @@ a:hover { color: var(--claret); }
   line-height: 1.05;
   margin: 14px 0 2px;
 }
+.paper-name a { color: inherit; text-decoration: none; }
 .tagline {
   font-style: italic;
   font-size: 17px;
