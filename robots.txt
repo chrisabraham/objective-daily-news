@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://objectivedailynews.com/sitemap.xml
+Sitemap: https://objectivedailynews.com/news-sitemap.xml

@@ -1,0 +1,289 @@
+/* ============================================================
+   OBJECTIVE DAILY NEWS — paper.css
+   Reference: the International Herald Tribune, 1995–2005 —
+   refined serif, airy-but-dense columns, a world briefing for
+   people in motion. Background debts: WSJ ruled order, FT
+   restraint, the Monitor's sober brief style.
+   Stock: our own light newsprint cream (not FT salmon).
+   No blackletter, no ornament, no web-app chrome.
+   ============================================================ */
+
+:root {
+  --paper:      #F7EFDC;  /* house cream — aged newsprint */
+  --paper-lite: #FBF7EA;  /* raised panel on the same stock */
+  --ink:        #1B1712;
+  --ink-soft:   #3A342A;
+  --rule:       #2A251D;
+  --hairline:   #8A7E66;
+  --faint:      #C9BBA0;
+  --claret:     #7C2130;  /* accent, used sparingly */
+  --stamp-obj:  #7C2130;  /* claret ink — the desk's stamp */
+  --stamp-subj: #33302A;  /* charcoal ink — every other stamp */
+  --serif: Georgia, "Iowan Old Style", "Times New Roman", Times, serif;
+  --label: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html { background: #E9DFC6; }
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 16.5px;
+  line-height: 1.55;
+  margin: 0 auto;
+  max-width: 1180px;
+  padding: 0 28px 40px;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--ink); text-decoration: underline; text-underline-offset: 2px; }
+a:hover { color: var(--claret); }
+
+/* ---------- Masthead ---------- */
+
+.masthead { text-align: center; padding-top: 18px; }
+.masthead .over-rule { border-top: 3px solid var(--rule); border-bottom: 1px solid var(--rule); height: 3px; }
+.paper-name {
+  font-size: clamp(38px, 6.2vw, 64px);
+  font-weight: 700;
+  letter-spacing: .015em;
+  line-height: 1.05;
+  margin: 14px 0 2px;
+}
+.tagline {
+  font-style: italic;
+  font-size: 17px;
+  color: var(--ink-soft);
+  margin: 0 0 12px;
+}
+.folio {
+  border-top: 1px solid var(--rule);
+  border-bottom: 3px double var(--rule);
+  font-family: var(--label);
+  font-size: 11px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  padding: 6px 2px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+}
+
+/* ---------- Section navigation (bureau index) ---------- */
+
+nav.sections {
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--label);
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 9px 0 8px;
+}
+nav.sections a { text-decoration: none; padding: 0 14px; white-space: nowrap; }
+nav.sections a + a { border-left: 1px solid var(--faint); }
+nav.sections a.here { color: var(--claret); }
+
+/* ---------- Stamps (working rubber stamps, not decoration) ---------- */
+
+.stamp {
+  display: inline-block;
+  font-family: var(--label);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .22em;
+  border: 2.5px solid;
+  outline: 1px solid;
+  outline-offset: 3px;
+  padding: .22em .7em .14em .85em;
+  transform: rotate(-1.6deg);
+  line-height: 1;
+  white-space: nowrap;
+}
+.stamp-objective { color: var(--stamp-obj); border-color: var(--stamp-obj); outline-color: var(--stamp-obj); font-size: 15px; }
+.stamp-subjective { color: var(--stamp-subj); border-color: var(--stamp-subj); outline-color: var(--stamp-subj); font-size: 15px; }
+.stamp-small { font-size: 9.5px; border-width: 1.6px; outline-offset: 2px; padding: .18em .55em .1em .68em; letter-spacing: .18em; }
+.stamp-giant {
+  font-size: clamp(44px, 8.5vw, 92px);
+  border-width: 5px;
+  outline-width: 2px;
+  outline-offset: 6px;
+  transform: rotate(-4deg);
+  color: var(--stamp-subj);
+  border-color: var(--stamp-subj);
+  outline-color: var(--stamp-subj);
+  opacity: .92;
+}
+
+/* ---------- Front page ---------- */
+
+.edition-line {
+  font-family: var(--label);
+  font-size: 11.5px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--hairline);
+  padding: 8px 0 6px;
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 4px 16px;
+}
+
+.front-grid {
+  display: grid;
+  grid-template-columns: 2.15fr 1.05fr;
+  gap: 0;
+  margin-top: 14px;
+}
+.lead { padding-right: 26px; }
+.rail  { border-left: 1px solid var(--hairline); padding-left: 24px; }
+
+.kicker {
+  font-family: var(--label);
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--claret);
+  margin: 0 0 6px;
+}
+h1.headline {
+  font-size: clamp(30px, 4.2vw, 44px);
+  line-height: 1.12;
+  font-weight: 700;
+  margin: 4px 0 8px;
+}
+h1.headline a { text-decoration: none; }
+.deck { font-size: 18.5px; line-height: 1.45; color: var(--ink-soft); font-style: italic; margin: 0 0 12px; }
+.byline {
+  font-family: var(--label);
+  font-size: 11px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  border-top: 1px solid var(--faint);
+  border-bottom: 1px solid var(--faint);
+  padding: 5px 0;
+  margin-bottom: 14px;
+}
+.lead p { margin: 0 0 11px; text-align: justify; }
+.lead p.first::first-letter {
+  font-size: 3.1em;
+  float: left;
+  line-height: .82;
+  padding: 4px 8px 0 0;
+  font-weight: 700;
+}
+.continue { font-family: var(--label); font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+
+/* rail boxes */
+.box { border-top: 2px solid var(--rule); padding-top: 7px; margin-bottom: 22px; }
+.box h3 {
+  font-family: var(--label);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  margin: 0 0 8px;
+}
+.box p, .box li { font-size: 14px; line-height: 1.5; }
+.box ul { list-style: none; margin: 0; padding: 0; }
+.box li { border-bottom: 1px dotted var(--hairline); padding: 5px 0; }
+.box li:last-child { border-bottom: none; }
+.watch-name { font-weight: 700; }
+.watch-status { color: var(--ink-soft); font-style: italic; }
+.box .fine { font-size: 12.5px; color: var(--ink-soft); }
+
+/* clippings strip */
+.clippings-strip { border-top: 3px double var(--rule); margin-top: 26px; padding-top: 10px; }
+.clippings-strip h2 {
+  font-family: var(--label); font-size: 13px; font-weight: 800;
+  letter-spacing: .18em; text-transform: uppercase; margin: 0 0 4px;
+}
+.clippings-strip .sub { font-style: italic; color: var(--ink-soft); font-size: 14px; margin: 0 0 12px; }
+.clip-cols { columns: 3; column-gap: 30px; column-rule: 1px solid var(--faint); }
+.clip { break-inside: avoid; margin-bottom: 14px; font-size: 14px; line-height: 1.5; }
+.clip .src { font-weight: 700; }
+.clip p { margin: 3px 0 0; }
+
+/* ---------- Edition / article pages ---------- */
+
+.article { max-width: 44em; margin: 18px auto 0; }
+.article .stamp-row { margin: 10px 0 14px; }
+.article h1 { font-size: clamp(30px, 4.4vw, 46px); line-height: 1.12; margin: 6px 0 8px; }
+.article h2 {
+  font-size: 21px; line-height: 1.25; margin: 26px 0 8px;
+  border-top: 1px solid var(--hairline); padding-top: 14px;
+}
+.article p { margin: 0 0 11px; text-align: justify; }
+.article figure { margin: 14px 0; text-align: center; }
+.article figcaption { font-size: 13px; font-style: italic; color: var(--ink-soft); margin-top: 4px; }
+.article .disclosure {
+  border-top: 1px solid var(--hairline);
+  font-size: 14px; color: var(--ink-soft); margin-top: 20px; padding-top: 10px;
+}
+
+/* the clippings filed with an edition */
+.filed { border-top: 3px double var(--rule); margin-top: 34px; padding-top: 12px; }
+.filed h2 { border-top: none; padding-top: 0; font-size: 24px; }
+.filed .intro { font-size: 15px; }
+.filed-cols { columns: 2; column-gap: 34px; column-rule: 1px solid var(--faint); margin-top: 10px; }
+.filed .clip { font-size: 14.5px; margin-bottom: 13px; }
+
+/* ---------- Index / standing pages ---------- */
+
+.page-head { max-width: 46em; margin: 20px auto 0; }
+.page-head h1 { font-size: clamp(28px, 4vw, 40px); line-height: 1.15; margin: 6px 0 8px; }
+.page-body { max-width: 46em; margin: 0 auto; }
+.page-body p { text-align: justify; margin: 0 0 11px; }
+.page-body h2 { font-size: 20px; margin: 24px 0 8px; border-top: 1px solid var(--hairline); padding-top: 12px; }
+
+.watch-table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+.watch-table th, .watch-table td {
+  border-bottom: 1px solid var(--hairline);
+  padding: 9px 8px 8px 0; vertical-align: top; text-align: left; font-size: 15.5px;
+}
+.watch-table th { font-family: var(--label); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; border-bottom: 2px solid var(--rule); }
+.watch-table .wname { font-weight: 700; font-size: 17px; white-space: nowrap; }
+.watch-table .wtime { font-family: var(--label); font-size: 13px; white-space: nowrap; }
+
+.shelf-cols { columns: 3; column-gap: 30px; column-rule: 1px solid var(--faint); }
+.shelf-cols h3 { font-family: var(--label); font-size: 12px; letter-spacing: .16em; text-transform: uppercase; margin: 14px 0 6px; break-after: avoid; }
+.shelf-cols ul { list-style: none; margin: 0 0 8px; padding: 0; }
+.shelf-cols li { font-size: 15px; padding: 2.5px 0; border-bottom: 1px dotted var(--faint); break-inside: avoid; }
+
+.stamp-demo { text-align: center; padding: 38px 0 30px; border-top: 1px solid var(--hairline); border-bottom: 1px solid var(--hairline); margin: 18px 0; }
+
+/* ---------- Footer ---------- */
+
+footer {
+  border-top: 3px solid var(--rule);
+  margin-top: 34px;
+  padding-top: 10px;
+  font-size: 13px;
+  color: var(--ink-soft);
+}
+footer .fineprint-short { max-width: 62em; margin: 0 0 8px; text-align: justify; }
+footer .colophon {
+  border-top: 1px solid var(--faint);
+  padding-top: 7px;
+  font-family: var(--label);
+  font-size: 11px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 4px 16px;
+}
+
+/* ---------- Narrow screens ---------- */
+
+@media (max-width: 900px) {
+  .front-grid { grid-template-columns: 1fr; }
+  .lead { padding-right: 0; }
+  .rail { border-left: none; padding-left: 0; margin-top: 20px; }
+  .clip-cols, .filed-cols, .shelf-cols { columns: 1; }
+  .folio, footer .colophon { justify-content: center; text-align: center; }
+  nav.sections a { padding: 0 7px; }
+  body { padding: 0 16px 32px; }
+}
