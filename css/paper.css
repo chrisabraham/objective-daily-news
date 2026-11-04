@@ -36,7 +36,7 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: var(--serif);
-  font-size: 16.5px;
+  font-size: 18px;
   line-height: 1.55;
   margin: 0 auto;
   max-width: 1180px;
@@ -162,7 +162,7 @@ h1.headline {
   margin: 4px 0 8px;
 }
 h1.headline a { text-decoration: none; }
-.deck { font-size: 18.5px; line-height: 1.45; color: var(--ink-soft); font-style: italic; margin: 0 0 12px; }
+.deck { font-size: 20px; line-height: 1.45; color: var(--ink-soft); font-style: italic; margin: 0 0 12px; }
 .byline {
   font-family: var(--label);
   font-size: 11px;
@@ -193,7 +193,7 @@ h1.headline a { text-decoration: none; }
   text-transform: uppercase;
   margin: 0 0 8px;
 }
-.box p, .box li { font-size: 14px; line-height: 1.5; }
+.box p, .box li { font-size: 15px; line-height: 1.5; }
 .box ul { list-style: none; margin: 0; padding: 0; }
 .box li { border-bottom: 1px dotted var(--hairline); padding: 5px 0; }
 .box li:last-child { border-bottom: none; }
@@ -207,9 +207,9 @@ h1.headline a { text-decoration: none; }
   font-family: var(--label); font-size: 13px; font-weight: 800;
   letter-spacing: .18em; text-transform: uppercase; margin: 0 0 4px;
 }
-.clippings-strip .sub { font-style: italic; color: var(--ink-soft); font-size: 14px; margin: 0 0 12px; }
+.clippings-strip .sub { font-style: italic; color: var(--ink-soft); font-size: 15px; margin: 0 0 12px; }
 .clip-cols { columns: 3; column-gap: 30px; column-rule: 1px solid var(--faint); }
-.clip { break-inside: avoid; margin-bottom: 14px; font-size: 14px; line-height: 1.5; }
+.clip { break-inside: avoid; margin-bottom: 14px; font-size: 15px; line-height: 1.5; }
 .clip .src { font-weight: 700; }
 .clip p { margin: 3px 0 0; }
 
@@ -233,9 +233,9 @@ h1.headline a { text-decoration: none; }
 /* the clippings filed with an edition */
 .filed { border-top: 3px double var(--rule); margin-top: 34px; padding-top: 12px; }
 .filed h2 { border-top: none; padding-top: 0; font-size: 24px; }
-.filed .intro { font-size: 15px; }
+.filed .intro { font-size: 16px; }
 .filed-cols { columns: 2; column-gap: 34px; column-rule: 1px solid var(--faint); margin-top: 10px; }
-.filed .clip { font-size: 14.5px; margin-bottom: 13px; }
+.filed .clip { font-size: 15.5px; margin-bottom: 13px; }
 
 /* ---------- Index / standing pages ---------- */
 
