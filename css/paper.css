@@ -4,18 +4,23 @@
    refined serif, airy-but-dense columns, a world briefing for
    people in motion. Background debts: WSJ ruled order, FT
    restraint, the Monitor's sober brief style.
-   Stock: our own light newsprint cream (not FT salmon).
-   No blackletter, no ornament, no web-app chrome.
+   Stock: ledger green — the pale green of ledger paper and the
+   bookkeeper's check (ruled Nov 4, 2026, Chris: differentiation;
+   the desk keeps the record, so the paper is printed on the
+   record's own paper). The founding cream survives as the accent
+   tint (--faint). No blackletter, no ornament, no web-app chrome.
    ============================================================ */
 
 :root {
-  --paper:      #F7EFDC;  /* house cream — aged newsprint */
-  --paper-lite: #FBF7EA;  /* raised panel on the same stock */
+  --paper:      #DFEACD;  /* ledger stock — the sheet itself */
+  --paper-lite: #F4F8EA;  /* ledger white — raised panel on the stock */
+  --ledger-full:#D4E6C1;  /* the check's own green, sampled from it */
+  --desk:       #2F4A32;  /* deep ledger — the desk the sheet lies on */
   --ink:        #1B1712;
   --ink-soft:   #3A342A;
   --rule:       #2A251D;
-  --hairline:   #8A7E66;
-  --faint:      #C9BBA0;
+  --hairline:   #7E8A6E;  /* sage — hairlines inside the green system */
+  --faint:      #C9BBA0;  /* the founding tan, kept as accent tint */
   --claret:     #7C2130;  /* accent, used sparingly */
   --stamp-obj:  #7C2130;  /* claret ink — the desk's stamp */
   --stamp-subj: #33302A;  /* charcoal ink — every other stamp */
@@ -25,7 +30,7 @@
 
 * { box-sizing: border-box; }
 
-html { background: #E9DFC6; }
+html { background: var(--desk); }
 
 body {
   background: var(--paper);
