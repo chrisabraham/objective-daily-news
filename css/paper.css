@@ -140,6 +140,8 @@ nav.sections a.here { color: var(--claret); }
 
 .front-grid {
   display: grid;
+  /* Items take natural height: an ended column reads as margin, not as
+     ruled nothing (Nov 5, 2026). */
   align-items: start;
   grid-template-columns: minmax(0, 1fr) 300px;
   gap: 0;
