@@ -154,6 +154,23 @@ nav.sections a.here { color: var(--claret); }
 .lead { padding-right: 26px; }
 .rail  { border-left: 1px solid var(--hairline); padding-left: 24px; }
 
+/* Newspaper columns (Chris ruling, Nov 5, 2026: zero papers are a single
+   column; the front page runs 2-3 columns and every column is populated).
+   Article bodies are set in two ruled columns; the title block spans both;
+   the rail is the third column. */
+.front-grid > .lead {
+  columns: 2;
+  column-gap: 26px;
+  column-rule: 1px solid var(--hairline);
+}
+.front-grid > .lead .kicker,
+.front-grid > .lead h1.headline,
+.front-grid > .lead .deck,
+.front-grid > .lead .byline,
+.front-grid > .lead > p:has(.stamp) { column-span: all; }
+.front-grid > .lead h2,
+.front-grid > .lead h3 { break-after: avoid; }
+
 .kicker {
   font-family: var(--label);
   font-size: 11.5px;
@@ -298,6 +315,7 @@ footer .colophon {
   .front-grid { grid-template-columns: 1fr; }
   .front-grid > .lead { grid-column: 1; }
   .front-grid > .rail { grid-column: 1; grid-row: auto; }
+  .front-grid > .lead { columns: 1; }
   .lead { padding-right: 0; }
   .rail { border-left: none; padding-left: 0; margin-top: 20px; }
   .clip-cols, .filed-cols, .shelf-cols { columns: 1; }
