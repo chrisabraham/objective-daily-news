@@ -150,7 +150,15 @@ nav.sections a.here { color: var(--claret); }
   grid-row: 1 / -1;
   border-left: 1px solid var(--hairline);
   padding-left: 24px;
+  /* The rail never runs out: its boxes distribute down the full height of
+     the articles beside them, so the third column is populated top to
+     bottom (void fix, Nov 5, 2026). */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 22px;
 }
+.front-grid > .rail .box { margin-bottom: 0; }
 .lead { padding-right: 26px; }
 .rail  { border-left: 1px solid var(--hairline); padding-left: 24px; }
 
