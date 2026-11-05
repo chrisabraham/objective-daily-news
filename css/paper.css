@@ -39,7 +39,7 @@ body {
   font-size: 18px;
   line-height: 1.55;
   margin: 0 auto;
-  max-width: 1180px;
+  max-width: 1240px;
   padding: 0 28px 40px;
   -webkit-font-smoothing: antialiased;
 }
@@ -140,9 +140,16 @@ nav.sections a.here { color: var(--claret); }
 
 .front-grid {
   display: grid;
-  grid-template-columns: 2.15fr 1.05fr;
+  grid-template-columns: minmax(0, 1fr) 300px;
   gap: 0;
   margin-top: 14px;
+}
+.front-grid > .lead { grid-column: 1; padding-right: 26px; }
+.front-grid > .rail {
+  grid-column: 2;
+  grid-row: 1 / -1;
+  border-left: 1px solid var(--hairline);
+  padding-left: 24px;
 }
 .lead { padding-right: 26px; }
 .rail  { border-left: 1px solid var(--hairline); padding-left: 24px; }
@@ -289,6 +296,8 @@ footer .colophon {
 
 @media (max-width: 900px) {
   .front-grid { grid-template-columns: 1fr; }
+  .front-grid > .lead { grid-column: 1; }
+  .front-grid > .rail { grid-column: 1; grid-row: auto; }
   .lead { padding-right: 0; }
   .rail { border-left: none; padding-left: 0; margin-top: 20px; }
   .clip-cols, .filed-cols, .shelf-cols { columns: 1; }
