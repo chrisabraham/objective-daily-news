@@ -317,3 +317,10 @@ reviewed the Offer and the Answer page and marked the spot himself):
   idempotent, and the element carries no text, so narration hashes
   never change. The feed and the directories are untouched by this
   law; it governs the website's presentation only.
+- **Enforcement, learned the same evening:** the front page is
+  rebuilt from the edition pages at press time, so the lead and
+  second articles carry their players onto it. `make_podcast.py`
+  therefore also runs `strip_players()` — any player found in
+  `index.html` is removed before the press run ends. The front page
+  stays clean no matter how it was built; the players live only on
+  the article pages themselves.
