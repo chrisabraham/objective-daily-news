@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/special-reports/2026-11-05-ai-selloff.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-05T19:12:00-05:00</news:publication_date>
+<news:title>The Second Reading: The Chips Fall Twelve Percent and the Buildout Is Repriced</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-05-evening-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-05T18:00:00-05:00</news:publication_date>
+<news:title>The Rally Erased: The Chips Fall, Oil Rises on Tankers, the Count Creeps On</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-05-midday-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-05T12:00:00-05:00</news:publication_date>
+<news:title>At Noon the Rally Turns: The Counts Hold, the Chips Fall, London Raises</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/editions/2026-11-05-overnight-watch.html</loc>
 <news:news>
 <news:publication>
@@ -23,36 +56,14 @@
 </news:news>
 </url>
 <url>
-<loc>https://objectivedailynews.com/editions/2026-11-05-midday-watch.html</loc>
+<loc>https://objectivedailynews.com/editions/2026-11-04-evening-watch.html</loc>
 <news:news>
 <news:publication>
 <news:name>Objective Daily News</news:name>
 <news:language>en</news:language>
 </news:publication>
-<news:publication_date>2026-11-05T12:00:00-05:00</news:publication_date>
-<news:title>At Noon the Rally Turns: The Counts Hold, the Chips Fall, London Raises</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-04-overnight-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-04T04:00:00-05:00</news:publication_date>
-<news:title>The Night File: Both Chambers Called Before the Small Hours</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-04-morning-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-04T06:00:00-05:00</news:publication_date>
-<news:title>Midterm Election Roundup: The Blue Wave Came</news:title>
+<news:publication_date>2026-11-04T18:00:00-05:00</news:publication_date>
+<news:title>The Day Whole: The Count Holds, the Markets Close Higher, and Every Side Has Spoken</news:title>
 </news:news>
 </url>
 <url>
@@ -67,14 +78,25 @@
 </news:news>
 </url>
 <url>
-<loc>https://objectivedailynews.com/editions/2026-11-04-evening-watch.html</loc>
+<loc>https://objectivedailynews.com/editions/2026-11-04-morning-watch.html</loc>
 <news:news>
 <news:publication>
 <news:name>Objective Daily News</news:name>
 <news:language>en</news:language>
 </news:publication>
-<news:publication_date>2026-11-04T18:00:00-05:00</news:publication_date>
-<news:title>The Day Whole: The Count Holds, the Markets Close Higher, and Every Side Has Spoken</news:title>
+<news:publication_date>2026-11-04T06:00:00-05:00</news:publication_date>
+<news:title>Midterm Election Roundup: The Blue Wave Came</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-04-overnight-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-04T04:00:00-05:00</news:publication_date>
+<news:title>The Night File: Both Chambers Called Before the Small Hours</news:title>
 </news:news>
 </url>
 </urlset>

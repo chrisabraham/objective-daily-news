@@ -335,3 +335,51 @@ footer .colophon {
 }
 
 /* Front page runs whole: lead in full + second article (publisher ruling, Nov 4 2026). */
+
+/* ---------- Special Report (house format, established Nov 5, 2026) ----------
+   An unscheduled report, filed outside the watches when the news summons
+   it. Its badge is a bulletin slug in the paper's own language: a reversed
+   black band, the display letters letterspaced in ledger white, ruled off
+   above and below like the slug line of an extra edition. The badge is one
+   class, reused exactly by every Special Report; it is furniture, not
+   decoration, and it never appears on a watch edition. */
+
+.special-report-badge {
+  display: block;
+  background: var(--ink);
+  color: var(--paper-lite);
+  font-family: var(--label);
+  font-weight: 800;
+  font-size: 17px;
+  letter-spacing: .38em;
+  text-transform: uppercase;
+  text-align: center;
+  padding: .52em .4em .44em .78em;
+  border-top: 3px solid var(--rule);
+  border-bottom: 3px double var(--paper-lite);
+  box-shadow: 0 3px 0 var(--ink);
+  margin: 6px 0 14px;
+}
+.special-report-badge.small {
+  display: inline-block;
+  font-size: 10px;
+  letter-spacing: .3em;
+  padding: .42em .6em .34em .9em;
+  border-top-width: 2px;
+  box-shadow: 0 2px 0 var(--ink);
+  margin: 0 0 8px;
+}
+
+/* The front-page insertion: a full-width band above the edition stack,
+   ruled off from the editions it interrupts. It carries the badge, the
+   headline, the deck, and the road into the report — nothing else, and it
+   leaves the settled two-article fullness below it untouched. */
+.special-band {
+  border-top: 3px solid var(--rule);
+  border-bottom: 3px double var(--rule);
+  margin-top: 12px;
+  padding: 12px 0 4px;
+}
+.special-band .kicker { margin-bottom: 8px; }
+.special-band h1.headline { margin-top: 2px; }
+.special-band .byline { margin-bottom: 10px; }
