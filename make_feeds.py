@@ -487,8 +487,10 @@ def build_llms_full(items, base, full_count=7):
 
 
 def ping_websub(base):
-    """Tell the hub both feeds changed. Best-effort by design."""
-    for feed in ("feed.xml", "atom.xml"):
+    """Tell the hub the feeds changed. Best-effort by design. The
+    podcast feed rides along (Nov 6, 2026): podcast clients and the
+    Podcast Index learn of new episodes the same way readers do."""
+    for feed in ("feed.xml", "atom.xml", "podcast.xml"):
         topic = f"{base}/{feed}"
         data = urllib.parse.urlencode(
             {"hub.mode": "publish", "hub.url": topic}
@@ -565,7 +567,8 @@ def main():
         print(f"make_feeds: wrote {name} ({len(items)} edition(s), base {base})")
     if do_ping:
         ping_websub(base)
-        submit_indexnow(base, [it["url"] for it in items[:3]] + [base + "/"])
+        submit_indexnow(base, [it["url"] for it in items[:3]] + [base + "/",
+                        base + "/podcast.xml"])
     return 0
 
 
