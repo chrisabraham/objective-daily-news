@@ -20,20 +20,54 @@
 <meta name="twitter:title" content="Objective Daily News — Gold From All the Mud">
 <meta name="twitter:description" content="An archival service and a captain's log of the news: the desk's analysis, stamped objective, and the world's reporting filed beneath it, stamped subjective. Founded 2026.">
 <meta name="twitter:image" content="https://objectivedailynews.com/images/wordmark.png">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="images/wordmark.svg">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#E4EBD9">
+<link rel="alternate" type="text/plain" title="Objective Daily News — llms.txt" href="llms.txt">
 <link rel="stylesheet" href="css/paper.css">
+<link rel="hub" href="https://pubsubhubbub.appspot.com/">
 <link rel="alternate" type="application/rss+xml" title="Objective Daily News — RSS" href="feed.xml">
+<link rel="hub" href="https://pubsubhubbub.appspot.com/">
 <link rel="alternate" type="application/atom+xml" title="Objective Daily News — Atom" href="atom.xml">
 <link rel="alternate" type="application/feed+json" title="Objective Daily News — JSON Feed" href="feed.json">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "NewsMediaOrganization",
-  "name": "Objective Daily News",
-  "url": "https://objectivedailynews.com/",
-  "logo": { "@type": "ImageObject", "url": "https://objectivedailynews.com/images/wordmark.png", "width": 1200, "height": 280 },
-  "slogan": "Gold from all the mud.",
-  "foundingDate": "2026-11-04",
-  "description": "An archival service: a news-based captain's log. Editions are stamped with their collection and analysis time. The desk's analysis is classified objective; every excerpted external item is classified subjective."
+  "@graph": [
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsMediaOrganization",
+      "name": "Objective Daily News",
+      "url": "https://objectivedailynews.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://objectivedailynews.com/images/wordmark.png",
+        "width": 1200,
+        "height": 280
+      },
+      "slogan": "Gold from all the mud.",
+      "foundingDate": "2026-11-04",
+      "description": "An archival service: a news-based captain's log. Editions are stamped with their collection and analysis time. The desk's analysis is classified objective; every excerpted external item is classified subjective.",
+      "@id": "https://objectivedailynews.com/#organization",
+      "publishingPrinciples": "https://objectivedailynews.com/fine-print.html",
+      "masthead": "https://objectivedailynews.com/colophon.html",
+      "ethicsPolicy": "https://objectivedailynews.com/about.html",
+      "correctionsPolicy": "https://objectivedailynews.com/fine-print.html"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://objectivedailynews.com/#website",
+      "url": "https://objectivedailynews.com/",
+      "name": "Objective Daily News",
+      "alternateName": "ODN",
+      "publisher": {
+        "@id": "https://objectivedailynews.com/#organization"
+      },
+      "inLanguage": "en-US"
+    }
+  ]
 }
 </script>
 <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MS52R286"></script>

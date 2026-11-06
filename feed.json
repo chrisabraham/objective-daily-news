@@ -4,6 +4,12 @@
   "home_page_url": "https://objectivedailynews.com/",
   "feed_url": "https://objectivedailynews.com/feed.json",
   "description": "An archival service and a captain's log of the news: the desk's analysis, stamped objective, and the world's reporting filed beneath it, stamped subjective. Founded 2026.",
+  "hubs": [
+    {
+      "type": "WebSub",
+      "url": "https://pubsubhubbub.appspot.com/"
+    }
+  ],
   "authors": [
     {
       "name": "Eunice"

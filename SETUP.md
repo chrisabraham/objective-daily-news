@@ -1,0 +1,176 @@
+# Objective Daily News — Setup Checklist
+
+Files in this folder are the complete paper, ready to serve as-is (plain static
+HTML/CSS, no build step). Chris reserved the repo, DNS, and GitHub setup to
+himself; this checklist is the order to do it in. Estimated total: ~15 minutes
+plus DNS propagation.
+
+## 0. Put the purchased domain in the CNAME file  ⚠️ DO THIS FIRST
+
+The `CNAME` file in this folder currently contains one placeholder line:
+
+```
+REPLACE-WITH-PURCHASED-DOMAIN
+```
+
+Replace it with the exact domain purchased (no `https://`, no trailing slash,
+no `www.` unless the www host is the one intended), e.g.:
+
+```
+objectivedailynews.com
+```
+
+Do not push the repo while the placeholder is still in the file — GitHub Pages
+would try to bind that name.
+
+## 1. Create the GitHub repository
+
+- New public repo (any name; `objective-daily-news` reads well). Do NOT
+  initialize it with a README or .gitignore (this folder has everything).
+- Push the **contents of this `site/` folder** to the repo root (index.html,
+  CNAME, css/, editions/, editorials/, and the standing pages at top level):
+
+```bash
+cd ~/workspace/objective-daily-news/site   # or wherever these files live
+git init -b main
+git add .
+git commit -m "Objective Daily News: founding edition"
+git remote add origin git@github.com:<USERNAME>/<REPO>.git
+git push -u origin main
+```
+
+## 2. Turn on GitHub Pages
+
+- Repo → Settings → Pages → Build and deployment → Source: **Deploy from a
+  branch**; Branch: **main**, folder **/ (root)**; Save.
+- Under "Custom domain," GitHub should pick the domain up from the CNAME file
+  automatically; confirm it shows the purchased domain, then Save again.
+
+## 3. DNS at the registrar
+
+For an **apex domain** (example.com) point it at GitHub Pages:
+
+```
+A     @    185.199.108.153
+A     @    185.199.109.153
+A     @    185.199.110.153
+A     @    185.199.111.153
+AAAA  @    2606:50c0:8000::153
+AAAA  @    2606:50c0:8001::153
+AAAA  @    2606:50c0:8002::153
+AAAA  @    2606:50c0:8003::153
+CNAME www  <USERNAME>.github.io.
+```
+
+For a **subdomain** (news.example.com) instead:
+
+```
+CNAME news  <USERNAME>.github.io.
+```
+
+(Remove any parking/default records on the name that conflict. GitHub's docs —
+"Configuring a custom domain for your GitHub Pages site" — are the authority
+if any address above ever disagrees with them.)
+
+## 4. HTTPS
+
+- After DNS resolves (minutes to a few hours), return to Settings → Pages and
+  tick **Enforce HTTPS** once the certificate shows as issued. GitHub
+  provisions the Let's Encrypt certificate automatically for the custom
+  domain; it cannot be ticked until the cert exists.
+
+## 5. Verify
+
+- Load the domain: front page renders on the cream stock, masthead centered,
+  Edition No. 1 lead in the left column.
+- Click through: The Watches, Editorials (and the demonstration page),
+  The Shelf, About, The Fine Print, and the full edition page — check the
+  OBJECTIVE stamp on the report and a SUBJECTIVE stamp on the clippings.
+- Open the **Colophon** from the footer of any page: it should state the
+  publisher, the desk, and the bot-run/bot-edited/bot-analyzed disclosure.
+- Open each feed from the footer (RSS, Atom, JSON): Edition No. 1 should
+  appear in full — the desk's report with its clippings listed beneath it.
+  A feed reader pointed at the domain should also discover them on its own
+  (autodiscovery tags are in every page's head).
+- Check one page on a phone-width window: columns should stack, stamps stay
+  legible.
+
+## 6. Housekeeping
+
+- `SETUP.md` (this file) can be deleted from the repo after setup; it is
+  served as plain text if left in, which is harmless but untidy.
+- New editions land as new files under `editions/` (same template as
+  `editions/2026-11-04-morning-watch.html`) plus a front-page update. Eunice
+  produces them; they publish when you clear the push — per the house rule,
+  nothing expires while it waits.
+- **After every new edition, regenerate the feeds** before committing:
+
+  ```bash
+  cd ~/workspace/objective-daily-news/site
+  python3 make_feeds.py
+  ```
+
+  The script rebuilds `feed.xml` (RSS), `atom.xml` (Atom), and `feed.json`
+  (JSON Feed) from whatever sits in `editions/`, full text, clippings
+  included, and alongside them `sitemap.xml`, `news-sitemap.xml` (the
+  Google News sitemap), `robots.txt`, `llms.txt`, and `llms-full.txt`.
+  Run it again with `--ping` once the new files are live on the domain
+  to fire the WebSub hub ping and the IndexNow submission for the new
+  edition. It reads the domain from the
+  `CNAME` file; while the CNAME still holds the placeholder it builds
+  against a default name and warns — so after step 0 above, run it once
+  more and commit the regenerated feeds and sitemaps with everything else.
+  One string to check if the purchased domain is anything other than
+  `objectivedailynews.com`: the canonical links in the page heads are
+  written against that name — tell Eunice and she will re-point them and
+  re-run the script; it is a five-minute fix, but it must not ship wrong.
+
+## 7. Court the aggregators (owner-only, after DNS is live)
+
+The site is built to be attractive to Google News and the other news
+services — complete NewsArticle structured data with dated bylines, a
+news sitemap, full-text feeds, a colophon and an About page that say
+plainly who publishes and who writes. Inclusion itself **cannot be
+guaranteed, only courted**.
+
+**The regime changed in 2024–25, and this section was rewritten on
+Nov 6, 2026 to match it.** Google retired manual Google News
+submission: Publisher Center no longer accepts publication or feed
+submissions for Google News, manually built publication pages are
+gone, and inclusion is **automated eligibility only** — Google's
+systems identify and rank eligible content from the crawl. Publisher
+Center remains only for branding side products (News Showcase,
+Reader Revenue Manager); it decides nothing about inclusion. Bing
+PubHub's RSS submission path is retired the same way.
+
+What courting means now is the record itself plus three owner clicks:
+
+- **Google Search Console** (the one step that still matters):
+  verify the domain property for `objectivedailynews.com`, then
+  submit both sitemaps (`sitemap.xml`, `news-sitemap.xml`) and
+  confirm they read without errors. Afterwards: keep an eye on
+  Coverage and on Security & Manual Actions — that is where Google
+  would say if anything were wrong.
+- **Bing Webmaster Tools**: verify the same domain (it can import
+  the verification from Search Console). IndexNow is already wired
+  on the desk side: the key file stands at the site root and
+  `make_feeds.py --ping` announces each new edition to Bing, Yandex,
+  Naver, Seznam, and Yep the moment the press run lands.
+- **Publisher Center**: optional, branding only. Nothing to file for
+  News inclusion; do not spend an afternoon looking for the form —
+  there isn't one anymore.
+
+Already wired on the site itself, so no step is needed: full-text
+RSS, Atom, and JSON feeds with WebSub push (the feeds advertise
+Google's public hub, and the press run pings it); a news sitemap on
+the Google News protocol carrying the last 48 hours; `llms.txt` and
+`llms-full.txt` for language models; a robots.txt that names and
+welcomes every documented AI crawler, per the paper's pickup
+doctrine; NewsArticle and NewsMediaOrganization structured data with
+dated bylines and timestamps in Eastern Time; a colophon that names
+the publisher and discloses that the desk is an AI; and an About page
+that states what the paper is. Keep it that way — the transparency
+is part of the eligibility, not decoration.
+- Monetization (AdSense, mentioned as a possibility) is deliberately NOT
+  wired in. If the paper draws an audience, ask Eunice to plan it: the layout
+  has no ad slots yet by design.

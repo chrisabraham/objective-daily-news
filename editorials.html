@@ -21,10 +21,58 @@
 <meta name="twitter:description" content="The editorial columns of Objective Daily News. Every editorial carries the giant subjective stamp: opinion, labeled as opinion, in the open.">
 <meta name="twitter:image" content="https://objectivedailynews.com/images/wordmark.png">
 <meta name="odn:classification" content="subjective">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="images/wordmark.svg">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#E4EBD9">
+<link rel="alternate" type="text/plain" title="Objective Daily News — llms.txt" href="llms.txt">
 <link rel="stylesheet" href="css/paper.css">
+<link rel="hub" href="https://pubsubhubbub.appspot.com/">
 <link rel="alternate" type="application/rss+xml" title="Objective Daily News — RSS" href="feed.xml">
+<link rel="hub" href="https://pubsubhubbub.appspot.com/">
 <link rel="alternate" type="application/atom+xml" title="Objective Daily News — Atom" href="atom.xml">
 <link rel="alternate" type="application/feed+json" title="Objective Daily News — JSON Feed" href="feed.json">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "NewsMediaOrganization",
+      "@id": "https://objectivedailynews.com/#organization",
+      "name": "Objective Daily News",
+      "url": "https://objectivedailynews.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://objectivedailynews.com/images/wordmark.png",
+        "width": 1200,
+        "height": 280
+      },
+      "slogan": "Gold from all the mud.",
+      "foundingDate": "2026-11-04",
+      "description": "An archival service: a news-based captain's log. Editions are stamped with their collection and analysis time. The desk's analysis is classified objective; every excerpted external item is classified subjective.",
+      "founder": {
+        "@type": "Person",
+        "name": "Chris Abraham",
+        "jobTitle": "Publisher"
+      }
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://objectivedailynews.com/editorials.html",
+      "url": "https://objectivedailynews.com/editorials.html",
+      "name": "Objective Daily News",
+      "isPartOf": {
+        "@id": "https://objectivedailynews.com/#website"
+      },
+      "about": {
+        "@id": "https://objectivedailynews.com/#organization"
+      },
+      "inLanguage": "en-US"
+    }
+  ]
+}
+</script>
 <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MS52R286"></script>
 <script>
   window.dataLayer = window.dataLayer || [];

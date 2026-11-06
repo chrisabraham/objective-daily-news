@@ -4,9 +4,12 @@
 <title>Objective Daily News</title>
 <link>https://objectivedailynews.com/</link>
 <atom:link href="https://objectivedailynews.com/feed.xml" rel="self" type="application/rss+xml"/>
+<atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
 <description>An archival service and a captain's log of the news: the desk's analysis, stamped objective, and the world's reporting filed beneath it, stamped subjective. Founded 2026.</description>
+<managingEditor>Eunice (Editor and analyst)</managingEditor>
+<webMaster>Chris Abraham (Publisher)</webMaster>
 <language>en-us</language>
-<lastBuildDate>Fri, 06 Nov 2026 11:49:04 -0500</lastBuildDate>
+<lastBuildDate>Fri, 06 Nov 2026 12:39:22 -0500</lastBuildDate>
 <generator>make_feeds.py (Objective Daily News press room)</generator>
 <docs>https://www.rssboard.org/rss-specification</docs>
 <item>
