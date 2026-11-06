@@ -1,0 +1,132 @@
+# Objective Daily News — Founding Spec
+
+Ruled and dictated by Chris Abraham, Wed Nov 4, 2026, the morning after the midterm elections. The pilot piece is the midterm roundup on chrisabraham.net (Nov 4, 2026). Eunice runs the desk.
+
+## What it is
+
+An **archival service**, not a news site racing the clock: a news-based **captain's log**. Each edition is the preserved record of what the world's outlets reported and what the desk made of it, at the hour stamped on it. A log is never revised to agree with how the voyage turned out. Motto-class line: the bot read the events and wrote the objective reporting about them at the stamped hour.
+
+Precursor on Chris's own land: the chrisabraham.net roundup pattern, and the multi-author architecture being built into The Chris Abraham Show. chrisabraham.net itself stays Chris's technical, single-author venue.
+
+## Design
+
+The full aesthetic of the **International Herald Tribune** — Chris's favorite paper abroad, the paper of Godard's *Breathless*. The choice is structural, not decorative: the IHT was itself a collection of other reporting, a clipping service of sorts, and it was the most elegant newspaper in the world at it. Compilation is the method and the class. Background influences: the Wall Street Journal, New York Times, Washington Post, Financial Times, and Christian Science Monitor as Chris read them, print and online, 1995–2005 — his architecture and aesthetic influence, kept as form; their present-day agendas are not inherited. Paper stock is the paper's own light tan/cream (not the FT's salmon trade dress). Not old-timey: no blackletter, no broadsheet cosplay. Serif, hairline rules, datelines and source lines set like wire copy, stamps as working rubber stamps, navigation as a bureau's index.
+
+## Name
+
+**Objective Daily News** (ruled Nov 4, 0953 — best of the candidates: Discernment Daily News/DDN/DN, Objective News, Objective Daily). The irony is intended and is the first lesson of the paper: in spycraft, an outlet loudly labeled objective is usually the opposite (Pravda energy; Death to Smoochy's Parade of Hope; Kars4Kids, ruled by a California court "misleading by omission"). The name makes the promise the structure has to keep.
+
+## Editions — the four watches
+
+Overnight (collects 0400), midday ("news time," collects 1200), evening (collects 1800), and midnight (collects 0000) roundups, closing on schedule. Each edition is stamped with its **collection and analysis time**, not its posting time. Editions wait behind Chris's validation clicks as long as they must — **nothing expires**; a midnight and an overnight that pile up post together when the gate clears. The standing answer to complaints: "It was collected at 0400. The analysis was made at 0400." Readers are told plainly on the site: do not set your watch by this paper.
+
+**The 0600 Morning Watch was nixed by Chris's ruling, Nov 4, 1710.** Two hours after the Overnight collects, a morning edition has almost nothing new to file and re-clips the same night. The Overnight is the morning paper. If genuinely large news breaks between watches, the desk files an unscheduled extra edition — news summons an edition, not a clock.
+
+## House format
+
+1. **The desk's analysis on top** (~1,000–2,000 words): Eunice's synthesis of the events, built from the shelf, links to the resources she used woven in. This is the only part of the paper stamped OBJECTIVE.
+2. **The clippings below**: links to news stories from the shelf, each with a plain paragraph describing what the story says. Descriptions are **hedge-free and label-free about the outlet** — never "state-run," "state-funded," or any institutional characterization. The story is described; the institution is not.
+3. **Editorial columns** exist as their own section, plainly labeled editorials. **Publication deferred (Chris ruling, Nov 5, 2026; sharpened Nov 6, 2026): no columns for the first six months — the section stands built and empty; the desk publishes no editorials until the six months run and Chris reopens it. The reason is his: opinion arriving before the objective record is established would be a bait and switch.** When columns do open, they run under the fidelity practices below.
+3a. **All the bait, none of the switch (Chris ruling, Nov 6, 2026).** ODN's ethos in his coinage: *bait, bait — all the bait, with zero of the switch.* The paper baits exactly as a bait and switch baits: an attractive offer, honestly displayed, designed to draw the reader in — the austere objective record, offered to readers starved of one, so they are "fooled into wanting to learn what's really going on." The fraud half of the con is permanently refused: the thing advertised is the thing delivered, forever. The switch is the one move the house never makes — not at six months, not ever; a labeled column era, when Chris reopens it, is a new shelf plainly marked, not a substitution inside the record. Building trust takes forever; losing it takes a nanosecond (Chris, Nov 6, 2026) — the ethos exists because the switch is the nanosecond.
+5. **The fidelity bench — The New Yorker and The Atlantic (Chris ruling, Nov 6, 2026).** ODN's verification standard borrows the documented best practices of the two magazines Chris names as fidelity benchmarks, applied to everything the desk publishes and with full force to future columns:
+   - **The New Yorker's checking department (the model since 1927):** a dedicated checker who is not the writer re-verifies every checkable fact — names, dates, numbers, quotations, titles — against primary sources and, where possible, with the subject. Spelling of names is confirmed, not assumed. A disputed fact is not rounded into print; it is resolved or it comes out.
+   - **The Atlantic's standard:** reported pieces and essays alike pass fact-check before publication; the magazine's own discipline is that argument may be the writer's, but the record underneath it is verified by the desk.
+   - **The opinion split (both houses):** a columnist owns the interpretation; the facts belong to the checkers. Opinion earns latitude on judgment, never on dates, quotes, numbers, or names.
+   - **Corrections culture:** errors are corrected visibly and promptly, in the open, as a matter of house pride — the correction is part of the record, not an embarrassment to be buried.
+   - **Anti-recursion (Chris ruling, Nov 6, 2026):** ODN never uses anything in the Chris Abraham universe — his corpus, sites, dictation, or views — as a source, in the objective body or in any future column. Sources are the external record only; a story idea is the sole permitted input from the tipster.
+4. **The front page runs whole, never holed** (Chris ruling, Nov 4, 1716: "too much Hole Front Page than Whole Front Page"). The index page carries the latest edition's desk report **in full** in the lead position — all analysis sections; the clippings stay on the edition page, linked from the lead's foot. Beneath it, the **previous edition runs as the second article**: headline, deck, byline, its first two sections, and a continue link. Every watch run that rebuilds the front page maintains this two-article fullness, so the main column never ends short beside the rail. **Layout law (Chris, Nov 5, 2026, after six reports of the void): zero papers are a single column. The front page runs 2-3 columns and every column is populated: each article body is set in two ruled CSS columns (title block spanning both), the rail is the third column, pinned top-right by explicit grid placement (never auto-placement), and the sheet is 1240px wide. This lives in css/paper.css; do not simplify it back to a single measure.** Final structure (Nov 5, 2026): the lead runs in two columns beside the rail; the second article runs the full sheet width in three columns; and the rail carries a "From the Shelf — The Briefs" box (the lead edition's filed clippings as compact linked entries, about twelve) set before "How to Read This Paper," sized so the rail runs the lead's full height—no blank column beside any story, ever. **The look itself is settled (Chris, Nov 5, 2026): the very first version's look and feel is the design—"perfect." Every version since has been 80%, and the missing 20% is only ever the empty voids. Never redesign the look; complete it by filling space.**
+
+## The stamp doctrine
+
+Every item on the paper carries a visible stamp at the top, and every post's metadata/schema carries the same tag:
+
+- **OBJECTIVE** — the desk's own analysis only.
+- **SUBJECTIVE** — every excerpted external item, each one stamped individually, and a giant SUBJECTIVE stamp on every editorial/column.
+
+The stamps classify the item's relationship to the desk, never the outlet's worth. All external resources are considered subjective *and* useful; none is more reputable to this paper than a press release issued directly from Langley.
+
+## The legalese (runs at the bottom of the paper, in substance)
+
+Objectivity is relative; everything is relative, even relativity is relative; absolutism is wrong. As this paper uses the words: **objective** means the desk is not driven by an agenda, is not an advocate, is not a politician, is not modeling behavior, and is not training up citizens — it is reporting the news *as if it were* objective. **Subjective** means the item comes from a source with its own position, as all sources have; it is printed because it is useful information, weighed by the reader.
+
+## Sourcing doctrine
+
+Chris's shelf, ingested whole: AP, Reuters, BBC and World Service, Al Jazeera English, Al Arabiya, Arab News, ABC News (Australia), Africanews, Euronews, France 24, DW, Le Monde, The Guardian, Haaretz, Japan Times, SCMP, Gulf News, India Today, TheJournal.ie, Sky News, NPR, Politico, NYT, Washington Post, WSJ, Boston Globe, USA Today, The Atlantic, The Economist, Foreign Policy, The Week, HuffPost, Daily Mail, GB News, Epoch Times, CGTN, Russia News/RT/Sputnik, VOA, i24News, Israel News, the Moonie-founded Washington Times, Substack and podcasts. No source is excluded by ownership; every outlet has an angle, including the American ones (in Chris's formulation, the Times, the Post, the LA Times, and NPR are organs of the American state in the same sense the BBC is of the British). "All the reporting is reporting, and discernment is important to come up with the gold from all of the mud."
+
+## The No-Frame doctrine (ruled Nov 4, 1604-1607, Chris)
+
+The paper carries **no American framework**. Every country reporting from its own point of view is authentic and worthwhile and gets equal weight: Iran's reporting as Iran's; Russia's complaints about Ukraine get no less weight than Ukraine's — Russia feels invaded and encroached upon by the West and holds a spiritual home in Donbas and Kyiv, and that is reported as Russia's real position; the Chinese are not presumed lying any more than the Americans; Ukrainians are not presumed heroes. **There are no good guys and bad guys** — every hero and freedom fighter is somebody else's terrorist. The paper is not anti-Israel, anti-Middle East, anti-Saudi, anti-Qatar, anti-Africa, anti-Russian, anti-Hungary, anti-Tajikistan, or anti-Turkmenistan. If Kim Jong Un makes an accusation, the paper reports it, analyzes it, and reports what others said about it. **Presumption of innocence:** the accused are innocent until proven guilty, and the paper does not shame or cast aspersions on accusers either — neither side gets smeared.
+
+## Weekend features (ruled Nov 4, 1607-1608, Chris)
+
+- **Saturday — culture and lifestyle**, in the FT Weekend manner: travel, fashion, art, world culture, or a roundup of all of them. Filed early Saturday, ahead of the day's watches.
+- **Sunday — the Review of Reviews.** A meta-review of the week's books: tally the review lists (NYT Book Review, LA Times, Chicago, Washington Post, and their peers), pick the book du jour — fiction or nonfiction, any subject, not necessarily politics — and review the reviews honestly. The desk has not read the book and says so plainly. The book carries an Amazon link with Chris's Associates tag **gerris-20** and the one-line affiliate disclosure. Sunday also carries film and TV meta-reviews, international — the new Korean serial on Netflix everyone is talking about gets the same treatment as an American premiere.
+
+## The product
+
+Ruled by Chris, Nov 4, 1021: "The only thing we're really selling is your objective analysis. We're not just aggregating — we're creating an objective analysis, because it's called Objective Daily News." Aggregation is the input and the evidence table; the analysis is the product. The name is a promise about the top of the page, not the bottom. His one-line version, same morning: "We're doing alchemy — we're taking bullshit and propaganda and turning it into gold." (Chrysopoeia: spinning straw into gold, except the input arrives already spun.)
+
+## Copy style
+
+Outside the editorial columns, the desk writes as **earnest 1950s reporters**: "Just the facts, ma'am." Wire discipline — the pyramid, plain nouns, neutral attribution verbs, no adjectives doing advocacy — and the governing quality is earnestness: sincere, plain-dealing, no ironic detachment, no smirk, the facts taken seriously because they matter. Subjectivity lives in the columns, behind the giant SUBJECTIVE stamp. (Chris, Nov 4, 1026, corrected same minute: "I said Earnest not artist.") The shorthand for the whole register, his words: "when the Gray Lady was actually the gray lady" — the Times of the all-type front page, which did not print a color photograph on A1 until 1997.
+
+## The method, named
+
+**Triangulation** (Chris, Nov 4, 1023): "We're taking the points on the map and we're triangulating them into objective truth, to the best of our ability." The nautical honesty of the term is the doctrine's: three bearings never give a point, they give a small triangle — the cocked hat — inside which the ship honestly is. The paper publishes its cocked hat and calls that objective, to the best of its ability.
+
+## The analyst doctrine
+
+The paper owns the word **aggregator**: we aggregate and we analyze — newspaper analysts on the Langley model. Inputs arrive like an intelligence take: cables, reports, journals, logs, open-source material, the wires, the state outlets, the partisans (SIGINT, metaphorically). The senior analyst on the desk — Russia desk, Middle East desk, the desk structure is the paper's section logic — writes a clear analysis from the inputs and does not spin it, because the analysis is supposed to run on objective truth. Spin is what propagandists do downstream when they roll honest reports up into product; this paper publishes the report before the rollup, and shows its work: the analysis sits on top of the very clippings it was drawn from, each stamped, so a reader can audit the sourcing the way a consumer of finished intelligence should be able to. ("Open Source Analysis" would have been a great title, Chris noted; naming it after a newspaper is better.)
+
+## Operations
+
+Chris does not dictate the news. He wakes up and reads the paper like its first subscriber; his sharing of it is the distribution. The desk (Eunice) runs autonomously under this doctrine. Chris chose her for it, in his words, because she will print RT and the Times in the same column without a seizure and her guardrails check the work rather than the publisher.
+
+## Transparency, launch, and syndication (ruled Nov 4, 1029)
+
+- **Colophon and full disclosure, always:** the paper states plainly that it is bot-run, bot-edited, and bot-analyzed — publisher Chris Abraham, the desk an AI (Eunice) — with a proper newspaper colophon and staff box. Transparency is the legitimacy; nothing about the operation is dressed as human.
+- **No launch.** Chris will simply start sharing editions on all his socials as if the paper were an established thing, and see what happens. No announcement, no debut framing.
+- **Distribution (wired Nov 5, 2026, on Chris's ruling):** every edition is enqueued in the share queue (~/workspace/share-queue/) at publish, class timely, channels: the full everywhere set (facebook, threads, instagram, microblog, x, linkedin). The no-launch rule governs announcing the SITE, never withholding the articles.
+- **Completely networkable and stealable:** RSS and Atom feeds (and JSON Feed), clean permalinks, feed autodiscovery, and a reuse posture that invites pickup — the paper is meant to become part of the virtual biosphere, a coral reef of news that other things grow on.
+
+## Design amendment — ledger green + type baseline (Nov 4, 1541-1543, Chris ruling)
+The founding cream stock is superseded as the paper ground. ODN now prints on LEDGER GREEN: sheet #DFEACD, ledger white #F4F8EA, the checks own green #D4E6C1 (sampled from Chriss uploaded check image, median #D4E6C1), deep ledger #2F4A32 as the surround/desk, sage hairlines #7E8A6E; the founding tan #F7EFDC survives as the accent tint (--faint). Flat tones only — no security-pattern texture. Stamps unchanged (claret reads as the bookkeepers red). Rationale, Chriss: differentiation; the desk keeps the record, so the paper prints on the records paper. Type baseline raised the same hour at Chriss direction ("BIG enough to be passable"): body 18px Georgia, line-height 1.55, secondary sizes lifted a notch under it (clippings 15px, filed clippings 15.5px, rail 15px, deck 20px). Commits 8e65363c (green) + 16209ea9 (type).
+Correction to the design amendment above (Nov 4, 1547, Chris): the first green mix read KELLY at page scale — the check scan ran vivid. Corrected the same hour toward true ledger: sheet #E4EBD9, ledger white #F6F8F1, full ledger #D3DFC2, deep ledger #3A4A3C (gray-green, like ledger binding cloth). Commit 02c74e9b.
+
+## Standing page furniture (Nov 4, 2026, Chris rulings)
+- Every page head carries the Google Tag Manager snippet for container GTM-MS52R286, exactly as Chris supplied it, immediately before </head>. New editions and pages are built with it in place; it is never dropped in a rebuild.
+- **Sharing meta (required in every page head).** Every page carries Open Graph and Twitter Card tags immediately after the `<meta name="description">` line, built from that page's own values. No page ships without them, in a rebuild or a new build:
+  - `og:type` is `website` for front and section pages, `article` for editions and editorials.
+  - `og:site_name` is `Objective Daily News`.
+  - `og:title` is the page's exact `<title>` text; `og:description` is the page's exact meta description; `og:url` is the page's canonical URL.
+  - `og:image` is `https://objectivedailynews.com/images/wordmark.png`, with `og:image:width` `1200`, `og:image:height` `280`, and `og:image:alt` `Objective Daily News`.
+  - `twitter:card` is `summary_large_image`; `twitter:title`, `twitter:description`, and `twitter:image` mirror the og values.
+- The nameplate (paper-name) links to the front page (index.html; ../index.html from subdirectories), styled invisibly (inherit color, no underline).
+- Palette final state: sheet #E4EBD9 (lightest sage-pistachio), frame (--desk) #D3DFC2 — exactly one tone darker than the sheet, no darker. The dark-green surround was tried and rejected by Chris the same day.
+
+## Special Reports (house format, established Nov 5, 2026, on Chris's commission)
+
+An unscheduled, badged article filed outside the watches when a single story is large enough to stand on its own — the bulletin form of the founding rule that news summons an edition, not a clock. First filed: Special Report No. 1, "The Second Reading," on the November 5, 2026 AI sell-off, the same evening as Edition No. 8.
+
+- **Numbering and naming:** Special Reports are numbered in their own series (No. 1, No. 2, …) and carry the folio line "Vol. I · Special Report No. N."
+- **URL shape:** `special-reports/<date>-<slug>.html` at the site root (e.g., `/special-reports/2026-11-05-ai-selloff.html`). Special Reports are not editions and never take an edition number or a watch name.
+- **The badge:** the words SPECIAL REPORT set as a reversed black band — ledger-white letterspaced capitals in the label face on the ink ground, ruled above with the sheet's heavy rule and below with a double rule — implemented once as the CSS class `.special-report-badge` in css/paper.css (with a `.small` variant for the rail) and reused exactly by every Special Report thereafter. The badge sits above the headline like a bulletin slug, ahead of the kicker. It never appears on a watch edition.
+- **Doctrine:** a Special Report is the desk's own analysis and carries the OBJECTIVE stamp and the `odn:classification: objective` metadata, exactly as an edition's report does. Its filed clippings are stamped SUBJECTIVE individually, exactly as an edition's are. The register does not change for the form: pure objective, only the facts, no framework, no advocacy.
+- **Front page:** the Special Report is inserted as an extraordinary band (`.special-band`) above the edition stack — badge, headline, deck, byline, and the road in — plus a badged box at the head of the rail. The settled two-article fullness below it is untouched; the insertion adds, it never displaces, and no void opens.
+- **Feeds and syndication:** Special Reports run through make_feeds.py with the editions (the press room reads `special-reports/*.html` as it reads `editions/*.html`) and appear in the RSS, Atom, and JSON feeds, the sitemap, and the news sitemap on the same terms as editions.
+- **Distribution:** enqueued in the share queue at publish, class timely, on the paper's full channel set — Facebook, Threads, Instagram, Micro.blog, X, and LinkedIn (Chris ruling, Nov 5, 2026: LinkedIn is required on ODN posts, not optional; a failed LinkedIn leg is reported separately and the queued entry stands until it fires — nothing expires).
+- **Stamps:** collected-and-analyzed time, ET, stated on the page as with editions; a Special Report stands unrevised, as the log stands.
+
+## Distribution note — the podcast (Nov 6, 2026, Chris's commission)
+
+The paper is also distributed as a podcast: every edition and special report is read aloud in one permanent voice and published in a podcast feed at the site root (`/podcast.xml`), submittable to the podcast directories. The podcast is a distribution channel only: episodes are the desk's reports read verbatim (mechanical spoken cleanup aside), under the same purity law as print — no commentary, no framing, nothing added but the intro and closing lines. Doctrine above is untouched by this note.
+
+## Front-page doctrine — the briefing broadsheet (Nov 6, 2026, Chris rulings, superseding House format item 4 where they conflict)
+
+- **Genre: the front page is a briefing.** It tells the reader what happened, what matters, and where the full record lives; it does not itself carry the full record. Depth lives on the edition and article pages; the front page points. A reader who reads only the front page comes away briefed — the shape of the day, honestly stated in brief, no tease-withholding — and a reader who wants the file follows the links.
+- **Form: a broadsheet, above the fold and below the fold.** What is above the fold earns the pickup; what is below the fold completes the sheet; then the sheet ends. There is no third, endless region beneath it — the front page is not the kitchen sink, and scroll-forever is a failure mode equal to the void.
+- **Zero voids, at broadsheet length.** The columns close together at the bottom of the sheet, balanced against each other at the page's present scale. Balance is achieved by rebalancing and trimming — briefing-weight text in the lead position, the rail cut to the sheet (The Briefs at about twelve; the Log So Far at the latest handful with the full log on the Watches page) — never by growing the page to bury a mismatch, and never by reproducing full article body to manufacture depth.
+- The Nov 4 "runs whole, never holed" ruling survives as a fullness rule, not a full-text rule: the sheet reads complete and even, carrying enough of the latest editions to brief the day — the lead edition briefed in depth (headline, deck, byline, its summary and first sections complete in themselves, road in), the previous edition as the second brief (title block and first two sections), the special reports badged above the fold.
+- **Placement hierarchy (Chris, Nov 6, 2026, corrected 1432).** The lead slot belongs to **the newest publication of any kind, by time** — edition or special report. A special report holds the lead from its publication until the next desk report (watch edition) publishes, at which point the edition takes the lead and the special moves below; symmetrically, no older item leads over a newer one. The template resolves the lead dynamically from the newest published item at press time — never hardwired to a fixed title, watch, or item type.
+- **Below the lead: composed, not reverse-chron (Chris, Nov 6, 2026, 1433).** Reverse chronology governs ONLY the lead slot. Below the headline the sheet is arranged editorially, like a newspaper front page — the desk's judgment about the day: weight, subject grouping, natural adjacency of the files — held within the fixed container budgets and the briefing genre. The sub-lead zone is never generated as a mechanical newest-to-oldest stream of everything published; the below-lead arrangement is an editorial selection step at press time (the desk composes the front from the current body of work), not an automatic reverse-chron dump. Blog-format tells are banned below the fold: no infinite stream, no uniform same-size post cards marching down, no "recent posts" logic deciding placement. Editorial arrangement is the SAME for every reader — the desk composes one sheet (see zero personalization).
+- **Zero personalization (sealed Nov 6, 2026).** ODN serves ONE front page — the same sheet, identical for every reader — published for its principal reader (Chris himself) and readable by everyone else on exactly those terms. No per-reader variants, no algorithmic swapping, no cohort editions, no A/B front pages, now or later. The design being built for one known principal reader is the stated reason the sheet can be coherent at all. This clause vetoes any future template feature that would render different content to different visitors.
