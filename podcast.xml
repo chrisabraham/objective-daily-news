@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Objective Daily News</title>
+<link>https://objectivedailynews.com/</link>
+<atom:link href="https://objectivedailynews.com/podcast.xml" rel="self" type="application/rss+xml"/>
+<description>The desk's report, read aloud. Objective Daily News is an archival news service: the desk's analysis of the world's reporting, stamped objective, filed over the clippings it was drawn from. Each episode is one edition or special report, read in full by the paper's resident voice. Publisher Chris Abraham; the desk is an AI, and says so.</description>
+<language>en</language>
+<copyright>© 2026 Chris Abraham</copyright>
+<managingEditor>cabraham@gmail.com (Chris Abraham)</managingEditor>
+<webMaster>cabraham@gmail.com (Chris Abraham)</webMaster>
+<lastBuildDate>Fri, 06 Nov 2026 14:04:02 -0500</lastBuildDate>
+<generator>make_podcast.py (Objective Daily News press room)</generator>
+<podcast:guid>d9e4b7a1-3c5f-4e8a-b2d1-6f0a9c8e5b47</podcast:guid>
+<podcast:locked>yes</podcast:locked>
+<podcast:person role="host" href="https://objectivedailynews.com/about.html">Chris Abraham</podcast:person>
+<itunes:title>Objective Daily News</itunes:title>
+<itunes:author>Chris Abraham</itunes:author>
+<itunes:summary>The desk's report, read aloud. Objective Daily News is an archival news service: the desk's analysis of the world's reporting, stamped objective, filed over the clippings it was drawn from. Each episode is one edition or special report, read in full by the paper's resident voice. Publisher Chris Abraham; the desk is an AI, and says so.</itunes:summary>
+<itunes:owner><itunes:name>Chris Abraham</itunes:name><itunes:email>cabraham@gmail.com</itunes:email></itunes:owner>
+<itunes:image href="https://objectivedailynews.com/images/podcast-cover.jpg"/>
+<itunes:category text="News"/>
+<itunes:category text="News"><itunes:category text="News Commentary"/></itunes:category>
+<itunes:explicit>false</itunes:explicit>
+<itunes:type>episodic</itunes:type>
+<image><url>https://objectivedailynews.com/images/podcast-cover.jpg</url><title>Objective Daily News</title><link>https://objectivedailynews.com/</link></image>
+<item>
+<title>Payrolls Triple the Forecast, the Chips Bounce, and Mississippi Widens</title>
+<link>https://objectivedailynews.com/editions/2026-11-06-midday-watch.html</link>
+<guid isPermaLink="false">9897c023-8b13-5ac5-a12c-1a84d84698ad</guid>
+<pubDate>Fri, 06 Nov 2026 12:00:00 -0500</pubDate>
+<description>The midday file for November 6, 2026: October payrolls at 165,000 against a 59,000 consensus and unemployment at 4.1 percent, the Nasdaq bouncing an hour into the session, Europe down at its midday, Brent seesawing under $100, Mississippi's margin wider at 2,087, Colorado's 4th at 3,069, the Kremlin answering the president's big agreement with no details, and two more tankers claimed in the strait. Collected at 1200.</description>
+<itunes:title>Payrolls Triple the Forecast, the Chips Bounce, and Mississippi Widens</itunes:title>
+<itunes:author>Chris Abraham</itunes:author>
+<itunes:summary>The midday file for November 6, 2026: October payrolls at 165,000 against a 59,000 consensus and unemployment at 4.1 percent, the Nasdaq bouncing an hour into the session, Europe down at its midday, Brent seesawing under $100, Mississippi's margin wider at 2,087, Colorado's 4th at 3,069, the Kremlin answering the president's big agreement with no details, and two more tankers claimed in the strait. Collected at 1200.</itunes:summary>
+<itunes:duration>24:06</itunes:duration>
+<itunes:explicit>false</itunes:explicit>
+<enclosure url="https://objectivedailynews.com/audio/2026-11-06-midday-watch.mp3" length="11572016" type="audio/mpeg"/>
+</item>
+<item>
+<title>The Offer and the Answer: What the Ballot Box Did to the Tax Base</title>
+<link>https://objectivedailynews.com/special-reports/2026-11-06-offer-and-answer.html</link>
+<guid isPermaLink="false">279a2c2b-83b6-5c2c-ad7b-1403e701497c</guid>
+<pubDate>Fri, 06 Nov 2026 11:45:00 -0500</pubDate>
+<description>Voters in ten states limited data centers while the offers carried revenue the towns do not collect. The ballot record and the tax record, side by side.</description>
+<itunes:title>The Offer and the Answer: What the Ballot Box Did to the Tax Base</itunes:title>
+<itunes:author>Chris Abraham</itunes:author>
+<itunes:summary>Voters in ten states limited data centers while the offers carried revenue the towns do not collect. The ballot record and the tax record, side by side.</itunes:summary>
+<itunes:duration>20:30</itunes:duration>
+<itunes:explicit>false</itunes:explicit>
+<enclosure url="https://objectivedailynews.com/audio/2026-11-06-offer-and-answer.mp3" length="9839989" type="audio/mpeg"/>
+</item>
+<item>
+<title>The Distributed Machine: Redundancy Becomes the Architecture</title>
+<link>https://objectivedailynews.com/special-reports/2026-11-06-distributed-machine.html</link>
+<guid isPermaLink="false">f924df55-c229-5581-8fb6-e27acbc4587f</guid>
+<pubDate>Fri, 06 Nov 2026 11:05:00 -0500</pubDate>
+<description>Mainframes and cord boards gave way to Akamai, anycast, and availability zones. The record of how computing left the single room and learned to keep copies.</description>
+<itunes:title>The Distributed Machine: Redundancy Becomes the Architecture</itunes:title>
+<itunes:author>Chris Abraham</itunes:author>
+<itunes:summary>Mainframes and cord boards gave way to Akamai, anycast, and availability zones. The record of how computing left the single room and learned to keep copies.</itunes:summary>
+<itunes:duration>12:52</itunes:duration>
+<itunes:explicit>false</itunes:explicit>
+<enclosure url="https://objectivedailynews.com/audio/2026-11-06-distributed-machine.mp3" length="6178661" type="audio/mpeg"/>
+</item>
+<item>
+<title>Tokyo Closes in a Bear Market, Brent Crosses a Hundred, and the Count Waits</title>
+<link>https://objectivedailynews.com/editions/2026-11-06-overnight-watch.html</link>
+<guid isPermaLink="false">60ce8fed-552d-56d5-9f1b-1f3183407f34</guid>
+<pubDate>Fri, 06 Nov 2026 04:00:00 -0500</pubDate>
+<description>The overnight file for November 6, 2026: Tokyo closes 6 percent lower in a bear market and Seoul closes 6 percent lower after a circuit breaker, Brent briefly crosses $100 on the tanker file, the president says he will soon decide on Iran, gold falls with the shares, and no race is called in the night. Collected at 0400.</description>
+<itunes:title>Tokyo Closes in a Bear Market, Brent Crosses a Hundred, and the Count Waits</itunes:title>
+<itunes:author>Chris Abraham</itunes:author>
+<itunes:summary>The overnight file for November 6, 2026: Tokyo closes 6 percent lower in a bear market and Seoul closes 6 percent lower after a circuit breaker, Brent briefly crosses $100 on the tanker file, the president says he will soon decide on Iran, gold falls with the shares, and no race is called in the night. Collected at 0400.</itunes:summary>
+<itunes:duration>17:27</itunes:duration>
+<itunes:explicit>false</itunes:explicit>
+<enclosure url="https://objectivedailynews.com/audio/2026-11-06-overnight-watch.mp3" length="8380276" type="audio/mpeg"/>
+</item>
+<item>
+<title>The Rally Is Gone and the Count Is Not Finished</title>
+<link>https://objectivedailynews.com/editions/2026-11-06-midnight-watch.html</link>
+<guid isPermaLink="false">b3ae9e85-7366-57fe-8cbd-b1dc1c066f8d</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 -0500</pubDate>
+<description>The midnight file for November 6, 2026: at 0000 the Dow's fall and Brent's settlement are fixed, futures and Tokyo fall further in the evening, Iran's tanker claims grow to five, no Senate race is called for a second day, and Colorado's 3rd District has changed hands since the count was last printed whole. Edition No. 9, the Midnight Watch.</description>
+<itunes:title>The Rally Is Gone and the Count Is Not Finished</itunes:title>
+<itunes:author>Chris Abraham</itunes:author>
+<itunes:summary>The midnight file for November 6, 2026: at 0000 the Dow's fall and Brent's settlement are fixed, futures and Tokyo fall further in the evening, Iran's tanker claims grow to five, no Senate race is called for a second day, and Colorado's 3rd District has changed hands since the count was last printed whole. Edition No. 9, the Midnight Watch.</itunes:summary>
+<itunes:duration>22:42</itunes:duration>
+<itunes:explicit>false</itunes:explicit>
+<enclosure url="https://objectivedailynews.com/audio/2026-11-06-midnight-watch.mp3" length="10899288" type="audio/mpeg"/>
+</item>
+<item>
+<title>The Second Reading: The Chips Fall Twelve Percent and the Buildout Is Repriced</title>
+<link>https://objectivedailynews.com/special-reports/2026-11-05-ai-selloff.html</link>
+<guid isPermaLink="false">4ec9f412-1baf-53d7-bb43-ec38e63a5508</guid>
+<pubDate>Thu, 05 Nov 2026 19:12:00 -0500</pubDate>
+<description>A special report from the desk, filed outside the watches: on Wednesday the market bought the midterm result; on Thursday it sold the same result. The Nasdaq fell 5.52 percent into correction, the semiconductor index fell 12.25 percent, and the ballot record on data centers reached the tape.</description>
+<itunes:title>The Second Reading: The Chips Fall Twelve Percent and the Buildout Is Repriced</itunes:title>
+<itunes:author>Chris Abraham</itunes:author>
+<itunes:summary>A special report from the desk, filed outside the watches: on Wednesday the market bought the midterm result; on Thursday it sold the same result. The Nasdaq fell 5.52 percent into correction, the semiconductor index fell 12.25 percent, and the ballot record on data centers reached the tape.</itunes:summary>
+<itunes:duration>12:42</itunes:duration>
+<itunes:explicit>false</itunes:explicit>
+<enclosure url="https://objectivedailynews.com/audio/2026-11-05-ai-selloff.mp3" length="6099058" type="audio/mpeg"/>
+</item>
+<item>
+<title>The Rally Erased: The Chips Fall, Oil Rises on Tankers, the Count Creeps On</title>
+<link>https://objectivedailynews.com/editions/2026-11-05-evening-watch.html</link>
+<guid isPermaLink="false">6fb718ab-134a-515f-ba4a-681b93ca991b</guid>
+<pubDate>Thu, 05 Nov 2026 18:00:00 -0500</pubDate>
+<description>The evening file for November 5, 2026: the Dow falls 1,833 points and erases Wednesday's rally, the Nasdaq enters correction, Brent settles at $98.29 after tanker reports in the Strait of Hormuz, no Senate race is called, and the leadership contests are set. Edition No. 8, the Evening Watch.</description>
+<itunes:title>The Rally Erased: The Chips Fall, Oil Rises on Tankers, the Count Creeps On</itunes:title>
+<itunes:author>Chris Abraham</itunes:author>
+<itunes:summary>The evening file for November 5, 2026: the Dow falls 1,833 points and erases Wednesday's rally, the Nasdaq enters correction, Brent settles at $98.29 after tanker reports in the Strait of Hormuz, no Senate race is called, and the leadership contests are set. Edition No. 8, the Evening Watch.</itunes:summary>
+<itunes:duration>21:02</itunes:duration>
+<itunes:explicit>false</itunes:explicit>
+<enclosure url="https://objectivedailynews.com/audio/2026-11-05-evening-watch.mp3" length="10097670" type="audio/mpeg"/>
+</item>
+<item>
+<title>At Noon the Rally Turns: The Counts Hold, the Chips Fall, London Raises</title>
+<link>https://objectivedailynews.com/editions/2026-11-05-midday-watch.html</link>
+<guid isPermaLink="false">e996bf89-2935-5334-9b91-416cf6b887b8</guid>
+<pubDate>Thu, 05 Nov 2026 12:00:00 -0500</pubDate>
+<description>The midday state of the count and the markets, November 5, 2026: no new Senate call, Mississippi's margin wider in the newest tally, the House counted four ways, Wall Street's second reading, oil back up, London raises, and the official statements. Edition No. 7, the Midday Watch.</description>
+<itunes:title>At Noon the Rally Turns: The Counts Hold, the Chips Fall, London Raises</itunes:title>
+<itunes:author>Chris Abraham</itunes:author>
+<itunes:summary>The midday state of the count and the markets, November 5, 2026: no new Senate call, Mississippi's margin wider in the newest tally, the House counted four ways, Wall Street's second reading, oil back up, London raises, and the official statements. Edition No. 7, the Midday Watch.</itunes:summary>
+<itunes:duration>22:56</itunes:duration>
+<itunes:explicit>false</itunes:explicit>
+<enclosure url="https://objectivedailynews.com/audio/2026-11-05-midday-watch.mp3" length="11011952" type="audio/mpeg"/>
+</item>
+<item>
+<title>The Night the Count Stood Still</title>
+<link>https://objectivedailynews.com/editions/2026-11-05-overnight-watch.html</link>
+<guid isPermaLink="false">cf989fc5-fd69-5e8f-8641-de9657f09c21</guid>
+<pubDate>Thu, 05 Nov 2026 04:00:00 -0500</pubDate>
+<description>The overnight file for November 5, 2026: no new call in the night, Mississippi's ballot calendar stated plainly, Colorado's 4th narrows, Asia sells the chips again, oil tests $93, Qatar's mediators wait, and the vice president's full accounting. Collected at 0400.</description>
+<itunes:title>The Night the Count Stood Still</itunes:title>
+<itunes:author>Chris Abraham</itunes:author>
+<itunes:summary>The overnight file for November 5, 2026: no new call in the night, Mississippi's ballot calendar stated plainly, Colorado's 4th narrows, Asia sells the chips again, oil tests $93, Qatar's mediators wait, and the vice president's full accounting. Collected at 0400.</itunes:summary>
+<itunes:duration>20:15</itunes:duration>
+<itunes:explicit>false</itunes:explicit>
+<enclosure url="https://objectivedailynews.com/audio/2026-11-05-overnight-watch.mp3" length="9717075" type="audio/mpeg"/>
+</item>
+<item>
+<title>What the Day Settled, What It Left Open</title>
+<link>https://objectivedailynews.com/editions/2026-11-05-midnight-watch.html</link>
+<guid isPermaLink="false">472c793c-2dfc-5321-918c-cf608f9ee090</guid>
+<pubDate>Thu, 05 Nov 2026 00:00:00 -0500</pubDate>
+<description>The midnight file for November 5, 2026: at 0000 control of Congress, the governors' majority, nine statehouse chambers, and the market close are settled; Alaska, Mississippi, Kansas, Colorado, and 26 House seats are left open, with the war, the veto, and impeachment unanswered. Edition No. 5, the Midnight Watch.</description>
+<itunes:title>What the Day Settled, What It Left Open</itunes:title>
+<itunes:author>Chris Abraham</itunes:author>
+<itunes:summary>The midnight file for November 5, 2026: at 0000 control of Congress, the governors' majority, nine statehouse chambers, and the market close are settled; Alaska, Mississippi, Kansas, Colorado, and 26 House seats are left open, with the war, the veto, and impeachment unanswered. Edition No. 5, the Midnight Watch.</itunes:summary>
+<itunes:duration>18:52</itunes:duration>
+<itunes:explicit>false</itunes:explicit>
+<enclosure url="https://objectivedailynews.com/audio/2026-11-05-midnight-watch.mp3" length="9057125" type="audio/mpeg"/>
+</item>
+<item>
+<title>The Day Whole: The Count Holds, the Markets Close Higher, and Every Side Has Spoken</title>
+<link>https://objectivedailynews.com/editions/2026-11-04-evening-watch.html</link>
+<guid isPermaLink="false">908ea85a-c633-5650-9937-b394d1d57332</guid>
+<pubDate>Wed, 04 Nov 2026 18:00:00 -0500</pubDate>
+<description>The evening file for November 4, 2026: the midterm count whole at 1800, the Dow's record post-midterm close, oil down near nine percent, the president at the ballroom site, the vice president's accounting, and the incoming majority's first program. Edition No. 4, the Evening Watch.</description>
+<itunes:title>The Day Whole: The Count Holds, the Markets Close Higher, and Every Side Has Spoken</itunes:title>
+<itunes:author>Chris Abraham</itunes:author>
+<itunes:summary>The evening file for November 4, 2026: the midterm count whole at 1800, the Dow's record post-midterm close, oil down near nine percent, the president at the ballroom site, the vice president's accounting, and the incoming majority's first program. Edition No. 4, the Evening Watch.</itunes:summary>
+<itunes:duration>17:15</itunes:duration>
+<itunes:explicit>false</itunes:explicit>
+<enclosure url="https://objectivedailynews.com/audio/2026-11-04-evening-watch.mp3" length="8282900" type="audio/mpeg"/>
+</item>
+<item>
+<title>The Count at Noon: Alaska Turns, Mississippi Narrows, Markets Rise</title>
+<link>https://objectivedailynews.com/editions/2026-11-04-midday-watch.html</link>
+<guid isPermaLink="false">afa18a12-e990-5099-a186-66ba8ca99696</guid>
+<pubDate>Wed, 04 Nov 2026 12:00:00 -0500</pubDate>
+<description>The midday state of the 2026 midterms: Alaska's Senate lead changes hands, Mississippi's margin is counted three ways, the House count firms up, markets rise, and the official statements arrive. Edition No. 2, the Midday Watch, November 4, 2026.</description>
+<itunes:title>The Count at Noon: Alaska Turns, Mississippi Narrows, Markets Rise</itunes:title>
+<itunes:author>Chris Abraham</itunes:author>
+<itunes:summary>The midday state of the 2026 midterms: Alaska's Senate lead changes hands, Mississippi's margin is counted three ways, the House count firms up, markets rise, and the official statements arrive. Edition No. 2, the Midday Watch, November 4, 2026.</itunes:summary>
+<itunes:duration>13:32</itunes:duration>
+<itunes:explicit>false</itunes:explicit>
+<enclosure url="https://objectivedailynews.com/audio/2026-11-04-midday-watch.mp3" length="6500496" type="audio/mpeg"/>
+</item>
+<item>
+<title>Midterm Election Roundup: The Blue Wave Came</title>
+<link>https://objectivedailynews.com/editions/2026-11-04-morning-watch.html</link>
+<guid isPermaLink="false">e211d110-1e20-5848-acd0-ed2f3c1de222</guid>
+<pubDate>Wed, 04 Nov 2026 06:00:00 -0500</pubDate>
+<description>The 2026 midterms, reported straight: Democrats take the House and Senate, the first Muslim senator is elected, and the races still uncalled. Edition No. 1, the Morning Watch, November 4, 2026.</description>
+<itunes:title>Midterm Election Roundup: The Blue Wave Came</itunes:title>
+<itunes:author>Chris Abraham</itunes:author>
+<itunes:summary>The 2026 midterms, reported straight: Democrats take the House and Senate, the first Muslim senator is elected, and the races still uncalled. Edition No. 1, the Morning Watch, November 4, 2026.</itunes:summary>
+<itunes:duration>22:15</itunes:duration>
+<itunes:explicit>false</itunes:explicit>
+<enclosure url="https://objectivedailynews.com/audio/2026-11-04-morning-watch.mp3" length="10679439" type="audio/mpeg"/>
+</item>
+<item>
+<title>The Night File: Both Chambers Called Before the Small Hours</title>
+<link>https://objectivedailynews.com/editions/2026-11-04-overnight-watch.html</link>
+<guid isPermaLink="false">1d1c05a5-40c4-527c-bfd6-4082861cf79e</guid>
+<pubDate>Wed, 04 Nov 2026 04:00:00 -0500</pubDate>
+<description>The overnight file for November 4, 2026: both chambers projected for the Democrats before the small hours, Asia's markets sell the AI trade, Tehran answers in two voices, and Europe's morning papers print the word rout. Collected at 0400.</description>
+<itunes:title>The Night File: Both Chambers Called Before the Small Hours</itunes:title>
+<itunes:author>Chris Abraham</itunes:author>
+<itunes:summary>The overnight file for November 4, 2026: both chambers projected for the Democrats before the small hours, Asia's markets sell the AI trade, Tehran answers in two voices, and Europe's morning papers print the word rout. Collected at 0400.</itunes:summary>
+<itunes:duration>14:44</itunes:duration>
+<itunes:explicit>false</itunes:explicit>
+<enclosure url="https://objectivedailynews.com/audio/2026-11-04-overnight-watch.mp3" length="7075601" type="audio/mpeg"/>
+</item>
+</channel>
+</rss>

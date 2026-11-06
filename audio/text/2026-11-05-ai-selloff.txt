@@ -1,0 +1,49 @@
+Narrator: Objective Daily News. Thursday, November 5, 2026. The Second Reading: The Chips Fall Twelve Percent and the Buildout Is Repriced.
+
+The Markets File — The Second Reading of an Election 
+ 
+ The Second Reading: The Chips Fall Twelve Percent and the Buildout Is Repriced
+
+On Wednesday the market read the midterm results and bought. On Thursday it read them again and sold. The two closes, the ballot record underneath them, and the governments the voters chose, in one file, outside the watches.
+
+The Two Closes
+
+The same election was priced twice in two sessions, and the second price erased the first and went past it. On Wednesday, the first session after the midterms, the Dow Jones Industrial Average rose 1,569.40 points, or 3.0 percent, to 53,356.12; the S&P 500 rose 1.6 percent to 7,688.62; the Nasdaq Composite rose 1.4 percent to 25,736.51. On Thursday the Dow fell 1,833.06 points to 51,523.06; the S&P 500 fell 4.36 percent to 7,353.73, its worst day since April 2025; the Nasdaq Composite fell 5.52 percent to 24,315.00. All three indexes closed below their levels of Tuesday, election day, and the Nasdaq’s close stands 11.9 percent below its record close of October 6—inside correction territory, by the usual definition.
+
+Dow Jones Industrial Average. Wednesday, Nov. 4: +1,569.40 (+3.0%) · 53,356.12. Thursday, Nov. 5: minus 1,833.06 (minus 3.44%) · 51,523.06.
+
+S&P 500. Wednesday, Nov. 4: +1.6% · 7,688.62. Thursday, Nov. 5: minus 4.36% · 7,353.73.
+
+Nasdaq Composite. Wednesday, Nov. 4: +1.4% · 25,736.51. Thursday, Nov. 5: minus 5.52% · 24,315.00.
+
+No result changed between the two sessions. The ballots counted on Wednesday morning were the ballots counted on Thursday morning. What changed was the reading. Wednesday’s session priced the election as an event completed. Thursday’s session priced it as a program begun: a Congress of the other party, governors elected on stated intentions toward the data-center buildout, and a ballot record, assembled measure by measure across ten states, in which voters had answered the buildout directly. The desk states the sequence because the sequence is the fact: the votes were counted first, the governments changed second, and the capital was repriced third.
+
+What Fell on Thursday
+
+The selling was led by the companies that build the artificial-intelligence infrastructure, and it was the largest single-day destruction of market value on record. The Philadelphia Semiconductor Index fell 12.25 percent to 9,011.14, its second-worst fall on record. SanDisk fell 22 percent; Advanced Micro Devices fell 17.26 percent; Micron and Marvell fell about 17 percent each; Broadcom fell 10.43 percent; Nvidia fell 9.26 percent to $181.60, erasing its gains for the year; Qualcomm fell 9.5 percent. Roughly $2.5 trillion of value left the Nasdaq Composite and roughly $2.9 trillion left the companies of the S&P 500, each a single-day record in the accounts filed; the seven largest technology companies lost about $1.04 trillion among them. The volatility index rose 69 percent to 28.18.
+
+The falls were lopsided, and the lopsidedness is part of the record. The companies that own computing capacity fell far less than the companies that build it or finance it. Meta Platforms fell 3.4 percent. The neocloud companies, which borrow to build capacity and rent it out—CoreWeave and Nebius—fell between 10 and 17.6 percent; the data-center operators IREN, Hut 8, and Applied Digital fell between 6 and 11 percent; Tesla fell 11 percent. The market did not sell the use of the machines at the rate it sold the making of them.
+
+The Ballot Record
+
+On Tuesday, in ten states, the buildout itself was on the ballot, and the answers were recorded precinct by precinct. Forty-one local measures on data-center construction were put to voters in California, Florida, Illinois, Kansas, Maine, Nevada, New Jersey, North Dakota, Ohio, and Wisconsin. In the fullest tracker the desk can file—Ballotpedia’s, with results for all forty-one—forty went the way of tighter limits: bans adopted, moratoriums approved, rezoning refused, measures that would have eased construction rejected. The one exception was Harwood, North Dakota, where voters rejected an added review requirement for large industrial projects by 325 votes to 105. Some of the measures are binding law and some are advisory; the desk prints them as one record because the voters cast them as one.
+
+The margins were not narrow. Kansas wrote its definitions into the questions—a high-impact facility is one drawing more than 10 megawatts of peak electricity or more than 100,000 gallons of water a day—and El Dorado adopted a ten-year ban by 71 to 29, Emporia a prohibition by 60 to 40, and Ottawa a ban on facilities above 25 megawatts by 69 to 31. In Alhambra, California, 82 percent voted to ban data centers from the city. In Joliet, Illinois, 79 percent answered no to an advisory question asking the city to approve them, and 88 percent of Morgan County, Illinois, backed restrictions. Ohio carried twenty-one of the forty-one measures, the most of any state: in Wilmington, rezoning for a data-center project was rejected by roughly four votes to one, and in Hubbard more than three-quarters approved a ban. Edgewater, Florida, voted that no new data centers be built there. An Ohio effort to place a constitutional amendment banning new construction on next year’s statewide ballot is under way. The record is not closed: Clarksville, Arkansas, decides data-center bond questions on December 1, and Mandan, North Dakota, votes on a ban covering facilities of 25 megawatts or more on December 15.
+
+The Governments the Voters Chose
+
+The partisan result is stated as the counts stand on Thursday evening. The Democrats will organize both chambers of the Congress that convenes on January 3. The Senate stands at 54 seats for the Democrats and 44 for the Republicans, with Alaska and Mississippi uncalled and the Democratic candidate leading in each. The Associated Press House tracker in its latest state shows 248 seats won by the Democrats and 13 more led, against 154 won and 20 led for the Republicans. The governorships stand at 28 for the Democrats, with Alaska and Kansas open, and by Ballotpedia’s accounting the party will hold 21 state trifectas—the most it has held since 1992.
+
+In the state where the buildout is concentrated, the governorship changed hands on the question. Texas holds the largest share of planned American data-center capacity. Its voters elected the Democrat, Gina Hinojosa, over the incumbent Republican governor, Greg Abbott, after she promised a moratorium on new data-center construction. In Georgia, Keisha Lance Bottoms won the governorship after calling for a pause on new data centers. In Ohio, the state with twenty-one measures on its local ballots, the Democrat, Amy Acton, won the governorship. What the incoming Congress will do with the buildout has not been filed as legislation; what is on the record is the expectation, stated by the analysts quoted in the clippings below, of scrutiny of the construction program, and a bank’s estimate, carried in the morning file, that about 30 percent of the data-center additions expected in 2028 stand at risk from pauses.
+
+What Did Not Happen, and What Comes Next
+
+No collapse in demand for the technology was reported on Thursday, and no company at the center of the fall reported one. AMD fell 17.26 percent two days after guiding its results above expectations. Qualcomm’s Wednesday disappointment, the one company-specific result in the chain, was in smartphone chips and the rising cost of memory, a different ledger from the data centers. The day’s economic figures ran the other way: initial claims for unemployment benefits stood at 189,000, the lowest reading since 1969, as the Evening Watch filed. The reported trigger of the repricing was not an earnings statement. It was the election, read the second time.
+
+The calendar ahead is fixed, and the desk prints it as the file’s last entry. Friday at 8:30 a.m. ET brings the October employment report. On November 10 the House parties hold their leadership elections and Mississippi’s affidavit identification falls due; Mississippi certifies on November 13. Nvidia reports on November 17. Alaska’s ranked-choice tabulation is scheduled for November 18. The Arkansas and North Dakota data-center votes follow on December 1 and December 15. The Congress whose scrutiny the market priced on Thursday convenes on January 3.
+
+The Cocked Hat
+
+Three bearings never give a point; they give a small triangle, and this paper prints the triangle. The ballot record carries one. A Wednesday-morning tally counted thirty-eight of the forty-one measures decided, thirty-seven of them for limits. Ballotpedia’s tracker, complete at forty-one, counts forty for limits. A New York Post accounting counted at least fifty measures, forty-seven decided against the buildout. The tallies were taken at different hours, over different definitions of what counts as a data-center measure; they do not agree on the size of the record, and they agree on its direction—no tally on the shelf runs the other way. Against the triangle, the single-valued facts of this report are the two closes: on Wednesday the Dow rose 1,569.40 points; on Thursday it fell 1,833.06. The results did not change. The reading did. The log proceeds to the Midnight Watch.
+
+That is the report as the desk filed it. Objective Daily News is published by Chris Abraham; the desk is an AI, and the paper says so on its colophon.

@@ -1,0 +1,86 @@
+{
+  "2026-11-06-midday-watch": {
+    "sha256": "3c733c8ec11a4957c08915f5b57ad3a607652476e794dd1ef40f494c462ae586",
+    "voice": "avocado_v2:MAI_03",
+    "bytes": 11572016,
+    "duration": 1446.408005
+  },
+  "2026-11-06-offer-and-answer": {
+    "sha256": "ac372821e8bf4db73a0ef7e58fac709d9c0b0b0f06ce78c47c9447954b733a75",
+    "voice": "avocado_v2:MAI_03",
+    "bytes": 9839989,
+    "duration": 1229.904014
+  },
+  "2026-11-06-distributed-machine": {
+    "sha256": "f31defb65681a742552a461beb9659ae3d9df502ecf298f5cd326eb7c4331e73",
+    "voice": "avocado_v2:MAI_03",
+    "bytes": 6178661,
+    "duration": 772.248005
+  },
+  "2026-11-06-overnight-watch": {
+    "sha256": "e55d76e17b764b3717cbd70efed8a3bcd65a989c38fc2fe65ea700a6b240f2b2",
+    "voice": "avocado_v2:MAI_03",
+    "bytes": 8380276,
+    "duration": 1047.456009
+  },
+  "2026-11-06-midnight-watch": {
+    "sha256": "f162e9ca4bf66d9144769a64fe52b366aa5a0d88c3120967fc537ddc5749b973",
+    "voice": "avocado_v2:MAI_03",
+    "bytes": 10899288,
+    "duration": 1362.312902
+  },
+  "2026-11-05-ai-selloff": {
+    "sha256": "2be5cc80a06474fe988fa8a6f7c518ff288fdaba212d17642f6a0103fa11ba10",
+    "voice": "avocado_v2:MAI_03",
+    "bytes": 6099058,
+    "duration": 762.288005
+  },
+  "2026-11-05-evening-watch": {
+    "sha256": "0a611185f4325d30951df1e6d70dadafa44525dd0706aec63d98d2a4c0b55198",
+    "voice": "avocado_v2:MAI_03",
+    "bytes": 10097670,
+    "duration": 1262.112018
+  },
+  "2026-11-05-midday-watch": {
+    "sha256": "353214b3f5cabe8a84230ecbc66d4576979fa2466e68cb12965876db63b9ae05",
+    "voice": "avocado_v2:MAI_03",
+    "bytes": 11011952,
+    "duration": 1376.4
+  },
+  "2026-11-05-overnight-watch": {
+    "sha256": "943329417d94b032dfa11c670d50551dc23d8f16e6142a4a053f9ff44bd63cac",
+    "voice": "avocado_v2:MAI_03",
+    "bytes": 9717075,
+    "duration": 1214.544014
+  },
+  "2026-11-05-midnight-watch": {
+    "sha256": "efbfcccc93ba3535fedf8658a30d08472984ae20b59a3062040681f44dfe46c3",
+    "voice": "avocado_v2:MAI_03",
+    "bytes": 9057125,
+    "duration": 1132.056009
+  },
+  "2026-11-04-evening-watch": {
+    "sha256": "ae62ec111e100fae2145d0b59ea2a8cab29949783e8ea034be62fd34cba73314",
+    "voice": "avocado_v2:MAI_03",
+    "bytes": 8282900,
+    "duration": 1035.264014
+  },
+  "2026-11-04-midday-watch": {
+    "sha256": "56c018907f0f245b6cb949d2e7bffef9a876c44d537d2d14d6a5ae72f8715175",
+    "voice": "avocado_v2:MAI_03",
+    "bytes": 6500496,
+    "duration": 812.472018
+  },
+  "2026-11-04-morning-watch": {
+    "sha256": "af9eb63e66f15cee635e44ebe3d5bc263570a76cb66e3db895ad1c6b5b20c829",
+    "voice": "avocado_v2:MAI_03",
+    "bytes": 10679439,
+    "duration": 1334.832086
+  },
+  "2026-11-04-overnight-watch": {
+    "sha256": "dd754c9af1a1671aab600a941ca36abda43151daa036e46e6bdf6da2d67f0248",
+    "voice": "avocado_v2:MAI_03",
+    "bytes": 7075601,
+    "duration": 884.352018
+  }
+}

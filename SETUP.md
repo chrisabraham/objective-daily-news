@@ -174,3 +174,93 @@ is part of the eligibility, not decoration.
 - Monetization (AdSense, mentioned as a possibility) is deliberately NOT
   wired in. If the paper draws an audience, ask Eunice to plan it: the layout
   has no ad slots yet by design.
+
+## 8. The podcast (added Nov 6, 2026, on Chris's commission)
+
+The paper is also a podcast. Every edition and special report becomes
+an episode, read aloud in the paper's permanent voice, and published
+in the podcast feed at the site root:
+
+```
+https://objectivedailynews.com/podcast.xml
+```
+
+- **Run it with the press run**, right after the text feeds:
+
+  ```bash
+  cd ~/workspace/objective-daily-news/site
+  python3 make_feeds.py
+  python3 make_podcast.py
+  ```
+
+  `make_podcast.py` narrates whatever is new or changed (a hash of
+  voice + spoken text in `podcast-state.json` decides), mixes the
+  episode, rewrites `podcast.xml`, and updates the storage ledger
+  (`podcast-storage.json`). `--skip-tts` rebuilds feed and ledger
+  from audio already on disk; `--only slug,slug` narrates named
+  episodes only (used for the launch backfill).
+- **The voice** is a house constant in `make_podcast.py` (Helio,
+  `avocado_v2:MAI_03`, the catalog's top-rated soothing male preset).
+  One voice for every episode, forever, unless Chris rules otherwise;
+  changing the constant re-renders the back catalog on the next run.
+- **What is read**: the desk's report only — the article body, never
+  the filed clippings (the subjective shelf stays in print). Spoken
+  cleanup is mechanical: furniture is not re-read, tables are
+  linearized, abbreviations are expanded. The only added words are
+  the intro line ("Objective Daily News, [date]. [Title].") and the
+  closing line. No commentary, ever — the purity law applies to
+  audio exactly as to print.
+- **The music**: a synthesized news theme opens every episode
+  (3.2 s), a low sustained bed runs under the narration, and a
+  resolving variant closes it (2.8 s). The theme files stand in
+  `assets/` and are generated once by the script; every episode is
+  scored identically, the way a network's theme works. Episodes are
+  mono MP3 at 64 kbps, speech-first.
+- **Cover art**: `images/podcast-cover.jpg` (3000×3000, RGB, under
+  500 KB; a PNG twin stands beside it). The feed references the JPG.
+- **Autodiscovery**: every page head carries a podcast feed link
+  beside the RSS link; the front-page footer lists the Podcast feed.
+
+### The storage watchdog
+
+GitHub Pages' published-site soft limit is 1 GB. Audio is the only
+fast-growing weight the paper carries. `podcast-storage.json` tracks
+cumulative audio bytes, episode count, total site size, and the
+projected days to the limit at the real cadence (four watches plus
+up to one special report a day); the press run prints the running
+total every time, and flags the trigger in plain words.
+
+**Migration trigger**: when projected days remaining fall below 30,
+or the site passes 750 MB — whichever comes first — episode audio
+moves to a dedicated podcast host, oldest episodes first. How the
+feed survives the move, so no subscriber is lost:
+
+- Episode **GUIDs never change** (they are derived from the article
+  URLs, not the audio URLs), so every podcatcher keeps its place.
+- Only the enclosure URLs in `podcast.xml` re-point to the host;
+  the feed itself stays at `objectivedailynews.com/podcast.xml`
+  for as long as the site stands. If the feed itself ever moves,
+  the old feed carries an `itunes:new-feed-url` tag (and a 301 where
+  the host allows) pointing at the new one.
+- A dedicated host also gives Chris the transferable host
+  relationship the directories respect: the Apple Podcasts and
+  Spotify listings attach to the host account, and the host provides
+  the embeddable web player the site can carry.
+
+### Submitting to the directories (owner-only; Chris's clicks)
+
+1. **Apple Podcasts Connect** (podcasters.apple.com): sign in with
+   an Apple ID, add a show by RSS feed, paste
+   `https://objectivedailynews.com/podcast.xml`. Apple emails a
+   verification code to the feed's owner address —
+   **cabraham@gmail.com**, the address in the feed — enter it,
+   confirm the show details and cover, submit. Review typically
+   takes 24–72 hours (Apple says up to five business days).
+2. **Spotify for Podcasters** (podcasters.spotify.com): add a show,
+   paste the same feed URL. Spotify sends an 8-digit verification
+   code to the same owner email; enter it, confirm ownership and
+   category, submit. Listing usually appears within a few hours.
+3. The Podcast Index and the smaller directories ingest the same
+   feed URL; most pull from Apple or the Index once the show stands
+   there. There is nothing else to file — one feed, two
+   verifications, both against cabraham@gmail.com.

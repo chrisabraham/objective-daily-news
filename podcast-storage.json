@@ -1,0 +1,18 @@
+{
+  "updated": "2026-11-06T14:04:02.741022-05:00",
+  "voice": "Helio (avocado_v2:MAI_03)",
+  "encoding": "MP3 mono 64k",
+  "episodes": 14,
+  "audio_bytes": 125391546,
+  "audio_mb": 125.39,
+  "site_bytes": 129815194,
+  "site_mb": 129.82,
+  "pages_soft_limit_bytes": 1000000000,
+  "bytes_remaining": 870184806,
+  "avg_episode_bytes": 8956539,
+  "cadence_episodes_per_day": 5,
+  "projected_daily_audio_bytes": 44782695,
+  "projected_days_to_limit": 19,
+  "migration_trigger": "Move episode audio (oldest first) to a dedicated podcast host when projected_days_to_limit falls below 30, or the site passes 750 MB, whichever comes first. GUIDs and the feed URL are preserved across the move (SETUP.md section 8).",
+  "migration_due": true
+}
