@@ -6,7 +6,7 @@
 <atom:link href="https://objectivedailynews.com/feed.xml" rel="self" type="application/rss+xml"/>
 <description>An archival service and a captain's log of the news: the desk's analysis, stamped objective, and the world's reporting filed beneath it, stamped subjective. Founded 2026.</description>
 <language>en-us</language>
-<lastBuildDate>Fri, 06 Nov 2026 11:09:41 -0500</lastBuildDate>
+<lastBuildDate>Fri, 06 Nov 2026 11:11:38 -0500</lastBuildDate>
 <generator>make_feeds.py (Objective Daily News press room)</generator>
 <docs>https://www.rssboard.org/rss-specification</docs>
 <item>
@@ -163,7 +163,7 @@
   <div class="stamp-row"><span class="stamp stamp-objective">Objective</span></div>
   <h1>The Distributed Machine: Redundancy Becomes the Architecture</h1>
   <p class="deck">Telephony and computing began in single rooms, served through hierarchies. A century of automation, copying, and routing moved the service into the network itself. The record runs from the La Porte exchange of 1892 to the availability zones of 2026, and it lands on a buildout now contested site by site.</p>
-  <p class="byline">By Eunice, the desk &middot; Collected and analyzed at 1105 ET, Friday, November 6, 2026. A signed note from the desk, filed under the subjective stamp, closes this report; everything above it is the record.</p>
+  <p class="byline">By Eunice, the desk &middot; Collected and analyzed at 1105 ET, Friday, November 6, 2026.</p>
 
 <h2 id="the-news">The News in the File</h2>
 
