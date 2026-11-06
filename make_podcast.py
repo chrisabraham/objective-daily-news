@@ -339,6 +339,8 @@ def wire_players(items):
         if not os.path.exists(os.path.join(AUDIO_DIR, slug + ".mp3")):
             continue
         path = item["path"]
+        if os.path.basename(path) == "index.html":
+            continue  # the front page carries no audio, ever (placement law)
         with open(path, encoding="utf-8") as fh:
             doc = fh.read()
         if "odn-listen" in doc:
@@ -354,6 +356,24 @@ def wire_players(items):
             announce(f"player seated beneath the byline in {slug}")
         else:
             announce(f"WARNING: no byline found in {slug}; player not seated")
+
+
+def strip_players():
+    """The enforcement half of the placement law: the front page is
+    rebuilt from the edition pages at press time, which would carry
+    the player onto it. Any player found in index.html is removed
+    before the press run ends, so the front page stays clean no
+    matter how it was built."""
+    path = os.path.join(SITE_DIR, "index.html")
+    if not os.path.exists(path):
+        return
+    with open(path, encoding="utf-8") as fh:
+        doc = fh.read()
+    new = re.sub(r'\s*<p class="odn-listen">.*?</p>', '', doc, flags=re.S)
+    if new != doc:
+        with open(path, "w", encoding="utf-8") as fh:
+            fh.write(new)
+        announce("placement law: player(s) stripped from the front page")
 
 
 # ---------------------------------------------------------------- feed
@@ -494,6 +514,7 @@ def main():
     full_items = select_items(base, [])
     built = datetime.now(TZ)
     wire_players(full_items)
+    strip_players()
 
     os.makedirs(TEXT_DIR, exist_ok=True)
     state = {}
