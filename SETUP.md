@@ -265,31 +265,22 @@ feed survives the move, so no subscriber is lost:
    there. There is nothing else to file — one feed, two
    verifications, both against cabraham@gmail.com.
 
-### Binary transfer from this seat (chunked parts, added Nov 6, 2026)
+### Binary transfer from this seat (the open gap, Nov 6, 2026)
 
-The GitHub connector on this seat passes file contents on its command
-line, and the operating system caps a single argument at ~128 KB — so
-`push_files` cannot carry an MP3 or the cover in one call (the text
-snapshot validator also refuses non-UTF-8 content outright). Binaries
-therefore travel **chunked**: each binary is split into base64 text
-parts of 60,000 raw bytes (~80 KB encoded, safely under the ceiling)
-under `podcast-parts/`, listed with byte counts and SHA-256 digests in
-`podcast-parts.json` at the site root. The parts are plain text, so
-they ride the ordinary snapshot push.
-
-To assemble (any seat with a plain clone, or the Pages build host):
-
-```bash
-cd ~/workspace/objective-daily-news/site
-python3 assemble_podcast_parts.py
-```
-
-The helper verifies every file's byte count and SHA-256 against the
-manifest before writing it, and refuses to write on any mismatch.
-**Until the parts are assembled on a git-capable seat and pushed as
-real binaries, the live enclosures 404** — the feed, the art source,
-and every episode's audio stand complete in this workspace and in the
-repo as parts. One ordinary `git push` of the assembled tree from
-Chris's laptop (or any seat with working git write access) closes the
-gap in a single commit; the parts files can then be deleted from the
-repo.
+Episode MP3s (6–12 MB each) and the cover cannot be pushed from this
+seat: the GitHub connector passes file contents on its command line,
+and the operating system caps a single argument at ~128 KB (measured:
+127 KB passes, 128 KB fails with "Argument list too long"), while the
+snapshot validator refuses non-UTF-8 content outright. Small binaries
+ride fine — the theme stings (39 KB and 35 KB) and the favicon set
+went up this way. The cover at 425 KB and every episode MP3 exceed
+the cap by one to two orders of magnitude, and SSH git access from
+this seat is proxy-reset (the same wall the weblog's share-card PNGs
+hit). **Until a seat with working git write access pushes them, the
+live feed's enclosures and cover 404**; the feed itself, the pipeline,
+and all fourteen episodes stand complete in this workspace. One
+ordinary `git push` of `audio/`, `assets/theme-bed.mp3`,
+`images/podcast-cover.jpg`, and `images/podcast-cover.png` from
+Chris's laptop closes the gap in a single commit — or the audio moves
+straight to the dedicated podcast host under the migration plan above,
+which the storage watchdog already calls for.
