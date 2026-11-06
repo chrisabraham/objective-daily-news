@@ -208,6 +208,17 @@ h1.headline a { text-decoration: none; }
   padding: 5px 0;
   margin-bottom: 14px;
 }
+
+/* The episode player: one quiet line in the byline seam,
+   directly beneath the byline, part of its furniture.
+   Article pages only; the front page carries no audio. */
+.odn-listen { margin: 6px 0 14px; }
+.odn-listen audio {
+  display: block;
+  width: 100%;
+  height: 30px;
+  opacity: .72;
+}
 .lead p { margin: 0 0 11px; text-align: justify; }
 .lead p.first::first-letter {
   font-size: 3.1em;
