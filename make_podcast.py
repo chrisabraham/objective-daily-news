@@ -30,6 +30,9 @@ What a run does:
     reused), and mixes a low music bed under the narration when the
     bed file exists. Output: audio/<slug>.mp3, mono, 64 kbps,
     speech-first — spoken news, not music fidelity.
+  * Seats the episode player in each article page, on the hairline
+    directly beneath the byline (placement ruling, Nov 6, 2026) —
+    article pages only; the front page carries no audio.
   * Writes podcast.xml (RSS 2.0 with the iTunes and Podcast Index
     namespaces), measuring every enclosure's byte length from the
     actual file, and podcast-storage.json, the storage ledger:
@@ -323,6 +326,36 @@ def mix_episode(voice_mp3, out_path, item):
         raise RuntimeError(f"mix failed: {r.stderr[-500:]}")
 
 
+def wire_players(items):
+    """Seat each episode's player in its article page, on the hairline
+    directly beneath the byline (Chris's placement ruling, Nov 6,
+    2026): one quiet native player as part of the byline furniture,
+    above the first section heading. Article pages only — the front
+    page carries no audio, ever. Idempotent; a page already carrying
+    the player is left alone. The element has no text, so the spoken
+    text (and its hash) is untouched."""
+    for item in items:
+        slug = episode_slug(item)
+        if not os.path.exists(os.path.join(AUDIO_DIR, slug + ".mp3")):
+            continue
+        path = item["path"]
+        with open(path, encoding="utf-8") as fh:
+            doc = fh.read()
+        if "odn-listen" in doc:
+            continue
+        player = (f'\n  <p class="odn-listen"><audio controls '
+                  f'preload="none" src="../audio/{slug}.mp3"></audio></p>')
+        new, n = re.subn(r'(<p class="byline">.*?</p>)',
+                         lambda m: m.group(1) + player, doc, count=1,
+                         flags=re.S)
+        if n:
+            with open(path, "w", encoding="utf-8") as fh:
+                fh.write(new)
+            announce(f"player seated beneath the byline in {slug}")
+        else:
+            announce(f"WARNING: no byline found in {slug}; player not seated")
+
+
 # ---------------------------------------------------------------- feed
 
 def episode_slug(item):
@@ -460,6 +493,7 @@ def main():
     items = select_items(base, only)
     full_items = select_items(base, [])
     built = datetime.now(TZ)
+    wire_players(full_items)
 
     os.makedirs(TEXT_DIR, exist_ok=True)
     state = {}
