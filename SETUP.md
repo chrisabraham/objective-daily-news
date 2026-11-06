@@ -284,3 +284,10 @@ ordinary `git push` of `audio/`, `assets/theme-bed.mp3`,
 Chris's laptop closes the gap in a single commit — or the audio moves
 straight to the dedicated podcast host under the migration plan above,
 which the storage watchdog already calls for.
+
+Housekeeping note: two commits from the first transfer attempt
+(`e62aa8c` adding `assemble_podcast_parts.py`, `26eeb41` adding
+`podcast-parts.json`) are inert — a chunked-parts scheme was costed
+at 2,134 part files against the snapshot push's 2,000-file cap and
+withdrawn before any part was pushed. Both files can be deleted on
+the next git-capable seat; nothing reads them.
