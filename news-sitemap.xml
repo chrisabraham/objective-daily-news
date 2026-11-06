@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/special-reports/2026-11-06-distributed-machine.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-06T11:05:00-05:00</news:publication_date>
+<news:title>The Distributed Machine: Redundancy Becomes the Architecture</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-06-overnight-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-06T04:00:00-05:00</news:publication_date>
+<news:title>Tokyo Closes in a Bear Market, Brent Crosses a Hundred, and the Count Waits</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/editions/2026-11-06-midnight-watch.html</loc>
 <news:news>
 <news:publication>
@@ -86,28 +108,6 @@
 </news:publication>
 <news:publication_date>2026-11-04T12:00:00-05:00</news:publication_date>
 <news:title>The Count at Noon: Alaska Turns, Mississippi Narrows, Markets Rise</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-04-morning-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-04T06:00:00-05:00</news:publication_date>
-<news:title>Midterm Election Roundup: The Blue Wave Came</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-04-overnight-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-04T04:00:00-05:00</news:publication_date>
-<news:title>The Night File: Both Chambers Called Before the Small Hours</news:title>
 </news:news>
 </url>
 </urlset>
