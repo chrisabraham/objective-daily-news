@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/editions/2026-11-07-saturday-culture.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-07T04:10:00-05:00</news:publication_date>
+<news:title>Lagos Holds the Week, Sydney Opens Its Museum, and Sunday Is Diwali</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-07-overnight-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-07T04:00:00-05:00</news:publication_date>
+<news:title>Explosions Again on Qeshm, a President Removed in Asunción, and the Count Still Waits</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-07-midnight-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-07T00:00:00-05:00</news:publication_date>
+<news:title>A Limited Strike at Qeshm, a Wider Lead in Mississippi, and a Lawsuit Dropped</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-06-evening-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-06T18:00:00-05:00</news:publication_date>
+<news:title>The Chips Bounce Back, the Count Does Not Move, and No Decision Comes</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/editions/2026-11-06-midday-watch.html</loc>
 <news:news>
 <news:publication>
@@ -86,39 +130,6 @@
 </news:publication>
 <news:publication_date>2026-11-05T12:00:00-05:00</news:publication_date>
 <news:title>At Noon the Rally Turns: The Counts Hold, the Chips Fall, London Raises</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-05-overnight-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-05T04:00:00-05:00</news:publication_date>
-<news:title>The Night the Count Stood Still</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-05-midnight-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-05T00:00:00-05:00</news:publication_date>
-<news:title>What the Day Settled, What It Left Open</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-04-evening-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-04T18:00:00-05:00</news:publication_date>
-<news:title>The Day Whole: The Count Holds, the Markets Close Higher, and Every Side Has Spoken</news:title>
 </news:news>
 </url>
 </urlset>
