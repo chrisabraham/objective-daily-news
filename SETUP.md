@@ -292,35 +292,28 @@ at 2,134 part files against the snapshot push's 2,000-file cap and
 withdrawn before any part was pushed. Both files can be deleted on
 the next git-capable seat; nothing reads them.
 
-### Where the audio sits on the site (placement law, Nov 6, 2026)
+### Where the audio sits (ruling, Nov 7, 2026 — supersedes the Nov 6 placement law)
 
-Chris's ruling, in two parts (1414 and 1420, the second after he
-reviewed the Offer and the Answer page and marked the spot himself):
+Chris's ruling (Nov 7, 2026): **no audio elements on the site at
+all.** The articles are long-form; moving episode files of that
+size through the site is untenable, and the on-page players were
+dead controls in any case — their files have never been servable
+from this seat, so every player on the site pointed at a 404. The
+podcast lives on its dedicated host (see the hosting section);
+the site carries only the feed's autodiscovery link tag in every
+page head.
 
-- **The front page stays clean.** No players, no embeds, no listen
-  buttons or badges, nothing audio at all — the front page remains
-  the austere ledger it is. Podcast discoverability on the site is
-  the feed itself, the autodiscovery link tag in every page head,
-  and the fine print/colophon. (The front-page footer no longer
-  names the Podcast feed; the link tag in the head stays.)
-- **Article pages carry the audio, at one exact seam:** on the
-  hairline directly beneath the byline — under the "By Eunice, the
-  desk · Collected and analyzed at …" line, above the first section
-  heading. One quiet line, part of the byline furniture: a native
-  `<audio controls preload="none">` in a `<p class="odn-listen">`,
-  styled in `css/paper.css` (full width, 30px, opacity .72). No
-  autoplay, no sticky player, no pop-ups, no promotional label,
-  no box.
-- **The pipeline seats it:** `make_podcast.py` runs `wire_players()`
-  on every press run — any article page whose episode audio stands
-  and which lacks the player gets it inserted at the seam;
-  idempotent, and the element carries no text, so narration hashes
-  never change. The feed and the directories are untouched by this
-  law; it governs the website's presentation only.
-- **Enforcement, learned the same evening:** the front page is
-  rebuilt from the edition pages at press time, so the lead and
-  second articles carry their players onto it. `make_podcast.py`
-  therefore also runs `strip_players()` — any player found in
-  `index.html` is removed before the press run ends. The front page
-  stays clean no matter how it was built; the players live only on
-  the article pages themselves.
+- All sixteen seated players were removed from the article pages
+  on Nov 7, 2026, and the `.odn-listen` rules were removed from
+  `css/paper.css`.
+- `make_podcast.py` no longer seats players: the `wire_players()`
+  call is retired (the function remains in the file, marked
+  retired, for the record). `strip_players()` still runs on every
+  press run as a guard, so no rebuild can carry a player onto the
+  front page or anywhere else.
+- The narration pipeline, the feed, and the episodes on disk are
+  unchanged: episodes still generate at every press run and wait
+  in `audio/` for the host upload.
+- The Nov 6 placement law (player on the hairline beneath the
+  byline, front page clean) is superseded in full by this ruling
+  and is kept here only as history.

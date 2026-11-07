@@ -327,7 +327,7 @@ def mix_episode(voice_mp3, out_path, item):
 
 
 def wire_players(items):
-    """Seat each episode's player in its article page, on the hairline
+    """RETIRED Nov 7, 2026 (Chris's ruling: no on-page players; the podcast lives on its host). Formerly: seat each episode's player in its article page, on the hairline
     directly beneath the byline (Chris's placement ruling, Nov 6,
     2026): one quiet native player as part of the byline furniture,
     above the first section heading. Article pages only — the front
@@ -513,7 +513,10 @@ def main():
     items = select_items(base, only)
     full_items = select_items(base, [])
     built = datetime.now(TZ)
-    wire_players(full_items)
+    # Nov 7, 2026 — Chris's ruling: no on-page players. The podcast
+    # lives on its host; article pages carry no audio elements.
+    # wire_players() is retired (kept in the file for the record);
+    # strip_players() still guards the front page on every run.
     strip_players()
 
     os.makedirs(TEXT_DIR, exist_ok=True)
