@@ -332,6 +332,12 @@ footer .colophon {
 
 /* ---------- Narrow screens ---------- */
 
+/* Reading comfort (all widths): a justified column with holes in it is
+   the phone reader's enemy before width is. Rag the right edge on
+   article matter everywhere; the broadsheet look lives in the rules,
+   the stamps and the green, not in stretched word-spacing. */
+.lead p, .article p, .page-body p, footer .fineprint-short { text-align: left; }
+
 @media (max-width: 900px) {
   .front-grid { grid-template-columns: 1fr; }
   .front-grid > .lead { grid-column: 1; }
@@ -343,6 +349,43 @@ footer .colophon {
   .folio, footer .colophon { justify-content: center; text-align: center; }
   nav.sections a { padding: 0 7px; }
   body { padding: 0 16px 32px; }
+}
+
+/* ---------- Phones (Nov 7, 2026 — Chris: "not readable via my phone") ----------
+   The sheet keeps its identity — ledger green, serif, stamps, rules —
+   and loses only what a 390px column cannot carry: nowrap furniture,
+   space-between folios, and proper nouns too long for the measure. */
+
+img, svg, video, iframe { max-width: 100%; height: auto; }
+pre { overflow-x: auto; }
+a { overflow-wrap: break-word; }
+
+@media (max-width: 640px) {
+  body { padding: 0 14px 28px; font-size: 17.5px; }
+  .masthead { padding-top: 12px; }
+  .tagline { font-size: 15.5px; }
+  .folio { flex-direction: column; align-items: center; gap: 2px; text-align: center; font-size: 10.5px; }
+  .edition-line { flex-direction: column; gap: 2px; }
+  nav.sections { line-height: 2.1; padding: 7px 0 5px; }
+  nav.sections a { padding: 0 8px; }
+  .deck { font-size: 18.5px; }
+  .lead p.first::first-letter { font-size: 2.7em; padding: 3px 6px 0 0; }
+  .stamp { letter-spacing: .14em; white-space: normal; }
+  .stamp-objective, .stamp-subjective { font-size: 13px; }
+  .stamp-giant { letter-spacing: .1em; }
+  .special-report-badge { letter-spacing: .18em; font-size: 14px; }
+  .special-report-badge.small { letter-spacing: .16em; }
+  .watch-table, .watch-table tbody, .watch-table tr, .watch-table td { display: block; width: 100%; }
+  .watch-table thead { display: none; }
+  .watch-table tr { border-bottom: 2px solid var(--rule); padding: 6px 0 2px; }
+  .watch-table td { border-bottom: none; padding: 2px 0; }
+  .watch-table .wname { white-space: normal; }
+  footer .colophon { flex-direction: column; align-items: center; gap: 2px; text-align: center; }
+}
+
+@media (max-width: 380px) {
+  body { padding: 0 11px 24px; font-size: 17px; }
+  nav.sections a { padding: 0 6px; }
 }
 
 /* Front page runs whole: lead in full + second article (publisher ruling, Nov 4 2026). */
