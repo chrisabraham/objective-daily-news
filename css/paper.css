@@ -272,6 +272,10 @@ h1.headline a { text-decoration: none; }
   border-top: 1px solid var(--hairline); padding-top: 14px;
 }
 .article p { margin: 0 0 11px; text-align: justify; }
+/* The article title block never spans (Nov 7 wave 2): the head
+   matter is the desk’s furniture and flows inside the columns
+   like any other block. */
+.article > h1, .article > .deck { column-span: none; }
 .article figure { margin: 14px 0; text-align: center; }
 .article figcaption { font-size: 13px; font-style: italic; color: var(--ink-soft); margin-top: 4px; }
 .article .disclosure {
@@ -352,7 +356,7 @@ footer .colophon {
   .front-grid > .lead.second { columns: 1; }
   .lead { padding-right: 0; }
   .rail { border-left: none; padding-left: 0; margin-top: 20px; }
-  .clip-cols, .filed-cols, .shelf-cols { columns: 1; }
+  .clip-cols, .filed-cols, .shelf-cols, .clips { columns: 1; }
   .folio, footer .colophon { justify-content: center; text-align: center; }
   nav.sections a { padding: 0 7px; }
   body { padding: 0 16px 32px; }
