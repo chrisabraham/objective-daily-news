@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/special-reports/2026-11-07-the-word-and-the-record.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-07T12:30:00-05:00</news:publication_date>
+<news:title>The Word and the Record: What the File Shows About the Status of American Fascism</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/editions/2026-11-07-midday-watch.html</loc>
 <news:news>
 <news:publication>
