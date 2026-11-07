@@ -373,7 +373,13 @@ a { overflow-wrap: break-word; }
   .tagline { font-size: 15.5px; }
   .folio { flex-direction: column; align-items: center; gap: 2px; text-align: center; font-size: 10.5px; }
   .edition-line { flex-direction: column; gap: 2px; }
-  nav.sections { line-height: 2.1; padding: 7px 0 5px; }
+  /* The nav must be FLEX to wrap. The markup writes the links back to
+     back with no whitespace between them, so plain inline layout has
+     no break opportunity anywhere in the row: the whole ~800px of
+     sections sits on one line and drags the sheet sideways. Found by
+     a true-width phone render, Nov 7, 2026 — the line-height setting
+     this replaces could never have wrapped anything. */
+  nav.sections { display: flex; flex-wrap: wrap; justify-content: center; row-gap: 7px; padding: 7px 0 5px; }
   nav.sections a { padding: 0 8px; }
   .deck { font-size: 18.5px; }
   .lead p.first::first-letter { font-size: 2.7em; padding: 3px 6px 0 0; }
