@@ -342,7 +342,14 @@ footer .colophon {
   .front-grid { grid-template-columns: 1fr; }
   .front-grid > .lead { grid-column: 1; }
   .front-grid > .rail { grid-column: 1; grid-row: auto; }
+  /* The lead collapses too (Nov 7, 2026): two ruled columns are the
+     broadsheet on a desk; on a phone they are two ribbons of ~170px.
+     Desktop keeps the Nov 5 two-column ruling untouched. */
   .front-grid > .lead { columns: 1; }
+  /* The second article's three columns ride on a MORE specific selector
+     (.front-grid > .lead.second) than the line above, so it needs its
+     own collapse or it stays three ribbons wide on a phone. */
+  .front-grid > .lead.second { columns: 1; }
   .lead { padding-right: 0; }
   .rail { border-left: none; padding-left: 0; margin-top: 20px; }
   .clip-cols, .filed-cols, .shelf-cols { columns: 1; }
