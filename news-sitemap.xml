@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/special-reports/2026-11-08-genocide-and-conquest.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-08T20:00:00-05:00</news:publication_date>
+<news:title>Genocide and Conquest: The Definition, the Intent Test, and Where the Courts Drew the Line</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-08-evening-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-08T18:00:00-05:00</news:publication_date>
+<news:title>Seven Dead on the Railway at Al-Ayyat, the Six of the Square Are Named in Kraków, and Eisenkot Sets His Four Conditions in Jerusalem</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/editions/2026-11-08-midday-watch.html</loc>
 <news:news>
 <news:publication>
@@ -141,17 +163,6 @@
 </news:publication>
 <news:publication_date>2026-11-07T00:00:00-05:00</news:publication_date>
 <news:title>A Limited Strike at Qeshm, a Wider Lead in Mississippi, and a Lawsuit Dropped</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-06-evening-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-06T18:00:00-05:00</news:publication_date>
-<news:title>The Chips Bounce Back, the Count Does Not Move, and No Decision Comes</news:title>
 </news:news>
 </url>
 </urlset>
