@@ -339,6 +339,7 @@ footer .colophon {
 
 .front-grid > .front-main { grid-column: 1; padding-right: 26px; }
 .front-main .teaser { font-size: 16.5px; line-height: 1.55; margin: 0 0 11px; }
+.front-main .lede, .special-band .lede { font-size: 16.5px; line-height: 1.55; margin: 0 0 11px; }
 .front-section-head {
   font-family: var(--label); font-size: 13px; font-weight: 800;
   letter-spacing: .18em; text-transform: uppercase;
