@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/editions/2026-11-09-midnight-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-09T00:00:00-05:00</news:publication_date>
+<news:title>A Fourth Tanker Is Claimed in Hormuz, Khor Mor Goes Dark, and the Count Still Waits</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/special-reports/2026-11-08-genocide-and-conquest.html</loc>
 <news:news>
 <news:publication>
@@ -152,17 +163,6 @@
 </news:publication>
 <news:publication_date>2026-11-07T04:00:00-05:00</news:publication_date>
 <news:title>Explosions Again on Qeshm, a President Removed in Asunción, and the Count Still Waits</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-07-midnight-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-07T00:00:00-05:00</news:publication_date>
-<news:title>A Limited Strike at Qeshm, a Wider Lead in Mississippi, and a Lawsuit Dropped</news:title>
 </news:news>
 </url>
 </urlset>
