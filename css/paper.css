@@ -329,6 +329,37 @@ footer .colophon {
   display: flex; justify-content: space-between; flex-wrap: wrap; gap: 4px 16px;
 }
 
+/* ---------- Front page — headlines form (Nov 9, 2026) ----------
+   Publisher ruling, Nov 9, 2026: "The front page should really be
+   mostly headlines. Like it used to be." The main column is a single
+   readable measure of headline entries (no multicol article bodies,
+   no displaced second article, no void beside the rail); the lead
+   carries headline, deck, byline, and a first-lines teaser only.
+   The rail is compact lists. Older specials index below the bands. */
+
+.front-grid > .front-main { grid-column: 1; padding-right: 26px; }
+.front-main .teaser { font-size: 16.5px; line-height: 1.55; margin: 0 0 11px; }
+.front-section-head {
+  font-family: var(--label); font-size: 13px; font-weight: 800;
+  letter-spacing: .18em; text-transform: uppercase;
+  border-top: 3px double var(--rule); padding-top: 10px; margin: 26px 0 2px;
+}
+.front-entry { border-top: 1px solid var(--hairline); margin-top: 18px; padding-top: 12px; }
+h2.headline { font-size: clamp(23px, 2.7vw, 30px); line-height: 1.16; font-weight: 700; margin: 4px 0 6px; }
+h2.headline a { text-decoration: none; }
+.front-entry .deck { font-size: 16.5px; line-height: 1.45; }
+.front-entry .byline { margin-bottom: 8px; }
+
+.special-index { border-top: 3px double var(--rule); margin-top: 26px; padding-top: 10px; }
+.special-index h2 {
+  font-family: var(--label); font-size: 13px; font-weight: 800;
+  letter-spacing: .18em; text-transform: uppercase; margin: 0 0 4px;
+}
+.special-index .sub { font-style: italic; color: var(--ink-soft); font-size: 15px; margin: 0 0 12px; }
+.special-index ul { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 30px; column-rule: 1px solid var(--faint); }
+.special-index li { break-inside: avoid; font-size: 15px; line-height: 1.5; padding: 7px 0; border-bottom: 1px dotted var(--hairline); }
+.special-index .filed-line { font-family: var(--label); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-soft); }
+
 /* ---------- Narrow screens ---------- */
 
 /* Reading comfort (all widths): a justified column with holes in it is
@@ -341,6 +372,8 @@ footer .colophon {
   .front-grid { grid-template-columns: 1fr; }
   .front-grid > .lead { grid-column: 1; }
   .front-grid > .rail { grid-column: 1; grid-row: auto; }
+  .front-grid > .front-main { grid-column: 1; padding-right: 0; }
+  .special-index ul { columns: 1; }
   /* The lead collapses too (Nov 7, 2026): two ruled columns are the
      broadsheet on a desk; on a phone they are two ribbons of ~170px.
      Desktop keeps the Nov 5 two-column ruling untouched. */
