@@ -174,9 +174,11 @@ nav.sections a.here { color: var(--claret); }
   column-rule: 1px solid var(--hairline);
 }
 .front-grid > .lead .kicker,
+.front-grid > .lead h1,
 .front-grid > .lead h1.headline,
 .front-grid > .lead .deck,
 .front-grid > .lead .byline,
+.front-grid > .lead .stamp-row,
 .front-grid > .lead > p:has(.stamp) { column-span: all; }
 .front-grid > .lead h2,
 .front-grid > .lead h3 { break-after: avoid; }
