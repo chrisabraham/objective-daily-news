@@ -16,7 +16,9 @@ Reads every edition in editions/*.html and writes, at the site root:
                        this feeds discovery, not a manual application)
     robots.txt      — allow all crawlers; every documented AI crawler is
                       named and welcomed (the paper is built to be
-                      scooped — pickup is the doctrine, see fine print)
+                      scooped — pickup is the doctrine, see fine print);
+                      the AIPREF everything-open preferences block is
+                      generated here too, in build_robots()
     llms.txt        — the curated map for language models (llmstxt.org)
     llms-full.txt   — the same map carrying the most recent editions
                       and special reports in full text
@@ -368,6 +370,18 @@ def build_robots(base):
         "",
         f"Sitemap: {base}/sitemap.xml",
         f"Sitemap: {base}/news-sitemap.xml",
+        "",
+        # The AIPREF preferences block lives here, in the generator
+        # (Chris's everything-open ruling, Nov 10, 2026). It was first
+        # appended to the generated file by hand and was silently
+        # stripped by the next regeneration; never hand-edit it back
+        # into site/robots.txt — change it here.
+        "# AI preferences (IETF AIPREF draft, draft-kelley-aipref-training-preference-signal), adopted Nov 10, 2026:",
+        "# Willkommen, bienvenue, welcome. This house welcomes AI crawlers to train on and to cite",
+        "# everything published here; we are here to be read by machines as well as people.",
+        "# AI training: yes, allowed. AI grounding (retrieval and citation in live answers): yes, allowed.",
+        "User-Agent: __usage_ai-training",
+        "Allow: /",
         "",
     ]
     return "\n".join(lines)
