@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/special-reports/2026-11-10-nuclear-taboo.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-10T07:42:00-05:00</news:publication_date>
+<news:title>The Nuclear Taboo: Eighty-One Years of Non-Use, the Threats and Tests of 2025–2026, and the Treaties That No Longer Bind</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-10-overnight-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-10T04:00:00-05:00</news:publication_date>
+<news:title>The Talks Open in Abu Dhabi, Asia Extends the Rally, and China Passes a Trillion</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/editions/2026-11-10-midnight-watch.html</loc>
 <news:news>
 <news:publication>
@@ -152,28 +174,6 @@
 </news:publication>
 <news:publication_date>2026-11-08T09:10:00-05:00</news:publication_date>
 <news:title>Election Integrity in America: Voting, Mail-In Ballots, and the Theft Claims of 2016, 2020, 2024, and 2026</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-08-sunday-reviews.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-08T04:10:00-05:00</news:publication_date>
-<news:title>Stations Is the Book of the Week, Godzilla Is Back Bigger, and the Night Shift Is Hell</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-08-overnight-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-08T04:00:00-05:00</news:publication_date>
-<news:title>The Three at Home Are Named in Kraków, a Mandate Is Given in Jerusalem, and Two Tankers Burn Without Names</news:title>
 </news:news>
 </url>
 </urlset>
