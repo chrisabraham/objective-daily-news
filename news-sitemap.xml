@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/special-reports/2026-11-10-starship-flight-15.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-10T09:59:00-05:00</news:publication_date>
+<news:title>Starship Flight 15: The First Attempt to Catch Both Stages of the World’s Largest Rocket</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/special-reports/2026-11-10-nuclear-power.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-10T08:15:00-05:00</news:publication_date>
+<news:title>Nuclear Power in 2026: The Operating Record, the Cost of Building New, the Small Reactors, and the Data Centers</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/special-reports/2026-11-10-nuclear-taboo.html</loc>
 <news:news>
 <news:publication>
@@ -163,17 +185,6 @@
 </news:publication>
 <news:publication_date>2026-11-08T11:15:00-05:00</news:publication_date>
 <news:title>Deportation in America: Visa Overstays, Removal Orders, and How the Law Actually Works</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/special-reports/2026-11-08-election-integrity.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-08T09:10:00-05:00</news:publication_date>
-<news:title>Election Integrity in America: Voting, Mail-In Ballots, and the Theft Claims of 2016, 2020, 2024, and 2026</news:title>
 </news:news>
 </url>
 </urlset>
