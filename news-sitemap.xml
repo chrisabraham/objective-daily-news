@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/editions/2026-11-10-midday-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-10T12:00:00-05:00</news:publication_date>
+<news:title>Inflation Runs Hot at 0.4 Percent, Hegseth Calls the Charges a Farce, and Abu Dhabi\u2019s First Day Ends Without a Breakthrough</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/special-reports/2026-11-10-trump-biography.html</loc>
 <news:news>
 <news:publication>
@@ -174,17 +185,6 @@
 </news:publication>
 <news:publication_date>2026-11-08T18:00:00-05:00</news:publication_date>
 <news:title>Seven Dead on the Railway at Al-Ayyat, the Six of the Square Are Named in Kraków, and Eisenkot Sets His Four Conditions in Jerusalem</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-08-midday-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-08T12:00:00-05:00</news:publication_date>
-<news:title>Prosecutors Open the Kraków Case as a Terrorist Offence, a Third Tanker Is Claimed in Hormuz, and the Mandate Is Handed Over in Jerusalem</news:title>
 </news:news>
 </url>
 </urlset>
