@@ -293,8 +293,40 @@ def build_json_feed(items, base):
     return json.dumps(feed, indent=2, ensure_ascii=False) + "\n"
 
 
+def page_images(path, base, rel):
+    # The images Google Images should index for a page: its og:image first,
+    # then any same-domain <img> on the page (data: URIs are not indexable
+    # and are skipped). Deduped, order preserved.
+    try:
+        text = open(path, encoding="utf-8", errors="replace").read()
+    except OSError:
+        return []
+    found = []
+    m = re.search(r'property="og:image" content="([^"]+)"', text)
+    if m:
+        found.append(m.group(1))
+    page_dir = rel.rsplit("/", 1)[0] + "/" if "/" in rel else ""
+    for src in re.findall(r'<img[^>]+src="([^"]+)"', text):
+        if src.startswith("data:"):
+            continue
+        if src.startswith(("http://", "https://")):
+            if src.startswith(base + "/"):
+                found.append(src)
+            continue
+        if src.startswith("/"):
+            found.append(base + src)
+        else:
+            found.append(f"{base}/{page_dir}{src}")
+    seen, out = set(), []
+    for u in found:
+        if u not in seen:
+            seen.add(u)
+            out.append(u)
+    return out
+
+
 def build_sitemap(base):
-    pages = []  # (url, lastmod-date)
+    pages = []  # (url, lastmod-date, [image urls])
     found = []
     for pattern in ("*.html", "editions/*.html", "editorials/*.html", "special-reports/*.html"):
         found += glob.glob(os.path.join(SITE_DIR, pattern))
@@ -304,13 +336,17 @@ def build_sitemap(base):
             continue  # the error page is served, never indexed
         url = base + "/" if rel == "index.html" else f"{base}/{rel}"
         lastmod = datetime.fromtimestamp(os.path.getmtime(path), TZ).date()
-        pages.append((url, lastmod))
+        pages.append((url, lastmod, page_images(path, base, rel)))
     out = [
         '<?xml version="1.0" encoding="UTF-8"?>',
-        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+        'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">',
     ]
-    for url, lastmod in pages:
-        out += ["<url>", f"<loc>{url}</loc>", f"<lastmod>{lastmod}</lastmod>", "</url>"]
+    for url, lastmod, images in pages:
+        out += ["<url>", f"<loc>{url}</loc>", f"<lastmod>{lastmod}</lastmod>"]
+        for img in images:
+            out += ["<image:image>", f"<image:loc>{escape(img)}</image:loc>", "</image:image>"]
+        out += ["</url>"]
     out += ["</urlset>", ""]
     return "\n".join(out)
 
