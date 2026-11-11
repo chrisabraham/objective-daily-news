@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/special-reports/2026-11-11-veterans-day-armistice-day.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-11T07:20:00-05:00</news:publication_date>
+<news:title>Veterans Day and Armistice Day: What November 11 Marks, and How the World Keeps It</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-11-overnight-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-11T04:00:00-05:00</news:publication_date>
+<news:title>Abu Dhabi Enters Its Second Day With Prisoners on the Table, Asia Rises for a Third Day, and Oil Firms on a Struck Pipeline</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/editions/2026-11-11-midnight-watch.html</loc>
 <news:news>
 <news:publication>
@@ -163,17 +185,6 @@
 </news:publication>
 <news:publication_date>2026-11-09T08:05:00-05:00</news:publication_date>
 <news:title>Organ Donation in America: Who Gets the Organ, the Law, the Black Market, and What Changed</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-09-overnight-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-09T04:00:00-05:00</news:publication_date>
-<news:title>The Kraków Suspect Dies in Hospital, the Mediator Comes to Washington, and Asia Buys Back Friday</news:title>
 </news:news>
 </url>
 </urlset>
