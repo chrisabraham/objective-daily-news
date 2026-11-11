@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/editions/2026-11-11-midnight-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-11T00:00:00-05:00</news:publication_date>
+<news:title>The House Refers the Hegseth Articles to Committee, 211 to 204, and Abu Dhabi Ends Its First Day Without an Agreement</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-10-evening-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-10T18:00:00-05:00</news:publication_date>
+<news:title>The House Takes Up the Hegseth Articles With No Vote in the File, Wall Street Closes Lower on the Hot Print, and Abu Dhabi Ends Its First Day Without an Agreement</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/editions/2026-11-10-midday-watch.html</loc>
 <news:news>
 <news:publication>
@@ -152,39 +174,6 @@
 </news:publication>
 <news:publication_date>2026-11-09T04:00:00-05:00</news:publication_date>
 <news:title>The Kraków Suspect Dies in Hospital, the Mediator Comes to Washington, and Asia Buys Back Friday</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-09-midnight-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-09T00:00:00-05:00</news:publication_date>
-<news:title>A Fourth Tanker Is Claimed in Hormuz, Khor Mor Goes Dark, and the Count Still Waits</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/special-reports/2026-11-08-genocide-and-conquest.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-08T20:00:00-05:00</news:publication_date>
-<news:title>Genocide and Conquest: The Definition, the Intent Test, and Where the Courts Drew the Line</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-08-evening-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-08T18:00:00-05:00</news:publication_date>
-<news:title>Seven Dead on the Railway at Al-Ayyat, the Six of the Square Are Named in Kraków, and Eisenkot Sets His Four Conditions in Jerusalem</news:title>
 </news:news>
 </url>
 </urlset>
