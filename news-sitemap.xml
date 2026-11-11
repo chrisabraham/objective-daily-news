@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/editions/2026-11-11-midday-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-11T12:00:00-05:00</news:publication_date>
+<news:title>Abu Dhabi Ends With a Prisoner Exchange Agreed and the Land Untouched, the Chips Are Bought Back at Midday, and a Wreath Is Laid at Arlington</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/special-reports/2026-11-11-veterans-day-armistice-day.html</loc>
 <news:news>
 <news:publication>
@@ -130,50 +141,6 @@
 </news:publication>
 <news:publication_date>2026-11-09T18:00:00-05:00</news:publication_date>
 <news:title>No Readout From the Oval Office, a Best Day Since April on Wall Street, and a Speaker Agreed in Jerusalem</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/special-reports/2026-11-09-hegseth-impeachment.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-09T15:49:00-05:00</news:publication_date>
-<news:title>Pete Hegseth Impeachment: Thomas Massie Files Eight Articles and Forces a House Vote</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/special-reports/2026-11-09-cornell-7.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-09T14:05:00-05:00</news:publication_date>
-<news:title>The Cornell 7 Case: The Chi Phi Allegations, the Signed Statement and the Transcript, Cornell&amp;rsquo;s Findings, the Civil Lawsuit, and the Special Prosecutor</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/special-reports/2026-11-09-russell-brand.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-09T12:45:00-05:00</news:publication_date>
-<news:title>Russell Brand Convicted and Sentenced: The Charges, the Verdicts, the Judge’s Reasons, and What Remains Open</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-09-midday-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-09T12:00:00-05:00</news:publication_date>
-<news:title>Wall Street Buys the Morning, the Autopsies Begin in Kraków, and the Mediator Goes In at Noon</news:title>
 </news:news>
 </url>
 </urlset>
