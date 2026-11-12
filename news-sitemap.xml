@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/special-reports/2026-11-12-charlie-kirk.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-12T14:30:00-05:00</news:publication_date>
+<news:title>Charlie Kirk: The Assassination, the Record, and the Fight Over a Name</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-12-midday-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-12T12:00:00-05:00</news:publication_date>
+<news:title>Nvidia's Board Accepts Mr. Huang's Resignation, Moscow Promises Europe a Chair and Sets a New Meeting, and Spain Splits Its Decrees by One Vote Each Way</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/special-reports/2026-11-12-everything-corporation.html</loc>
 <news:news>
 <news:publication>
@@ -108,28 +130,6 @@
 </news:publication>
 <news:publication_date>2026-11-10T18:00:00-05:00</news:publication_date>
 <news:title>The House Takes Up the Hegseth Articles With No Vote in the File, Wall Street Closes Lower on the Hot Print, and Abu Dhabi Ends Its First Day Without an Agreement</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-10-midday-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-10T12:00:00-05:00</news:publication_date>
-<news:title>Inflation Runs Hot at 0.4 Percent, Hegseth Calls the Charges a Farce, and Abu Dhabi\u2019s First Day Ends Without a Breakthrough</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/special-reports/2026-11-10-trump-biography.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-10T11:50:00-05:00</news:publication_date>
-<news:title>Donald J. Trump: The Documented Record, 1946 to 2026</news:title>
 </news:news>
 </url>
 </urlset>
