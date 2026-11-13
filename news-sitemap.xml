@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/editions/2026-11-13-overnight-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-13T04:00:00-05:00</news:publication_date>
+<news:title>Iran Claims a Radar Destroyed in Bahrain While Washington and Manama Say Nothing, Europe&amp;rsquo;s Chair Is Agreed in Two Capitals and Opposed in a Third, and Mr. Huang&amp;rsquo;s Answer to the House Is Due by Evening</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/editions/2026-11-13-midnight-watch.html</loc>
 <news:news>
 <news:publication>
@@ -119,28 +130,6 @@
 </news:publication>
 <news:publication_date>2026-11-11T12:00:00-05:00</news:publication_date>
 <news:title>Abu Dhabi Ends With a Prisoner Exchange Agreed and the Land Untouched, the Chips Are Bought Back at Midday, and a Wreath Is Laid at Arlington</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/special-reports/2026-11-11-veterans-day-armistice-day.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-11T07:20:00-05:00</news:publication_date>
-<news:title>Veterans Day and Armistice Day: What November 11 Marks, and How the World Keeps It</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-11-overnight-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-11T04:00:00-05:00</news:publication_date>
-<news:title>Abu Dhabi Enters Its Second Day With Prisoners on the Table, Asia Rises for a Third Day, and Oil Firms on a Struck Pipeline</news:title>
 </news:news>
 </url>
 </urlset>
