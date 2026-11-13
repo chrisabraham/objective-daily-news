@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/editions/2026-11-12-evening-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-12T18:00:00-05:00</news:publication_date>
+<news:title>Nvidia Closes Down 4.3 Percent Under an Interim Chief, Moscow Restarts the Trilateral and Disputes Europe's Chair, and Crude Builds 4.7 Million Barrels Against the Draw Expected</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/special-reports/2026-11-12-enforcement-ledger.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-12T17:40:00-05:00</news:publication_date>
+<news:title>Deportation, Counted: Removals and Returns Across Eight Administrations, the Deaths in Custody, and the Court Record</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/special-reports/2026-11-12-charlie-kirk.html</loc>
 <news:news>
 <news:publication>
@@ -119,17 +141,6 @@
 </news:publication>
 <news:publication_date>2026-11-11T00:00:00-05:00</news:publication_date>
 <news:title>The House Refers the Hegseth Articles to Committee, 211 to 204, and Abu Dhabi Ends Its First Day Without an Agreement</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-10-evening-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-10T18:00:00-05:00</news:publication_date>
-<news:title>The House Takes Up the Hegseth Articles With No Vote in the File, Wall Street Closes Lower on the Hot Print, and Abu Dhabi Ends Its First Day Without an Agreement</news:title>
 </news:news>
 </url>
 </urlset>
