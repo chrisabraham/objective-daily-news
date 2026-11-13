@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/editions/2026-11-13-midnight-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-13T00:00:00-05:00</news:publication_date>
+<news:title>Europe Is Said to Have a Chair at the Next Table With No Name to Fill It and No Number on the Prisoners, Mr. Huang Agrees to Testify as Congress Sets Its December Dates, and Tehran Answers the Strike Warning With a Warning of Its Own</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/editions/2026-11-12-evening-watch.html</loc>
 <news:news>
 <news:publication>
@@ -130,17 +141,6 @@
 </news:publication>
 <news:publication_date>2026-11-11T04:00:00-05:00</news:publication_date>
 <news:title>Abu Dhabi Enters Its Second Day With Prisoners on the Table, Asia Rises for a Third Day, and Oil Firms on a Struck Pipeline</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-11-midnight-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-11T00:00:00-05:00</news:publication_date>
-<news:title>The House Refers the Hegseth Articles to Committee, 211 to 204, and Abu Dhabi Ends Its First Day Without an Agreement</news:title>
 </news:news>
 </url>
 </urlset>
