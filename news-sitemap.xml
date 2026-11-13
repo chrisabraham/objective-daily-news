@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/special-reports/2026-11-13-podcasting-record.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-13T17:00:00-05:00</news:publication_date>
+<news:title>Podcasting: What the Record Shows About Who Invented It, Who Named It, and Who Made It Famous</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/special-reports/2026-11-13-uap-record.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-13T16:30:00-05:00</news:publication_date>
+<news:title>Unidentified Anomalous Phenomena: What the Record Shows, From the Nuremberg Sky Battle of 1561 to the PURSUE Releases of 2026</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/special-reports/2026-11-13-rosenberg-ledger.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-13T14:00:00-05:00</news:publication_date>
+<news:title>Julius and Ethel Rosenberg: What the Record Shows About the Espionage, the Evidence Against Ethel, the Trial, and the Executions</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-13-midday-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-13T12:00:00-05:00</news:publication_date>
+<news:title>Producer Prices Rise 0.3 Percent Against 0.4 Expected While the Bahrain Radar Stands Unconfirmed at Midday, Alaska Posts 125,157 to 119,357, and the Agency Finds a Surplus in Oil</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/editions/2026-11-13-overnight-watch.html</loc>
 <news:news>
 <news:publication>
@@ -119,17 +163,6 @@
 </news:publication>
 <news:publication_date>2026-11-11T18:00:00-05:00</news:publication_date>
 <news:title>Abu Dhabi Closes With Prisoners and No Ceasefire, Wall Street Buys Back the Chips, and the President Claims a Won War at Arlington</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-11-midday-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-11T12:00:00-05:00</news:publication_date>
-<news:title>Abu Dhabi Ends With a Prisoner Exchange Agreed and the Land Untouched, the Chips Are Bought Back at Midday, and a Wreath Is Laid at Arlington</news:title>
 </news:news>
 </url>
 </urlset>
