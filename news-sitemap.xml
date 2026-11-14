@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/editions/2026-11-14-saturday-culture.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-14T04:10:00-05:00</news:publication_date>
+<news:title>Paris Counts Photography at 200, Tokyo Opens 6,500 Booths, and Thailand Lights Its Rivers</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-14-overnight-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-14T04:00:00-05:00</news:publication_date>
+<news:title>The Airlines Begin a Saturday Recovery With the Counts Still Apart, Europe Names an E5 Team While Moscow Stays Evasive, and Alaska Moves to 49.8 Percent for Ms. Peltola With the Race Still Uncalled</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-14-midnight-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-14T00:00:00-05:00</news:publication_date>
+<news:title>The Nation's Departures Stop for More Than Four Hours and Resume at 2015, Mr. Huang's 2000 Deadline Passes With No Confirmation in the File, and Friday Closes With the Radar Denied, the War Terminated by Letter and Alaska Still Uncalled</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/special-reports/2026-11-13-nimby-record.html</loc>
 <news:news>
 <news:publication>
@@ -163,28 +196,6 @@
 </news:publication>
 <news:publication_date>2026-11-12T08:30:00-05:00</news:publication_date>
 <news:title>Starlink, Counted: The Filed Dominance, the Rivals, and the Mobile Question</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-12-overnight-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-12T04:00:00-05:00</news:publication_date>
-<news:title>The Envoys Land in Moscow With the Prisoner Numbers Still Open, Nvidia's Board Announces Nothing, and Oil Falls a Dollar on the Peace Hopes</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-12-midnight-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-12T00:00:00-05:00</news:publication_date>
-<news:title>Mississippi Is Called for Mr. Colom, Nvidia Falls After Hours as Its Board Meets on Its Chief, and the Capitals Trade Fire on the Night After the Talks</news:title>
 </news:news>
 </url>
 </urlset>
