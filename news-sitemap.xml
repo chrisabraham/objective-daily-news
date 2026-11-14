@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/special-reports/2026-11-14-free-speech-abroad-record.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-14T13:12:00-05:00</news:publication_date>
+<news:title>Free Speech and Hate Speech Around the World: What Fourteen Democracies Protect, What They Punish, and How the Definition Has Moved</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-14-midday-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-14T12:00:00-05:00</news:publication_date>
+<news:title>Saturday&amp;rsquo;s Recovery Cancels More Than 3,700 Flights by Midday Against 700 Expected Overnight, Alaska&amp;rsquo;s Count Gains Its Raw Numbers at 138,240 to 127,828 With the Governorship Called and the Senate Still Open, and Europe&amp;rsquo;s Team Meets a Foreign Ministry in Moscow That Says the Subject Was Never Discussed</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/special-reports/2026-11-14-presidential-reversal-record.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-14T12:00:00-05:00</news:publication_date>
+<news:title>Presidential Reversal: What the Record Shows About Each Administration Undoing the Last</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/special-reports/2026-11-14-free-speech-record.html</loc>
 <news:news>
 <news:publication>
@@ -196,17 +229,6 @@
 </news:publication>
 <news:publication_date>2026-11-12T14:30:00-05:00</news:publication_date>
 <news:title>Charlie Kirk: The Assassination, the Record, and the Fight Over a Name</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-12-midday-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-12T12:00:00-05:00</news:publication_date>
-<news:title>Nvidia's Board Accepts Mr. Huang's Resignation, Moscow Promises Europe a Chair and Sets a New Meeting, and Spain Splits Its Decrees by One Vote Each Way</news:title>
 </news:news>
 </url>
 </urlset>
