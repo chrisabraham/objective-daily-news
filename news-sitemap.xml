@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/special-reports/2026-11-13-nimby-record.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-13T19:45:00-05:00</news:publication_date>
+<news:title>NIMBYism: What the Record Shows About the Veto Over Housing, Energy, and Data Centers</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-13-evening-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-13T18:00:00-05:00</news:publication_date>
+<news:title>Central Command Denies the Bahrain Radar Was Hit and Says Two Drones Were Shot Down, the President Tells Congress the War Is Terminated on the War Powers Deadline Day, and Wall Street Closes Mixed With Nvidia Down 2.0 Percent</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/special-reports/2026-11-13-concrete-record.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-13T18:00:00-05:00</news:publication_date>
+<news:title>Concrete: What the Record Shows About the Most Consumed Material on Earth</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/special-reports/2026-11-13-podcasting-record.html</loc>
 <news:news>
 <news:publication>
@@ -152,17 +185,6 @@
 </news:publication>
 <news:publication_date>2026-11-12T00:00:00-05:00</news:publication_date>
 <news:title>Mississippi Is Called for Mr. Colom, Nvidia Falls After Hours as Its Board Meets on Its Chief, and the Capitals Trade Fire on the Night After the Talks</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-11-evening-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-11T18:00:00-05:00</news:publication_date>
-<news:title>Abu Dhabi Closes With Prisoners and No Ceasefire, Wall Street Buys Back the Chips, and the President Claims a Won War at Arlington</news:title>
 </news:news>
 </url>
 </urlset>
