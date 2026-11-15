@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/editions/2026-11-14-evening-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-14T18:00:00-05:00</news:publication_date>
+<news:title>The Airlines Cancel More Than 4,000 Flights on the Recovery Day With Full Schedules Promised by Sunday Night, Three Presidents Are Expected in Shenzhen on Thursday With No Agenda Agreed, and Alaska Spends Saturday at 138,240 to 127,828 With the Call Still Withheld</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/special-reports/2026-11-14-free-speech-abroad-record.html</loc>
 <news:news>
 <news:publication>
@@ -196,28 +207,6 @@
 </news:publication>
 <news:publication_date>2026-11-13T00:00:00-05:00</news:publication_date>
 <news:title>Europe Is Said to Have a Chair at the Next Table With No Name to Fill It and No Number on the Prisoners, Mr. Huang Agrees to Testify as Congress Sets Its December Dates, and Tehran Answers the Strike Warning With a Warning of Its Own</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-12-evening-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-12T18:00:00-05:00</news:publication_date>
-<news:title>Nvidia Closes Down 4.3 Percent Under an Interim Chief, Moscow Restarts the Trilateral and Disputes Europe's Chair, and Crude Builds 4.7 Million Barrels Against the Draw Expected</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/special-reports/2026-11-12-enforcement-ledger.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-12T17:40:00-05:00</news:publication_date>
-<news:title>Deportation, Counted: Removals and Returns Across Eight Administrations, the Deaths in Custody, and the Court Record</news:title>
 </news:news>
 </url>
 </urlset>
