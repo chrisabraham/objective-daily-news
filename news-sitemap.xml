@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/editions/2026-11-15-midday-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-15T12:00:00-05:00</news:publication_date>
+<news:title>Sunday&amp;rsquo;s Recovery Reaches Nearly 1,600 Cancellations by 1000 Against 875 Down at Dawn, Bahrain Answers Its Morning in Writing&amp;mdash;Resolution 2817, Article 51 and a Red Line&amp;mdash;While Washington Files No Word on the Radar, and Alaska&amp;rsquo;s Count Stands at 140,637 to 129,424 With the Next Count Due Monday</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/editions/2026-11-15-sunday-reviews.html</loc>
 <news:news>
 <news:publication>
@@ -174,50 +185,6 @@
 </news:publication>
 <news:publication_date>2026-11-13T18:00:00-05:00</news:publication_date>
 <news:title>Concrete: What the Record Shows About the Most Consumed Material on Earth</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/special-reports/2026-11-13-podcasting-record.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-13T17:00:00-05:00</news:publication_date>
-<news:title>Podcasting: What the Record Shows About Who Invented It, Who Named It, and Who Made It Famous</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/special-reports/2026-11-13-uap-record.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-13T16:30:00-05:00</news:publication_date>
-<news:title>Unidentified Anomalous Phenomena: What the Record Shows, From the Nuremberg Sky Battle of 1561 to the PURSUE Releases of 2026</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/special-reports/2026-11-13-rosenberg-ledger.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-13T14:00:00-05:00</news:publication_date>
-<news:title>Julius and Ethel Rosenberg: What the Record Shows About the Espionage, the Evidence Against Ethel, the Trial, and the Executions</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-13-midday-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-13T12:00:00-05:00</news:publication_date>
-<news:title>Producer Prices Rise 0.3 Percent Against 0.4 Expected While the Bahrain Radar Stands Unconfirmed at Midday, Alaska Posts 125,157 to 119,357, and the Agency Finds a Surplus in Oil</news:title>
 </news:news>
 </url>
 </urlset>
