@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/editions/2026-11-16-midnight-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-16T00:00:00-05:00</news:publication_date>
+<news:title>Sunday Closes at More Than 2,300 Flights Cancelled With the Root Cause Still Unknown, Washington Files Its First Word on the Bahrain Radar — No Impacts to American Forces, With the Radar Itself Unaddressed — and Nvidia's Contest Turns Open, a War Room for Mr. Huang Against a Treasury Call for an Outside Successor</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-15-evening-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-15T18:00:00-05:00</news:publication_date>
+<news:title>Sunday Closes With More Than 1,600 Flights Cancelled and the Full Return Moved to Monday, the Gulf Closes Ranks Behind Bahrain While Washington Files No Word on the Radar, and the Petition to Bring Back Mr. Huang Passes 154,000 With No Answer From the Board</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/editions/2026-11-15-midday-watch.html</loc>
 <news:news>
 <news:publication>
@@ -141,50 +163,6 @@
 </news:publication>
 <news:publication_date>2026-11-14T04:00:00-05:00</news:publication_date>
 <news:title>The Airlines Begin a Saturday Recovery With the Counts Still Apart, Europe Names an E5 Team While Moscow Stays Evasive, and Alaska Moves to 49.8 Percent for Ms. Peltola With the Race Still Uncalled</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-14-midnight-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-14T00:00:00-05:00</news:publication_date>
-<news:title>The Nation's Departures Stop for More Than Four Hours and Resume at 2015, Mr. Huang's 2000 Deadline Passes With No Confirmation in the File, and Friday Closes With the Radar Denied, the War Terminated by Letter and Alaska Still Uncalled</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/special-reports/2026-11-13-nimby-record.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-13T19:45:00-05:00</news:publication_date>
-<news:title>NIMBYism: What the Record Shows About the Veto Over Housing, Energy, and Data Centers</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-13-evening-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-13T18:00:00-05:00</news:publication_date>
-<news:title>Central Command Denies the Bahrain Radar Was Hit and Says Two Drones Were Shot Down, the President Tells Congress the War Is Terminated on the War Powers Deadline Day, and Wall Street Closes Mixed With Nvidia Down 2.0 Percent</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/special-reports/2026-11-13-concrete-record.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-13T18:00:00-05:00</news:publication_date>
-<news:title>Concrete: What the Record Shows About the Most Consumed Material on Earth</news:title>
 </news:news>
 </url>
 </urlset>
