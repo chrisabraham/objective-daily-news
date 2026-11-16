@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/special-reports/2026-11-16-jesus-movement.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-16T18:20:00-05:00</news:publication_date>
+<news:title>The Jesus Movement and the New Jesus Movement</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-16-evening-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-16T18:00:00-05:00</news:publication_date>
+<news:title>Wall Street Closes in a Correction With the Nasdaq Down 2.49 Percent and Nvidia Down 4.12 Percent at $156.14, the Board Is Reported Not Discussing Mr. Huang&amp;rsquo;s Return as the Petition Passes 180,000, the President Departs for Manila Saying Ukraine Will Be Talked About in Shenzhen and Mr. Kim May Come, and Chairman Warsh Sets Out Three Scenarios for Super Intelligence While Alaska&amp;rsquo;s Count Still Waits</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/special-reports/2026-11-16-history-of-propaganda.html</loc>
 <news:news>
 <news:publication>
@@ -108,17 +130,6 @@
 </news:publication>
 <news:publication_date>2026-11-15T00:00:00-05:00</news:publication_date>
 <news:title>The Airlines Close Saturday at Nearly 6,500 Cancellations With Nearly 900 of Sunday's Flights Already Cancelled, Ms. Peltola Stands Above 50 Percent in the Latest Alaska Report With the Race Still Uncalled, and the Kremlin Confirms the Shenzhen Meeting While Its Host Confirms Nothing</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-14-evening-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-14T18:00:00-05:00</news:publication_date>
-<news:title>The Airlines Cancel More Than 4,000 Flights on the Recovery Day With Full Schedules Promised by Sunday Night, Three Presidents Are Expected in Shenzhen on Thursday With No Agenda Agreed, and Alaska Spends Saturday at 138,240 to 127,828 With the Call Still Withheld</news:title>
 </news:news>
 </url>
 </urlset>
