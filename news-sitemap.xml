@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/editions/2026-11-17-midnight-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-17T00:00:00-05:00</news:publication_date>
+<news:title>Monday Closes With Alaska at 52 Votes From a Majority and Its Governorship Conceded, the Airlines at 344 Cancelled With a United Outage Inside the Recovery, the Board Reported by Three Voices Not Weighing Mr. Huang's Return on the Night Before Earnings, and Futures Little Changed With the President Airborne for Manila</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/special-reports/2026-11-16-jesus-movement.html</loc>
 <news:news>
 <news:publication>
@@ -119,17 +130,6 @@
 </news:publication>
 <news:publication_date>2026-11-15T04:00:00-05:00</news:publication_date>
 <news:title>Sunday Opens With 875 of Its Flights Already Cancelled and a Promise Due by Its Close, Alaska's Count Reaches 140,637 to 129,424 With the Race Still Uncalled, and Manama Issues Its First Nationwide Alert Since September While Europe's Negotiators Have Not Yet Contacted Moscow</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-15-midnight-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-15T00:00:00-05:00</news:publication_date>
-<news:title>The Airlines Close Saturday at Nearly 6,500 Cancellations With Nearly 900 of Sunday's Flights Already Cancelled, Ms. Peltola Stands Above 50 Percent in the Latest Alaska Report With the Race Still Uncalled, and the Kremlin Confirms the Shenzhen Meeting While Its Host Confirms Nothing</news:title>
 </news:news>
 </url>
 </urlset>
