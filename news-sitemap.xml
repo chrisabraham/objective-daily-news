@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/special-reports/2026-11-17-ground-stop.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-17T08:00:00-05:00</news:publication_date>
+<news:title>The Nationwide FAA Ground Stop of November 13, 2026</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-17-overnight-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-17T04:00:00-05:00</news:publication_date>
+<news:title>Asia Sells the Chip Stocks for a Second Day Ahead of Nvidia's Report After the Close, the President Flies Into Manila for the Quad's First Meeting in Two Years, and Alaska's Count Stands at 141,637 to 130,162 With Ms. Peltola 52 Votes From a Majority and One Day of Mail Left</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/editions/2026-11-17-midnight-watch.html</loc>
 <news:news>
 <news:publication>
@@ -108,28 +130,6 @@
 </news:publication>
 <news:publication_date>2026-11-15T12:00:00-05:00</news:publication_date>
 <news:title>Sunday&amp;rsquo;s Recovery Reaches Nearly 1,600 Cancellations by 1000 Against 875 Down at Dawn, Bahrain Answers Its Morning in Writing&amp;mdash;Resolution 2817, Article 51 and a Red Line&amp;mdash;While Washington Files No Word on the Radar, and Alaska&amp;rsquo;s Count Stands at 140,637 to 129,424 With the Next Count Due Monday</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-15-sunday-reviews.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-15T04:10:00-05:00</news:publication_date>
-<news:title>No Such Thing As Monday Is the Book of the Week, Scrooge Splits the Critics in Half, and the Empress Takes Her Leave</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-15-overnight-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-15T04:00:00-05:00</news:publication_date>
-<news:title>Sunday Opens With 875 of Its Flights Already Cancelled and a Promise Due by Its Close, Alaska's Count Reaches 140,637 to 129,424 With the Race Still Uncalled, and Manama Issues Its First Nationwide Alert Since September While Europe's Negotiators Have Not Yet Contacted Moscow</news:title>
 </news:news>
 </url>
 </urlset>
