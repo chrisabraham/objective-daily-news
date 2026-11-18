@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/editions/2026-11-18-morning-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-18T10:06:00-05:00</news:publication_date>
+<news:title>Alaska Is Called for Ms. Peltola at 50.12 Percent and the Senate Stands 56 to 44, Nvidia Reports $115.8 Billion and Guides to $130 Billion With No Return for Mr. Huang, and the President Lands in Shenzhen to a Tarmac Welcome From President Xi</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/special-reports/2026-11-18-measles-americas.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-18T10:00:00-05:00</news:publication_date>
+<news:title>Measles in Canada, the United States, and Mexico, 2024–2026: Where the Outbreak Spread and Who It Reached</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/special-reports/2026-11-18-technology-outages.html</loc>
 <news:news>
 <news:publication>
