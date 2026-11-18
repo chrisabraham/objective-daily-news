@@ -22,6 +22,8 @@ Motto: Gold from all the mud. Method: triangulation — bearings from many outle
 
 ## Special Reports
 
+- [The November 12–18 Technology Disruptions: What Failed, What Recovered, and What the Record Shows About the FAA, United, Microsoft, Apple, the NSA, and the Banks](https://objectivedailynews.com/special-reports/2026-11-18-technology-outages.html): A follow-up on the nationwide departure stop, the separate United Airlines outage, service disruptions at Microsoft and Apple, Chase transaction delays and reports at other banks, the classified NSA network interruption, and the Optimizely compromise. The record gives different answers about recovery, cause and scope.
+
 - [Measles in Canada, the United States, and Mexico, 2024–2026: Where the Outbreak Spread and Who It Reached](https://objectivedailynews.com/special-reports/2026-11-18-measles-americas.html): PAHO stripped the US, Mexico, and Bolivia of measles elimination. The record traces one virus lineage from Mennonite communities into wider populations. (Filed 2026-11-18T10:00:00-05:00.)
 - [The U.S. Army Chemical Corps in Vietnam: George J. Hafner's Article and the Record Around It](https://objectivedailynews.com/special-reports/2026-11-17-hafner-chemical-corps-vietnam.html): The U.S. Army Chemical Corps in the Vietnam War: George J. Hafner's article and the documented record of the corps' work around it. (Filed 2026-11-17T09:30:00-05:00.)
 - [The Nationwide FAA Ground Stop of November 13, 2026](https://objectivedailynews.com/special-reports/2026-11-17-ground-stop.html): The nationwide FAA ground stop of November 13, 2026: the timeline, the router failure, the cancellation counts, and the questions still open. (Filed 2026-11-17T08:00:00-05:00.)
