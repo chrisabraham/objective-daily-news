@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/editions/2026-11-18-evening-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-18T18:00:00-05:00</news:publication_date>
+<news:title>Wall Street Closes Mixed With the Dow Down 566 Points and Nvidia Down 2.89 Percent at $150.96, the October Minutes Put Almost All Behind Further Hikes, Anthropic Prices at $83 Above Its Range, and Pending Home Sales Fall to a Record Low</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/editions/2026-11-18-midday-watch.html</loc>
 <news:news>
 <news:publication>
@@ -86,39 +97,6 @@
 </news:publication>
 <news:publication_date>2026-11-17T00:00:00-05:00</news:publication_date>
 <news:title>Monday Closes With Alaska at 52 Votes From a Majority and Its Governorship Conceded, the Airlines at 344 Cancelled With a United Outage Inside the Recovery, the Board Reported by Three Voices Not Weighing Mr. Huang's Return on the Night Before Earnings, and Futures Little Changed With the President Airborne for Manila</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/special-reports/2026-11-16-jesus-movement.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-16T18:20:00-05:00</news:publication_date>
-<news:title>The Jesus Movement and the New Jesus Movement</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-16-evening-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-16T18:00:00-05:00</news:publication_date>
-<news:title>Wall Street Closes in a Correction With the Nasdaq Down 2.49 Percent and Nvidia Down 4.12 Percent at $156.14, the Board Is Reported Not Discussing Mr. Huang&amp;rsquo;s Return as the Petition Passes 180,000, the President Departs for Manila Saying Ukraine Will Be Talked About in Shenzhen and Mr. Kim May Come, and Chairman Warsh Sets Out Three Scenarios for Super Intelligence While Alaska&amp;rsquo;s Count Still Waits</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/special-reports/2026-11-16-history-of-propaganda.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-16T17:36:00-05:00</news:publication_date>
-<news:title>A Global History of Propaganda</news:title>
 </news:news>
 </url>
 </urlset>
