@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/editions/2026-11-19-overnight-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-19T04:00:00-05:00</news:publication_date>
+<news:title>The Bilaterals Are Done in Shenzhen and the Three-Way Room Still Waits, Taiwan Falls 4.4 Percent and Draws Short-Selling Curbs, and Tehran Claims Three More Tankers on Mines East of Hormuz With None Named</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/editions/2026-11-19-midnight-watch.html</loc>
 <news:news>
 <news:publication>
@@ -75,39 +86,6 @@
 </news:publication>
 <news:publication_date>2026-11-18T09:26:00-05:00</news:publication_date>
 <news:title>The November 12–18 Technology Disruptions: What Failed, What Recovered, and What the Record Shows About the FAA, United, Microsoft, Apple, the NSA, and the Banks</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/special-reports/2026-11-17-hafner-chemical-corps-vietnam.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-17T09:30:00-05:00</news:publication_date>
-<news:title>The U.S. Army Chemical Corps in Vietnam: George J. Hafner's Article and the Record Around It</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/special-reports/2026-11-17-ground-stop.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-17T08:00:00-05:00</news:publication_date>
-<news:title>The Nationwide FAA Ground Stop of November 13, 2026</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-17-overnight-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-17T04:00:00-05:00</news:publication_date>
-<news:title>Asia Sells the Chip Stocks for a Second Day Ahead of Nvidia's Report After the Close, the President Flies Into Manila for the Quad's First Meeting in Two Years, and Alaska's Count Stands at 141,637 to 130,162 With Ms. Peltola 52 Votes From a Majority and One Day of Mail Left</news:title>
 </news:news>
 </url>
 </urlset>
