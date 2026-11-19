@@ -325,41 +325,8 @@ def page_images(path, base, rel):
     return out
 
 
-def previous_lastmods():
-    # The lastmod each URL carried in the sitemap already on disk. A fresh
-    # clone stamps every file with today's mtime, so the file clock alone
-    # would tell crawlers the whole archive changed today.
-    try:
-        old = open(os.path.join(SITE_DIR, "sitemap.xml"), encoding="utf-8").read()
-    except OSError:
-        return {}
-    return dict(re.findall(r"<loc>([^<]+)</loc>\s*<lastmod>([^<]+)</lastmod>", old))
-
-
-def page_lastmod(path, url, previous):
-    # Order of authority: the page's own modified stamp, its published
-    # stamp, the lastmod already filed for it, and only then the file clock.
-    try:
-        text = open(path, encoding="utf-8", errors="replace").read()
-    except OSError:
-        text = ""
-    for pat in (r'property="article:modified_time" content="(\d{4}-\d{2}-\d{2})',
-                r'"dateModified":\s*"(\d{4}-\d{2}-\d{2})',
-                r'property="article:published_time" content="(\d{4}-\d{2}-\d{2})',
-                r'"datePublished":\s*"(\d{4}-\d{2}-\d{2})'):
-        m = re.search(pat, text)
-        if m:
-            stamp = m.group(1)
-            # A later lastmod already filed records a real later edit.
-            return max(stamp, previous.get(url, stamp)[:10])
-    if url in previous:
-        return previous[url]
-    return datetime.fromtimestamp(os.path.getmtime(path), TZ).date()
-
-
 def build_sitemap(base):
     pages = []  # (url, lastmod-date, [image urls])
-    previous = previous_lastmods()
     found = []
     for pattern in ("*.html", "editions/*.html", "editorials/*.html", "special-reports/*.html"):
         found += glob.glob(os.path.join(SITE_DIR, pattern))
@@ -368,7 +335,7 @@ def build_sitemap(base):
         if rel == "404.html":
             continue  # the error page is served, never indexed
         url = base + "/" if rel == "index.html" else f"{base}/{rel}"
-        lastmod = page_lastmod(path, url, previous)
+        lastmod = datetime.fromtimestamp(os.path.getmtime(path), TZ).date()
         pages.append((url, lastmod, page_images(path, base, rel)))
     out = [
         '<?xml version="1.0" encoding="UTF-8"?>',
@@ -621,8 +588,12 @@ def main():
     base = base_url()
     paths = sorted(glob.glob(os.path.join(EDITIONS_DIR, "*.html")), reverse=True)
     # Special Reports (house format, Nov 5, 2026) syndicate with the editions.
+    # The directory's index.html is the Special Reports index page, a
+    # section page, not a report; the press room reads reports only.
     paths += sorted(
-        glob.glob(os.path.join(SITE_DIR, "special-reports", "*.html")), reverse=True
+        (p for p in glob.glob(os.path.join(SITE_DIR, "special-reports", "*.html"))
+         if os.path.basename(p) != "index.html"),
+        reverse=True,
     )
     if not paths:
         print("make_feeds: no editions found; nothing to do.", file=sys.stderr)

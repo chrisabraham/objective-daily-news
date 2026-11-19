@@ -492,7 +492,12 @@ def update_ledger(episodes, built):
 
 def select_items(base, only):
     paths = sorted(glob.glob(os.path.join(SITE_DIR, "editions", "*.html")))
-    paths += sorted(glob.glob(os.path.join(SITE_DIR, "special-reports", "*.html")))
+    # The directory's index.html is the Special Reports index page, a
+    # section page, not a report; it is never an episode.
+    paths += sorted(
+        p for p in glob.glob(os.path.join(SITE_DIR, "special-reports", "*.html"))
+        if os.path.basename(p) != "index.html"
+    )
     items = [make_feeds.parse_edition(p, base) for p in paths]
     for item, path in zip(items, paths):
         item["path"] = path
