@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/special-reports/2026-11-20-besides-anthropic.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-20T18:30:00-05:00</news:publication_date>
+<news:title>Jensen Huang Resigns at Nvidia; Google Launches New AI Chips; Two Riemann Hypothesis Proof Claims; The Humanoid Robot Ledger</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-20-evening-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-20T18:00:00-05:00</news:publication_date>
+<news:title>Wall Street Falls for a Seventh Day as the Nasdaq Drops 5.28 Percent and Anthropic Closes Five Dollars Above Its Offering Price, the President Announces Joint Guardrails With President Xi, and Kyiv Counts Nine Dead With Two Missiles Down in Poland</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/special-reports/2026-11-20-bartleby-scrivener.html</loc>
 <news:news>
 <news:publication>
@@ -108,17 +130,6 @@
 </news:publication>
 <news:publication_date>2026-11-18T20:00:00-05:00</news:publication_date>
 <news:title>ICE Deportation Flights: The Restraints, the Third Countries, and the Offer to Leave Voluntarily</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-18-evening-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-18T18:00:00-05:00</news:publication_date>
-<news:title>Wall Street Closes Mixed With the Dow Down 566 Points and Nvidia Down 2.89 Percent at $150.96, the October Minutes Put Almost All Behind Further Hikes, Anthropic Prices at $83 Above Its Range, and Pending Home Sales Fall to a Record Low</news:title>
 </news:news>
 </url>
 </urlset>
