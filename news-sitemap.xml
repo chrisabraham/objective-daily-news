@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/editions/2026-11-20-midnight-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-20T00:00:00-05:00</news:publication_date>
+<news:title>Thursday Closes With Wall Street Down Two Percent After Anthropic's Debut Reverses, the Senate Rejecting the Iran War-Powers Resolution, and the Spanish Debate Ending Without a Clear Winner While the Strait's Fire Comes Under Control</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-19-evening-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-19T18:00:00-05:00</news:publication_date>
+<news:title>Wall Street Gives Back the Morning on Anthropic's Debut and Closes Down Two Percent, Europe Answers Shenzhen in Berlin, and the Senate Rejects the Iran War-Powers Resolution</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/editions/2026-11-19-midday-watch.html</loc>
 <news:news>
 <news:publication>
