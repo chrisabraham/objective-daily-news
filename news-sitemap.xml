@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/editions/2026-11-21-midday-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-21T12:00:00-05:00</news:publication_date>
+<news:title>Two More Tankers Are Hit Off Khasab Before Dawn, Mr. Rutte Guarantees Every Inch of Poland in Warsaw, and the Strait's Friday Count Is Corrected to Thirteen in One Instrument and Sixteen in Another</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/editions/2026-11-21-saturday-culture.html</loc>
 <news:news>
 <news:publication>
@@ -130,17 +141,6 @@
 </news:publication>
 <news:publication_date>2026-11-19T18:00:00-05:00</news:publication_date>
 <news:title>Wall Street Gives Back the Morning on Anthropic's Debut and Closes Down Two Percent, Europe Answers Shenzhen in Berlin, and the Senate Rejects the Iran War-Powers Resolution</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-19-midday-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-19T12:00:00-05:00</news:publication_date>
-<news:title>The Three Presidents Sign a Four-Point Declaration in Shenzhen and Leave the Wars Out of It, Wall Street Buys the Morning on Anthropic's Debut, and Walmart Beats and Slips</news:title>
 </news:news>
 </url>
 </urlset>
