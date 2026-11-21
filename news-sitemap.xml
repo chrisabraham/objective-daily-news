@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/editions/2026-11-21-saturday-culture.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-21T04:10:00-05:00</news:publication_date>
+<news:title>Venice Closes in Minor Keys, Abu Dhabi Opens Under Frieze, and Ayutthaya Lights Its First Krathongs</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-21-overnight-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-21T04:00:00-05:00</news:publication_date>
+<news:title>Kyiv's Bridges Stand Closed in the BBC's Account and Partly Open in Kyiv's Own as Mr. Rutte Comes to Warsaw, California Subpoenas Nvidia in the Market's Quiet Hours, and the Strait Counts Eleven Crossings for Friday</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-21-midnight-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-21T00:00:00-05:00</news:publication_date>
+<news:title>Friday Closes With Wall Street in Correction After the Worst Week Since 2020, the Guardrails Given One Term in Washington, Nine Dead in Kyiv With the Alliance's Answer Still to Come, and a Tanker Still Unnamed in the Strait</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/special-reports/2026-11-20-physical-ai.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-20T23:15:00-05:00</news:publication_date>
+<news:title>The House Took Fifty Years to Grow Hands: X10 and the Relay Era, the Sensor Stack, the Luxury Tier, and the Humanoid Machines of 2026</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/special-reports/2026-11-20-besides-anthropic.html</loc>
 <news:news>
 <news:publication>
@@ -97,28 +141,6 @@
 </news:publication>
 <news:publication_date>2026-11-19T12:00:00-05:00</news:publication_date>
 <news:title>The Three Presidents Sign a Four-Point Declaration in Shenzhen and Leave the Wars Out of It, Wall Street Buys the Morning on Anthropic's Debut, and Walmart Beats and Slips</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-19-overnight-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-19T04:00:00-05:00</news:publication_date>
-<news:title>The Bilaterals Are Done in Shenzhen and the Three-Way Room Still Waits, Taiwan Falls 4.4 Percent and Draws Short-Selling Curbs, and Tehran Claims Three More Tankers on Mines East of Hormuz With None Named</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-19-midnight-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-19T00:00:00-05:00</news:publication_date>
-<news:title>Wednesday Closes With Alaska's House Seat Held by Mr. Begich at 51.35 Percent, Anthropic's Offering Enlarged to 980 Million Shares at $83, Futures Higher at Night, and a Fire Still Burning in the Strait</news:title>
 </news:news>
 </url>
 </urlset>
