@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/editions/2026-11-24-midnight-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-24T00:00:00-05:00</news:publication_date>
+<news:title>Monday Closes With Dymer's Search Ended at a Final Eleven, HPE Beating the Street After the Bell and Falling After Hours, and Four Tankers Claimed on Mines in the Strait With None Named</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/special-reports/2026-11-23-aphantasia.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-23T23:30:00-05:00</news:publication_date>
+<news:title>Aphantasia: The Naming, the Numbers, and the Effort to Measure an Absence</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/editions/2026-11-23-evening-watch.html</loc>
 <news:news>
 <news:publication>
@@ -97,17 +119,6 @@
 </news:publication>
 <news:publication_date>2026-11-22T04:00:00-05:00</news:publication_date>
 <news:title>Bahrain Says a Civilian Plant Burned While the Guards Claim Two Patriot Radars in the Night, the Sparta II's Tow Still Stands Unconfirmed, and the Strait Opens Sunday With No Crossing Counted at the Stamp</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-22-midnight-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-22T00:00:00-05:00</news:publication_date>
-<news:title>Saturday Closes With the Sparta II Still Burning and a Tow Promised in the Night, the Strait's Two Tankers Named—the Torkel Burning at Anchor and the Arina Hit in Her Engine Room—and Bitcoin Holding $60,000 at the Turn of the Log</news:title>
 </news:news>
 </url>
 </urlset>
