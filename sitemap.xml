@@ -436,7 +436,7 @@
 </url>
 <url>
 <loc>https://objectivedailynews.com/editions/2026-11-18-morning-watch.html</loc>
-<lastmod>2026-11-23</lastmod>
+<lastmod>2026-11-25</lastmod>
 <image:image>
 <image:loc>https://objectivedailynews.com/images/cards/2026-11-18-morning-watch.png</image:loc>
 </image:image>
@@ -645,6 +645,13 @@
 </image:image>
 </url>
 <url>
+<loc>https://objectivedailynews.com/editions/index.html</loc>
+<lastmod>2026-11-25</lastmod>
+<image:image>
+<image:loc>https://objectivedailynews.com/images/wordmark.png</image:loc>
+</image:image>
+</url>
+<url>
 <loc>https://objectivedailynews.com/editorials.html</loc>
 <lastmod>2026-11-23</lastmod>
 <image:image>
@@ -657,6 +664,10 @@
 <image:image>
 <image:loc>https://objectivedailynews.com/images/cards/demonstration.png</image:loc>
 </image:image>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editorials/index.html</loc>
+<lastmod>2026-11-25</lastmod>
 </url>
 <url>
 <loc>https://objectivedailynews.com/fine-print.html</loc>
@@ -1034,6 +1045,13 @@
 <lastmod>2026-11-25</lastmod>
 <image:image>
 <image:loc>https://objectivedailynews.com/images/cards/2026-11-25-dictator-and-authoritarian.png</image:loc>
+</image:image>
+</url>
+<url>
+<loc>https://objectivedailynews.com/special-reports/2026-11-25-thanksgiving-prep-six-families.html</loc>
+<lastmod>2026-11-25</lastmod>
+<image:image>
+<image:loc>https://objectivedailynews.com/images/cards/2026-11-25-thanksgiving-prep-six-families.png</image:loc>
 </image:image>
 </url>
 <url>
