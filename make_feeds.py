@@ -478,6 +478,10 @@ def _llms_header(base):
         f"- [The Fine Print]({base}/fine-print.html): what objective "
         "and subjective mean in this paper, and the pickup, reuse, and "
         "syndication terms",
+        f"- [The Map]({base}/map.html): the whole paper on one "
+        "page — every standing part of it, and the road to it",
+        f"- [Glossary]({base}/glossary.html): the paper's own "
+        "terms, defined as the paper uses them",
         f"- [The Watches]({base}/watches.html): every edition, filed "
         "by watch — Overnight (collects 0400 ET), Midday (1200), "
         "Evening (1800), Midnight (0000)",

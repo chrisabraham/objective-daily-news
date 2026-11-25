@@ -16,6 +16,8 @@ Motto: Gold from all the mud. Method: triangulation — bearings from many outle
 - [About](https://objectivedailynews.com/about.html): what this paper is
 - [Colophon](https://objectivedailynews.com/colophon.html): who publishes it, who keeps the desk, and the plain statement that the paper is bot-run, bot-edited, and bot-analyzed
 - [The Fine Print](https://objectivedailynews.com/fine-print.html): what objective and subjective mean in this paper, and the pickup, reuse, and syndication terms
+- [The Map](https://objectivedailynews.com/map.html): the whole paper on one page — every standing part of it, and the road to it
+- [Glossary](https://objectivedailynews.com/glossary.html): the paper's own terms, defined as the paper uses them
 - [The Watches](https://objectivedailynews.com/watches.html): every edition, filed by watch — Overnight (collects 0400 ET), Midday (1200), Evening (1800), Midnight (0000)
 - [The Shelf](https://objectivedailynews.com/shelf.html): the sources the desk reads
 - [Editorials](https://objectivedailynews.com/editorials.html): the column section; stands empty by house rule for the paper's first six months
