@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/editions/2026-11-25-midnight-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-25T00:00:00-05:00</news:publication_date>
+<news:title>Tuesday Closes With the Futures Down and Nvidia Down Again in Late Trade, Dell's Record Quarter Beaten in the Session and Disputed After It, Anthropic Under Its Offering Price, a Second Strike on Riyadh's Tallest Tower, and New Dead in Odesa and Kyiv While Moscow Files No Word on the Merkury Into a Fourth Day</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/editions/2026-11-24-evening-watch.html</loc>
 <news:news>
 <news:publication>
@@ -141,17 +152,6 @@
 </news:publication>
 <news:publication_date>2026-11-23T04:00:00-05:00</news:publication_date>
 <news:title>Kyiv Claims the Benghazi Sinking in Its Own Word, Dymer's Toll Reaches Eleven With a Woman of Seventy-Nine Pulled Alive, and Asia Holds the Futures Bounce While Seoul Falls Again</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-23-midnight-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-23T00:00:00-05:00</news:publication_date>
-<news:title>Sunday Closes With a Boy Pulled Alive From Dymer's Rubble, a Russian Corvette Sunk at Her Berth in Benghazi, and the Futures Up Two Percent at the Turn of the Log</news:title>
 </news:news>
 </url>
 </urlset>
