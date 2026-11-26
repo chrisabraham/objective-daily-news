@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/editions/2026-11-26-overnight-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-26T04:00:00-05:00</news:publication_date>
+<news:title>Asia Rallies on a Tariff File That Proves Smaller Than Feared, Seoul Raises Its Rate to 3.25 Percent, Smoke Stands Over Ras Tanura in the Satellite Pictures While Riyadh Confirms Only Interceptions and a Projectile at Jazan, Tehran Counts a Third Vessel on Mines Against Six Crossings in the Visible Counter, and Moscow Files No New Word on the Merkury</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/editions/2026-11-26-midnight-watch.html</loc>
 <news:news>
 <news:publication>
@@ -141,17 +152,6 @@
 </news:publication>
 <news:publication_date>2026-11-24T08:45:00-05:00</news:publication_date>
 <news:title>COP31: The Split Presidency, the Missing Words, and the Pact That Failed</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-24-overnight-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-24T04:00:00-05:00</news:publication_date>
-<news:title>Asia Leaps on Mr. Huang's Return With Seoul Up Seven Percent and Taipei Nine, the Guards Count Three Tankers on Mines Against Four Announced at Midnight, and NATO Sends an AWACS to Poland While Moscow Files No Word on the Merkury for a Third Day</news:title>
 </news:news>
 </url>
 </urlset>
