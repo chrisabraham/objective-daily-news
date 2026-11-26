@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/editions/2026-11-26-midday-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-26T12:00:00-05:00</news:publication_date>
+<news:title>Asia&amp;rsquo;s Close Corrects the Morning&amp;rsquo;s Rally&amp;mdash;Seoul Up Three-Tenths of a Percent, Not Two&amp;mdash;Europe Rises at Midday on the Tariff Caps, Tehran Counts Two More Tankers on Mines Off Khasab While the Counter Counts Two Crossings Out, Ras Tanura&amp;rsquo;s Loadings Stand Suspended in One Account With No Word From Aramco, Ukraine&amp;rsquo;s Dark Regions Rise to Seven, and the Parade Moves to Saturday as the Storm Comes Up the Coast</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/special-reports/2026-11-26-thanksgiving-the-interpreter.html</loc>
 <news:news>
 <news:publication>
@@ -108,39 +119,6 @@
 </news:publication>
 <news:publication_date>2026-11-24T18:00:00-05:00</news:publication_date>
 <news:title>The Dow Closes Above 50,000 as the Nasdaq Falls on Nvidia's Retreat, Dymer's Toll Rises to Twelve, and Mr. Sullivan Concedes in Alaska While Poland Renews Its Push for American Troops</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-24-midday-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-24T12:00:00-05:00</news:publication_date>
-<news:title>Wall Street Splits at Midday as the Dow Rises and the Nasdaq Gives Back Monday's Rally, Confidence Surges to 103.3, and Poland Calls Monday Night's Drone Intentional While Tehran Orders the Strait Closed Further</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/special-reports/2026-11-24-lucia.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-24T12:00:00-05:00</news:publication_date>
-<news:title>The Lucia Prologue in Grand Theft Auto VI: Payday Loans, Eviction Notices, Deactivated Accounts, and the Call That Follows</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/special-reports/2026-11-24-fasces.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-24T12:00:00-05:00</news:publication_date>
-<news:title>The Fasces: The Bundle of Sticks in Rome, in the Fable, in American Symbols, in the Five Arrows, and in the English Word</news:title>
 </news:news>
 </url>
 </urlset>
