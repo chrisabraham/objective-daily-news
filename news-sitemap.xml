@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/editions/2026-11-26-midnight-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-26T00:00:00-05:00</news:publication_date>
+<news:title>Wednesday Closes With the Futures Up in the Night and the Market Shut for Thanksgiving, the Day's Figures Settled at 3.3 Percent Core Inflation and 4.3 Percent Growth, Two More Tankers Claimed on Mines in the Strait, Ukraine's Power Grid Hit Again in Five Regions, and No Word From Moscow on the Merkury Into a Fifth Day</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/editions/2026-11-25-evening-watch.html</loc>
 <news:news>
 <news:publication>
@@ -141,28 +152,6 @@
 </news:publication>
 <news:publication_date>2026-11-24T04:00:00-05:00</news:publication_date>
 <news:title>Asia Leaps on Mr. Huang's Return With Seoul Up Seven Percent and Taipei Nine, the Guards Count Three Tankers on Mines Against Four Announced at Midnight, and NATO Sends an AWACS to Poland While Moscow Files No Word on the Merkury for a Third Day</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-24-midnight-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-24T00:00:00-05:00</news:publication_date>
-<news:title>Monday Closes With Dymer's Search Ended at a Final Eleven, HPE Beating the Street After the Bell and Falling After Hours, and Four Tankers Claimed on Mines in the Strait With None Named</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/special-reports/2026-11-23-aphantasia.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-23T23:30:00-05:00</news:publication_date>
-<news:title>Aphantasia: The Naming, the Numbers, and the Effort to Measure an Absence</news:title>
 </news:news>
 </url>
 </urlset>
