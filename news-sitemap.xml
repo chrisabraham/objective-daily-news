@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/special-reports/2026-11-26-thanksgiving-the-interpreter.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-26T08:00:00-05:00</news:publication_date>
+<news:title>The Interpreter and the Empty Village: How Plymouth and the Wampanoag Found Words, 1602–1622</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/editions/2026-11-26-overnight-watch.html</loc>
 <news:news>
 <news:publication>
@@ -130,28 +141,6 @@
 </news:publication>
 <news:publication_date>2026-11-24T12:00:00-05:00</news:publication_date>
 <news:title>The Fasces: The Bundle of Sticks in Rome, in the Fable, in American Symbols, in the Five Arrows, and in the English Word</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/special-reports/2026-11-24-huang-reinstatement.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-24T09:00:00-05:00</news:publication_date>
-<news:title>Jensen Huang Reinstated: The Unanimous Vote, the Government&amp;rsquo;s Input, and the Investigation That Continues</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/special-reports/2026-11-24-cop31.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-24T08:45:00-05:00</news:publication_date>
-<news:title>COP31: The Split Presidency, the Missing Words, and the Pact That Failed</news:title>
 </news:news>
 </url>
 </urlset>
