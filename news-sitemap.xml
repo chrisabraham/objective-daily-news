@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/editions/2026-11-27-overnight-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-27T04:00:00-05:00</news:publication_date>
+<news:title>Beijing Orders Its National Team Into a Falling Market and Shanghai Jumps Three Percent in an Afternoon, Tokyo Inflation Hits a Sixteen-Month High and Puts a December Hike in Tokyo in the File, Russia Sends 155 Drones Over Ukraine in the Night and Kyiv Counts Hits at 27 Locations, Brent Holds Above $96 With Sunday's Producers' Meeting Ahead, the Strait Counts No Crossing by Dawn, and Moscow Files No Word on the Merkury on a Sixth Day</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/editions/2026-11-27-midnight-watch.html</loc>
 <news:news>
 <news:publication>
@@ -108,17 +119,6 @@
 </news:publication>
 <news:publication_date>2026-11-25T09:00:00-05:00</news:publication_date>
 <news:title>Dictator and Authoritarian: The Definitions, the President's Own Words, and the Record of the Labels in American Politics</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-25-overnight-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-25T04:00:00-05:00</news:publication_date>
-<news:title>Asia Gives Back the Huang Rally in a Morning, the Houthis Claim the Riyadh Tower and a Refinery at Ras Tanura, Tehran Counts Two More Tankers on Mines Against Four Crossings in the Visible Counter, and Moscow Files No Word on the Merkury Into a Fifth Day</news:title>
 </news:news>
 </url>
 </urlset>
