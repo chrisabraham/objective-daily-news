@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/special-reports/2026-11-27-reagan-deinstitutionalization.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-27T09:00:00-05:00</news:publication_date>
+<news:title>The Emptying of the Asylums and the Two Memories of Ronald Reagan</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/special-reports/2026-11-27-the-bed-census.html</loc>
 <news:news>
 <news:publication>
@@ -119,17 +130,6 @@
 </news:publication>
 <news:publication_date>2026-11-25T12:00:00-05:00</news:publication_date>
 <news:title>Inflation Prints Hot at 3.3 Percent and Growth Is Revised to 4.3 Percent as Wall Street Falls Again, Washington Proposes Tariffs on Fourteen Partners, and Ukraine Counts Seven Dead While Kyiv Hits Three Refineries</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/special-reports/2026-11-25-dictator-and-authoritarian.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-25T09:00:00-05:00</news:publication_date>
-<news:title>Dictator and Authoritarian: The Definitions, the President's Own Words, and the Record of the Labels in American Politics</news:title>
 </news:news>
 </url>
 </urlset>
