@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/editions/2026-11-27-midnight-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-27T00:00:00-05:00</news:publication_date>
+<news:title>Thanksgiving Closes With the Storm's Count at 961,000 Dark and the Parade Waiting for Saturday, Brent Holding at $96.19 in the Early Friday Trade After Its $96.57 Settlement, Asia Higher at Its Open With the Kospi Up 2.2 Percent, Europe's Next Central Bank President Named in Brussels, and No Word From Moscow on the Merkury Into a Sixth Day</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-26-evening-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-26T18:00:00-05:00</news:publication_date>
+<news:title>Europe Closes Up 1.8 Percent on the Tariff Caps With New York Dark, the Storm Leaves More Than 836,000 Without Power and the Parade on Saturday, a Second Refinery Is Confirmed Hit at Jazan While Ras Tanura's Owner Still Files No Word, Brent Settles at $96.57, and the ECB's Minutes Point to December</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/editions/2026-11-26-midday-watch.html</loc>
 <news:news>
 <news:publication>
@@ -97,28 +119,6 @@
 </news:publication>
 <news:publication_date>2026-11-25T04:00:00-05:00</news:publication_date>
 <news:title>Asia Gives Back the Huang Rally in a Morning, the Houthis Claim the Riyadh Tower and a Refinery at Ras Tanura, Tehran Counts Two More Tankers on Mines Against Four Crossings in the Visible Counter, and Moscow Files No Word on the Merkury Into a Fifth Day</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-25-midnight-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-25T00:00:00-05:00</news:publication_date>
-<news:title>Tuesday Closes With the Futures Down and Nvidia Down Again in Late Trade, Dell's Record Quarter Beaten in the Session and Disputed After It, Anthropic Under Its Offering Price, a Second Strike on Riyadh's Tallest Tower, and New Dead in Odesa and Kyiv While Moscow Files No Word on the Merkury Into a Fourth Day</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-24-evening-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-24T18:00:00-05:00</news:publication_date>
-<news:title>The Dow Closes Above 50,000 as the Nasdaq Falls on Nvidia's Retreat, Dymer's Toll Rises to Twelve, and Mr. Sullivan Concedes in Alaska While Poland Renews Its Push for American Troops</news:title>
 </news:news>
 </url>
 </urlset>
