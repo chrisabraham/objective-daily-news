@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 <url>
+<loc>https://objectivedailynews.com/editions/2026-11-28-saturday-culture.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-28T04:10:00-05:00</news:publication_date>
+<news:title>Guadalajara Opens at Forty, Berlin and Basel Open on the Same Morning, and Venice Files 714,015</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-28-overnight-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-28T04:00:00-05:00</news:publication_date>
+<news:title>Russia Counts 1,246 Ukrainian Drones Downed in the Night and More Than 400 Sent at Moscow, Kyiv Counts 162 Launched and 141 Downed With Hits at 13 Locations, Two Russian Convoys for Libya Turn Back in the Mediterranean After the Benghazi Sinking and Moscow Answers Nothing, Washington Denies the Carrier, the Toll and the Tankers in One Statement, Brent Settles at $95.44 After Touching $97 in the Week and Sunday's Producers' Meeting Stands Next, Wall Street Closes Its Best Week in More Than a Year in a Half Session, and the Storm's Outages Fall to 230,000 by Friday Night</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-28-midnight-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-28T00:00:00-05:00</news:publication_date>
+<news:title>Friday Closes With Wall Street's Best Week in Years—the Dow Up 5.46 Percent and Its Best Since October 2022, the Storm's Dark Down to 360,000 With the Parade Set for Saturday Morning, China's Record Chip Day Settled at the Close, Brent Down to $95.44 With the Producers in Principle Set to Hold on Sunday, Eight Crossings in the Strait, and No Word From Moscow on the Merkury Into a Seventh Day</news:title>
+</news:news>
+</url>
+<url>
+<loc>https://objectivedailynews.com/editions/2026-11-27-evening-watch.html</loc>
+<news:news>
+<news:publication>
+<news:name>Objective Daily News</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2026-11-27T18:00:00-05:00</news:publication_date>
+<news:title>Wall Street Closes Its Best Week Since April 2025 in a Three-and-a-Half-Hour Session—the Nasdaq Up 2.31 Percent and the Dow Up 597.69 Points—Europe Closes Up 1.08 Percent at 643.85, Brent Settles Down 1.2 Percent at $95.44 Ahead of Sunday's Producers' Meeting, the Storm's Dark Falls by Half to About 480,000, and Ukraine and Russia Trade Strikes in Both Directions</news:title>
+</news:news>
+</url>
+<url>
 <loc>https://objectivedailynews.com/special-reports/2026-11-27-the-intermediaries.html</loc>
 <news:news>
 <news:publication>
@@ -108,39 +152,6 @@
 </news:publication>
 <news:publication_date>2026-11-26T08:00:00-05:00</news:publication_date>
 <news:title>The Interpreter and the Empty Village: How Plymouth and the Wampanoag Found Words, 1602–1622</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-26-overnight-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-26T04:00:00-05:00</news:publication_date>
-<news:title>Asia Rallies on a Tariff File That Proves Smaller Than Feared, Seoul Raises Its Rate to 3.25 Percent, Smoke Stands Over Ras Tanura in the Satellite Pictures While Riyadh Confirms Only Interceptions and a Projectile at Jazan, Tehran Counts a Third Vessel on Mines Against Six Crossings in the Visible Counter, and Moscow Files No New Word on the Merkury</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-26-midnight-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-26T00:00:00-05:00</news:publication_date>
-<news:title>Wednesday Closes With the Futures Up in the Night and the Market Shut for Thanksgiving, the Day's Figures Settled at 3.3 Percent Core Inflation and 4.3 Percent Growth, Two More Tankers Claimed on Mines in the Strait, Ukraine's Power Grid Hit Again in Five Regions, and No Word From Moscow on the Merkury Into a Fifth Day</news:title>
-</news:news>
-</url>
-<url>
-<loc>https://objectivedailynews.com/editions/2026-11-25-evening-watch.html</loc>
-<news:news>
-<news:publication>
-<news:name>Objective Daily News</news:name>
-<news:language>en</news:language>
-</news:publication>
-<news:publication_date>2026-11-25T18:00:00-05:00</news:publication_date>
-<news:title>The Dow Erases a Fall of More Than 1,100 Points to Close Higher on the Last Full Session Before Thanksgiving, the Beige Book Counts Eight Districts Growing With Costs Outrunning Prices, and Beijing and Brussels Answer the Tariff File</news:title>
 </news:news>
 </url>
 </urlset>
